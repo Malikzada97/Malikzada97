@@ -1,7 +1,5 @@
 # Mudassir Javed - Full Stack Developer & Data Analyst
 
-> **Branding Note:** This project is branded as "Mudassir Javed" for all site/brand references. The word "portfolio" is used only in generic contexts (e.g., "portfolio website", "portfolio projects").
-
 A modern, responsive website showcasing full-stack development, data analytics, and AI solutions. Built with React, TypeScript, and modern web technologies.
 
 ## 🚀 Features
