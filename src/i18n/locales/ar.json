@@ -1,0 +1,286 @@
+{
+  "common": {
+    "loading": "جاري التحميل...",
+    "error": "خطأ",
+    "success": "نجح",
+    "cancel": "إلغاء",
+    "save": "حفظ",
+    "edit": "تعديل",
+    "delete": "حذف",
+    "close": "إغلاق",
+    "back": "رجوع",
+    "next": "التالي",
+    "previous": "السابق",
+    "search": "بحث",
+    "menu": "القائمة",
+    "theme": "المظهر",
+    "language": "اللغة",
+    "contact": "اتصال",
+    "about": "حول",
+    "projects": "المشاريع",
+    "skills": "المهارات",
+    "education": "التعليم",
+    "testimonials": "الشهادات",
+    "pricing": "الأسعار",
+    "home": "الرئيسية",
+    "services": "الخدمات",
+    "portfolio": "المحفظة",
+    "resume": "السيرة الذاتية",
+    "blog": "المدونة",
+    "settings": "الإعدادات",
+    "help": "المساعدة",
+    "privacy": "الخصوصية",
+    "terms": "الشروط",
+    "cookies": "ملفات تعريف الارتباط"
+  },
+  "navigation": {
+    "home": "الرئيسية",
+    "about": "حول",
+    "projects": "المشاريع",
+    "skills": "المهارات",
+    "education": "التعليم",
+    "testimonials": "الشهادات",
+    "contact": "اتصال",
+    "pricing": "الأسعار",
+    "services": "الخدمات",
+    "portfolio": "المحفظة",
+    "resume": "السيرة الذاتية",
+    "blog": "المدونة"
+  },
+  "home": {
+    "hero": {
+      "title": "مرحباً، أنا مدثر",
+      "subtitle": "مطور Full Stack ومصمم UI/UX",
+      "description": "أقوم بإنشاء تجارب رقمية جميلة وعملية ومركزة على المستخدم. بشغف للكود النظيف والتصميم المثالي، أحول الأفكار إلى واقع من خلال حلول ويب مبتكرة.",
+      "cta": "شاهد عملي",
+      "secondaryCta": "تواصل معي"
+    },
+    "services": {
+      "title": "الخدمات التي أقدمها",
+      "subtitle": "حلول شاملة لتطوير وتصميم الويب",
+      "webDevelopment": {
+        "title": "تطوير الويب",
+        "description": "مواقع ويب وتطبيقات ويب مخصصة مبنية بتقنيات حديثة"
+      },
+      "uiDesign": {
+        "title": "تصميم UI/UX",
+        "description": "تصميم مركزي على المستخدم يخلق تجارب رقمية جذابة"
+      },
+      "mobileDevelopment": {
+        "title": "تطوير الموبايل",
+        "description": "تطبيقات موبايل متعددة المنصات لـ iOS و Android"
+      },
+      "seoOptimization": {
+        "title": "تحسين محركات البحث",
+        "description": "حسّن ظهور موقعك الإلكتروني وترتيبه في محركات البحث"
+      }
+    },
+    "stats": {
+      "projects": "مشاريع مكتملة",
+      "clients": "عملاء سعداء",
+      "experience": "سنوات خبرة",
+      "awards": "جوائز حصل عليها"
+    },
+    "cta": {
+      "title": "مستعد لبدء مشروعك؟",
+      "description": "دعنا نعمل معاً لإحياء أفكارك",
+      "button": "ابدأ"
+    }
+  },
+  "about": {
+    "title": "حولي",
+    "subtitle": "مطور شغوف بحب إنشاء التجارب الرقمية",
+    "description": "أنا مطور Full Stack مع أكثر من 5 سنوات خبرة في إنشاء تطبيقات الويب والتجارب الرقمية. أتخصص في React و Node.js وتقنيات الويب الحديثة.",
+    "experience": "الخبرة",
+    "skills": "المهارات",
+    "education": "التعليم",
+    "interests": "الاهتمامات",
+    "downloadCv": "تحميل السيرة الذاتية",
+    "hireMe": "وظفني"
+  },
+  "projects": {
+    "title": "مشاريعي",
+    "subtitle": "عرض أحدث أعمالي وإنجازاتي",
+    "viewProject": "شاهد المشروع",
+    "viewCode": "شاهد الكود",
+    "liveDemo": "عرض مباشر",
+    "technologies": "التقنيات",
+    "description": "الوصف",
+    "features": "المميزات",
+    "challenges": "التحديات",
+    "solutions": "الحلول"
+  },
+  "skills": {
+    "title": "المهارات والخبرة",
+    "subtitle": "التقنيات والأدوات التي أعمل بها",
+    "frontend": "الواجهة الأمامية",
+    "backend": "الخلفية",
+    "database": "قاعدة البيانات",
+    "tools": "الأدوات",
+    "languages": "لغات البرمجة",
+    "frameworks": "الإطارات والمكتبات",
+    "databases": "قواعد البيانات",
+    "cloud": "السحابة و DevOps",
+    "design": "أدوات التصميم"
+  },
+  "education": {
+    "title": "التعليم والشهادات",
+    "subtitle": "خلفيتي الأكاديمية والشهادات المهنية",
+    "degree": "الدرجة العلمية",
+    "institution": "المؤسسة",
+    "year": "السنة",
+    "certification": "الشهادة",
+    "issuer": "المصدر",
+    "date": "التاريخ",
+    "validUntil": "صالح حتى"
+  },
+  "testimonials": {
+    "title": "آراء العملاء",
+    "subtitle": "ما يقوله عملائي عن عملي",
+    "rating": "التقييم",
+    "review": "المراجعة",
+    "client": "العميل",
+    "position": "المنصب",
+    "company": "الشركة"
+  },
+  "contact": {
+    "title": "تواصل معي",
+    "subtitle": "دعنا نناقش مشروعك ونحيي أفكارك",
+    "name": "الاسم",
+    "email": "البريد الإلكتروني",
+    "phone": "الهاتف",
+    "message": "الرسالة",
+    "subject": "الموضوع",
+    "sendMessage": "إرسال الرسالة",
+    "contactInfo": "معلومات الاتصال",
+    "address": "العنوان",
+    "socialMedia": "وسائل التواصل الاجتماعي",
+    "form": {
+      "namePlaceholder": "اسمك الكامل",
+      "emailPlaceholder": "بريدك الإلكتروني",
+      "phonePlaceholder": "رقم هاتفك",
+      "subjectPlaceholder": "استفسار المشروع",
+      "messagePlaceholder": "أخبرني عن مشروعك...",
+      "required": "هذا الحقل مطلوب",
+      "invalidEmail": "يرجى إدخال بريد إلكتروني صحيح",
+      "messageSent": "تم إرسال الرسالة بنجاح!",
+      "messageError": "خطأ في إرسال الرسالة. يرجى المحاولة مرة أخرى."
+    }
+  },
+  "pricing": {
+    "title": "خطط الأسعار",
+    "subtitle": "اختر الخطة المثالية لمشروعك",
+    "basic": "أساسي",
+    "standard": "قياسي",
+    "premium": "مميز",
+    "enterprise": "المؤسسات",
+    "monthly": "شهري",
+    "yearly": "سنوي",
+    "perMonth": "شهرياً",
+    "perYear": "سنوياً",
+    "getStarted": "ابدأ",
+    "contactUs": "اتصل بنا",
+    "features": "المميزات",
+    "included": "مشمول",
+    "notIncluded": "غير مشمول"
+  },
+  "footer": {
+    "description": "إنشاء تجارب رقمية مهمة",
+    "quickLinks": "روابط سريعة",
+    "services": "الخدمات",
+    "contact": "اتصال",
+    "followMe": "تابعني",
+    "copyright": "© 2024 مدثر. جميع الحقوق محفوظة.",
+    "privacyPolicy": "سياسة الخصوصية",
+    "termsOfService": "شروط الخدمة"
+  },
+  "languages": {
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "de": "Deutsch",
+    "ar": "العربية",
+    "ur": "اردو",
+    "zh": "中文",
+    "ja": "日本語",
+    "ko": "한국어",
+    "ru": "Русский",
+    "pt": "Português",
+    "it": "Italiano"
+  },
+  "theme": {
+    "light": "فاتح",
+    "dark": "داكن",
+    "system": "النظام"
+  },
+  "accessibility": {
+    "skipToContent": "انتقل إلى المحتوى",
+    "skipToNavigation": "انتقل إلى التنقل",
+    "skipToFooter": "انتقل إلى التذييل",
+    "increaseContrast": "زيادة التباين",
+    "decreaseContrast": "تقليل التباين",
+    "increaseFontSize": "زيادة حجم الخط",
+    "decreaseFontSize": "تقليل حجم الخط",
+    "screenReaderOnly": "للقارئ الشاشة فقط"
+  },
+  "aiChatBots": {
+    "title": "AI Chat Bots",
+    "description": "Build intelligent chatbots that can understand and respond to natural language queries, powered by advanced AI models.",
+    "features": [
+      "Conversational AI",
+      "Contextual Understanding",
+      "Multi-turn Dialogues",
+      "Intent Recognition",
+      "Entity Extraction"
+    ],
+    "faq": {
+      "title": "Frequently Asked Questions about AI Chat Bots",
+      "description": "Find answers to common questions about implementing and using AI-powered chatbots for your business."
+    },
+    "cta": {
+      "title": "Ready to Deploy an AI Chat Bot?",
+      "description": "Enhance your customer engagement and automate support with a custom AI chatbot. Get in touch to discuss your requirements.",
+      "button": "Get Your AI Chat Bot"
+    }
+  },
+  "aiAgents": {
+    "title": "AI Agents",
+    "description": "Leverage the power of AI to automate repetitive tasks and improve efficiency. AI agents can perform data entry, scheduling, and more.",
+    "features": [
+      "Automated Data Entry",
+      "Task Scheduling",
+      "Workflow Management",
+      "Error Handling",
+      "Scalability"
+    ],
+    "faq": {
+      "title": "Frequently Asked Questions about AI Agents",
+      "description": "Learn more about how autonomous AI agents can streamline your business operations and automate complex workflows."
+    },
+    "cta": {
+      "title": "Empower Your Business with AI Agents",
+      "description": "Automate repetitive tasks and unlock new efficiencies with intelligent AI agents. Contact us to get started.",
+      "button": "Get AI Agent Solution"
+    }
+  },
+  "aiAutomation": {
+    "title": "AI Automation",
+    "description": "Streamline your workflows and reduce manual effort with AI-powered automation. From simple data processing to complex business logic.",
+    "features": [
+      "Data Processing Automation",
+      "Workflow Orchestration",
+      "Rule-based Decision Making",
+      "Error Prevention",
+      "Scalability"
+    ],
+    "faq": {
+      "title": "Frequently Asked Questions about AI Automation",
+      "description": "Explore how AI-driven automation can transform your business processes and drive growth."
+    },
+    "cta": {
+      "title": "Transform with AI Automation",
+      "description": "Streamline your operations and boost productivity with tailored AI automation solutions. Let's discuss your automation needs.",
+      "button": "Start AI Automation"
+    }
+  }
+} 

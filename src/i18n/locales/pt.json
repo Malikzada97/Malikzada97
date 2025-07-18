@@ -1,0 +1,380 @@
+{
+  "common": {
+    "loading": "Carregando...",
+    "error": "Erro",
+    "success": "Sucesso",
+    "cancel": "Cancelar",
+    "save": "Salvar",
+    "edit": "Editar",
+    "delete": "Excluir",
+    "close": "Fechar",
+    "back": "Voltar",
+    "next": "Próximo",
+    "previous": "Anterior",
+    "search": "Pesquisar",
+    "menu": "Menu",
+    "theme": "Tema",
+    "language": "Idioma",
+    "contact": "Contato",
+    "about": "Sobre",
+    "projects": "Projetos",
+    "skills": "Habilidades",
+    "education": "Educação",
+    "testimonials": "Depoimentos",
+    "pricing": "Preços",
+    "home": "Início",
+    "services": "Serviços",
+    "portfolio": "Portfólio",
+    "resume": "Currículo",
+    "blog": "Blog",
+    "settings": "Configurações",
+    "help": "Ajuda",
+    "privacy": "Privacidade",
+    "terms": "Termos",
+    "cookies": "Cookies",
+    "learnMore": "Saiba mais",
+    "getStarted": "Get Started"
+  },
+  "navigation": {
+    "home": "Início",
+    "about": "Sobre",
+    "projects": "Projetos",
+    "skills": "Habilidades",
+    "education": "Educação",
+    "testimonials": "Depoimentos",
+    "contact": "Contato",
+    "pricing": "Preços",
+    "services": "Serviços",
+    "portfolio": "Portfólio",
+    "resume": "Currículo",
+    "blog": "Blog"
+  },
+  "home": {
+    "meta": {
+      "title": "Mudassir Javed - Desenvolvedor Full Stack e Especialista em Soluções Digitais",
+      "description": "Desenvolvedor full stack profissional especializado em desenvolvimento web, análise de dados, otimização SEO e soluções digitais. Transforme suas ideias em experiências digitais poderosas.",
+      "keywords": "desenvolvedor full stack, desenvolvimento web, análise de dados, otimização SEO, React, Node.js, soluções digitais",
+      "ogTitle": "Mudassir Javed - Desenvolvedor Full Stack",
+      "ogDescription": "Desenvolvedor full stack profissional especializado em desenvolvimento web, análise de dados, otimização SEO e soluções digitais."
+    },
+    "hero": {
+      "badge": "Desenvolvedor Full Stack e Especialista em Soluções Digitais",
+      "title1": "Transforme",
+      "title2": "suas ideias em",
+      "title3": "realidade digital",
+      "description": "Desenvolvedor full stack profissional especializado em desenvolvimento web moderno, análise de dados e soluções digitais que impulsionam o crescimento dos negócios.",
+      "cta": "Iniciar Projeto",
+      "secondaryCta": "Ver Meus Trabalhos",
+      "trust": {
+        "experience": "5+ anos de experiência",
+        "clients": "50+ clientes satisfeitos",
+        "successRate": "95% taxa de sucesso"
+      }
+    },
+    "stats": {
+      "clients": "Clientes Satisfeitos",
+      "projects": "Projetos Concluídos",
+      "successRate": "Taxa de Sucesso",
+      "experience": "Anos de Experiência"
+    },
+    "services": {
+      "title": "Soluções Digitais Abrangentes",
+      "subtitle": "Do conceito à implantação, forneço soluções digitais completas que ajudam os negócios a prosperar na era digital.",
+      "webDevelopment": {
+        "title": "Desenvolvimento Web",
+        "description": "Sites e aplicações web modernos e responsivos construídos com tecnologias de ponta."
+      },
+      "dataAnalytics": {
+        "title": "Análise de Dados",
+        "description": "Transforme seus dados em insights acionáveis com soluções analíticas avançadas."
+      },
+      "uiDesign": {
+        "title": "Design UI/UX",
+        "description": "Design centrado no usuário que cria experiências digitais envolventes"
+      },
+      "mobileDevelopment": {
+        "title": "Desenvolvimento Mobile",
+        "description": "Aplicações móveis multiplataforma para iOS e Android"
+      },
+      "seoOptimization": {
+        "title": "Otimização SEO",
+        "description": "Melhore suas classificações de pesquisa e direcione tráfego orgânico para seu site."
+      },
+      "websiteMaintenance": {
+        "title": "Manutenção de Sites",
+        "description": "Mantenha seu site seguro, atualizado e com o melhor desempenho."
+      },
+      "trainingSessions": {
+        "title": "Sessões de Treinamento",
+        "description": "Capacite sua equipe com o conhecimento para gerenciar sua presença digital."
+      },
+      "performanceAudit": {
+        "title": "Auditoria de Performance",
+        "description": "Identifique e corrija gargalos de performance para melhorar a experiência do usuário."
+      }
+    },
+    "testimonials": {
+      "title": "O que Meus Clientes Dizem",
+      "subtitle": "Não acredite apenas na minha palavra. Veja o que meus clientes dizem sobre sua experiência trabalhando comigo."
+    },
+    "cta": {
+      "title": "Pronto para Transformar sua Presença Digital?",
+      "description": "Vamos discutir seu projeto e criar algo incrível juntos. Estou aqui para ajudá-lo a alcançar seus objetivos digitais.",
+      "button": "Começar Hoje",
+      "secondaryButton": "Ver Preços"
+    }
+  },
+  "about": {
+    "title": "Sobre Mim",
+    "subtitle": "Desenvolvedor apaixonado que ama criar experiências digitais",
+    "description": "Sou um desenvolvedor full stack com mais de 5 anos de experiência criando aplicações web e experiências digitais. Especializo-me em React, Node.js e tecnologias web modernas.",
+    "experience": "Experiência",
+    "skills": "Habilidades",
+    "education": "Educação",
+    "interests": "Interesses",
+    "downloadCv": "Baixar CV",
+    "hireMe": "Contrate-me"
+  },
+  "projects": {
+    "title": "Meus Projetos",
+    "subtitle": "Mostrando meu trabalho mais recente e conquistas",
+    "viewProject": "Ver Projeto",
+    "viewCode": "Ver Código",
+    "liveDemo": "Demo ao Vivo",
+    "technologies": "Tecnologias",
+    "description": "Descrição",
+    "features": "Recursos",
+    "challenges": "Desafios",
+    "solutions": "Soluções"
+  },
+  "skills": {
+    "title": "Habilidades e Expertise",
+    "subtitle": "Tecnologias e ferramentas com as quais trabalho",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "database": "Banco de Dados",
+    "tools": "Ferramentas",
+    "languages": "Linguagens de Programação",
+    "frameworks": "Frameworks e Bibliotecas",
+    "databases": "Bancos de Dados",
+    "cloud": "Nuvem e DevOps",
+    "design": "Ferramentas de Design"
+  },
+  "education": {
+    "title": "Educação e Certificações",
+    "subtitle": "Meu histórico acadêmico e certificações profissionais",
+    "degree": "Grau",
+    "institution": "Instituição",
+    "year": "Ano",
+    "certification": "Certificação",
+    "issuer": "Emissor",
+    "date": "Data",
+    "validUntil": "Válido até"
+  },
+  "testimonials": {
+    "title": "Depoimentos de Clientes",
+    "subtitle": "O que meus clientes dizem sobre meu trabalho",
+    "rating": "Avaliação",
+    "review": "Avaliação",
+    "client": "Cliente",
+    "position": "Cargo",
+    "company": "Empresa"
+  },
+  "contact": {
+    "title": "Entre em Contato",
+    "subtitle": "Vamos discutir seu projeto e dar vida às suas ideias",
+    "name": "Nome",
+    "email": "Email",
+    "phone": "Telefone",
+    "message": "Mensagem",
+    "subject": "Assunto",
+    "sendMessage": "Enviar Mensagem",
+    "contactInfo": "Informações de Contato",
+    "address": "Endereço",
+    "socialMedia": "Redes Sociais",
+    "form": {
+      "namePlaceholder": "Seu nome completo",
+      "emailPlaceholder": "your.email@example.com",
+      "phonePlaceholder": "+1 (555) 123-4567",
+      "subjectPlaceholder": "Consulta sobre projeto",
+      "messagePlaceholder": "Conte-me sobre seu projeto...",
+      "required": "Este campo é obrigatório",
+      "invalidEmail": "Por favor, insira um email válido",
+      "messageSent": "Mensagem enviada com sucesso!",
+      "messageError": "Erro ao enviar mensagem. Por favor, tente novamente."
+    }
+  },
+  "pricing": {
+    "title": "Planos de Preços",
+    "subtitle": "Escolha o plano perfeito para seu projeto",
+    "basic": "Básico",
+    "standard": "Padrão",
+    "premium": "Premium",
+    "enterprise": "Empresarial",
+    "monthly": "Mensal",
+    "yearly": "Anual",
+    "perMonth": "por mês",
+    "perYear": "por ano",
+    "getStarted": "Começar",
+    "contactUs": "Entre em Contato",
+    "features": "Recursos",
+    "included": "Incluído",
+    "notIncluded": "Não Incluído"
+  },
+  "footer": {
+    "description": "Criando experiências digitais que importam",
+    "quickLinks": "Links Rápidos",
+    "services": "Serviços",
+    "contact": "Contato",
+    "followMe": "Siga-me",
+    "copyright": "© 2024 Mudassir. Todos os direitos reservados.",
+    "privacyPolicy": "Política de Privacidade",
+    "termsOfService": "Termos de Serviço"
+  },
+  "languages": {
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "de": "Deutsch",
+    "ar": "العربية",
+    "ur": "اردو",
+    "zh": "中文",
+    "ja": "日本語",
+    "ko": "한국어",
+    "ru": "Русский",
+    "pt": "Português",
+    "it": "Italiano"
+  },
+  "theme": {
+    "light": "Claro",
+    "dark": "Escuro",
+    "system": "Sistema"
+  },
+  "accessibility": {
+    "skipToContent": "Pular para o conteúdo",
+    "skipToNavigation": "Pular para a navegação",
+    "skipToFooter": "Pular para o rodapé",
+    "increaseContrast": "Aumentar contraste",
+    "decreaseContrast": "Diminuir contraste",
+    "increaseFontSize": "Aumentar tamanho da fonte",
+    "decreaseFontSize": "Diminuir tamanho da fonte",
+    "screenReaderOnly": "Apenas para leitor de tela"
+  },
+  "aiChatBots": {
+    "title": "Chatbots Inteligentes",
+    "description": "Desenvolvimento de chatbots personalizados para atender às necessidades específicas de sua marca. Integração com IA para conversas naturais e personalização de experiência.",
+    "features": [
+      "Conversação natural com IA",
+      "Personalização de experiência do usuário",
+      "Integração com outros sistemas",
+      "Suporte 24/7",
+      "Relatórios detalhados"
+    ],
+    "faq": {
+      "title": "Frequently Asked Questions about AI Chat Bots",
+      "description": "Find answers to common questions about implementing and using AI-powered chatbots for your business.",
+      "cta": "Have more questions? Contact us for a free AI chat bot consultation."
+    },
+    "cta": {
+      "title": "Ready to Deploy an AI Chat Bot?",
+      "description": "Enhance your customer engagement and automate support with a custom AI chatbot. Get in touch to discuss your requirements.",
+      "button": "Get Your AI Chat Bot",
+      "secondaryButton": "View Projects"
+    }
+  },
+  "aiAgents": {
+    "title": "Agentes Inteligentes",
+    "description": "Criação de agentes virtuais que podem realizar tarefas repetitivas e automatizar processos. Integração com IA para tomada de decisões inteligentes.",
+    "features": {
+      "title": "AI Agent Features",
+      "subtitle": "Powerful capabilities for business automation and intelligence."
+    },
+    "process": {
+      "title": "Our AI Agent Process",
+      "subtitle": "A proven approach to building and deploying intelligent agents."
+    },
+    "benefits": {
+      "title": "Why Choose AI Agents?",
+      "subtitle": "Unlock efficiency, scalability, and automation for your business."
+    },
+    "faq": {
+      "title": "Frequently Asked Questions about AI Agents",
+      "description": "Learn more about how autonomous AI agents can streamline your business operations and automate complex workflows.",
+      "timeline": {
+        "question": "How long does it take to deploy an AI agent?",
+        "answer": "Most AI agent solutions are deployed within 3-5 weeks, depending on complexity and integration requirements."
+      },
+      "integration": {
+        "question": "Can AI agents integrate with my business tools?",
+        "answer": "Yes, our AI agents can integrate with CRMs, ERPs, APIs, and a wide range of business platforms."
+      },
+      "security": {
+        "question": "How secure are your AI agents?",
+        "answer": "We follow industry best practices for data privacy, encryption, and secure access controls."
+      },
+      "support": {
+        "question": "What support is included?",
+        "answer": "All plans include technical support and maintenance. Enterprise plans offer priority and dedicated support."
+      },
+      "customization": {
+        "question": "Can I customize agent workflows?",
+        "answer": "Absolutely! We tailor agent workflows and logic to your unique business needs."
+      },
+      "cost": {
+        "question": "What is the cost of an AI agent?",
+        "answer": "Pricing depends on features, integrations, and scale. See our pricing section or request a custom quote."
+      }
+    },
+    "cta": {
+      "title": "Empower Your Business with AI Agents",
+      "description": "Automate repetitive tasks and unlock new efficiencies with intelligent AI agents. Contact us to get started.",
+      "button": "Get AI Agent Solution",
+      "secondaryButton": "View Projects"
+    }
+  },
+  "aiAutomation": {
+    "title": "Automação Inteligente",
+    "description": "Implementação de soluções de automação para reduzir o tempo de trabalho e aumentar a eficiência. Integração com IA para tomada de decisões automatizadas.",
+    "features": [
+      "Redução de tempo de trabalho",
+      "Aumento da eficiência",
+      "Tomada de decisões automatizadas",
+      "Suporte 24/7",
+      "Relatórios detalhados"
+    ],
+    "faq": {
+      "title": "Frequently Asked Questions about AI Automation",
+      "description": "Explore how AI-driven automation can transform your business processes and drive growth.",
+      "timeline": {
+        "question": "How long does it take to implement AI automation?",
+        "answer": "Most automation solutions are implemented within 2-4 weeks, depending on process complexity."
+      },
+      "integration": {
+        "question": "Can AI automation integrate with my existing systems?",
+        "answer": "Yes, we integrate with ERPs, CRMs, APIs, and a wide range of business software."
+      },
+      "security": {
+        "question": "Is AI automation secure?",
+        "answer": "We use secure protocols and follow best practices for data protection and compliance."
+      },
+      "support": {
+        "question": "What support is included?",
+        "answer": "All automation plans include technical support and maintenance. Enterprise plans offer priority support."
+      },
+      "customization": {
+        "question": "Can I customize automation workflows?",
+        "answer": "Yes, we design automation workflows tailored to your business processes."
+      },
+      "cost": {
+        "question": "How much does AI automation cost?",
+        "answer": "Pricing depends on the scope and integrations. See our pricing section or request a custom quote."
+      }
+    },
+    "cta": {
+      "title": "Transform with AI Automation",
+      "description": "Streamline your operations and boost productivity with tailored AI automation solutions. Let's discuss your automation needs.",
+      "button": "Start AI Automation",
+      "secondaryButton": "Start Your AI Automation Project"
+    }
+  }
+} 

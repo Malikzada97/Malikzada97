@@ -1,0 +1,402 @@
+{
+  "common": {
+    "loading": "Загрузка...",
+    "error": "Ошибка",
+    "success": "Успех",
+    "cancel": "Отмена",
+    "save": "Сохранить",
+    "edit": "Редактировать",
+    "delete": "Удалить",
+    "close": "Закрыть",
+    "back": "Назад",
+    "next": "Далее",
+    "previous": "Предыдущий",
+    "search": "Поиск",
+    "menu": "Меню",
+    "theme": "Тема",
+    "language": "Язык",
+    "contact": "Контакты",
+    "about": "Обо мне",
+    "projects": "Проекты",
+    "skills": "Навыки",
+    "education": "Образование",
+    "testimonials": "Отзывы",
+    "pricing": "Цены",
+    "home": "Главная",
+    "services": "Услуги",
+    "portfolio": "Портфолио",
+    "resume": "Резюме",
+    "blog": "Блог",
+    "settings": "Настройки",
+    "help": "Помощь",
+    "privacy": "Конфиденциальность",
+    "terms": "Условия",
+    "cookies": "Файлы cookie",
+    "learnMore": "Узнать больше",
+    "getStarted": "Get Started"
+  },
+  "navigation": {
+    "home": "Главная",
+    "about": "Обо мне",
+    "projects": "Проекты",
+    "skills": "Навыки",
+    "education": "Образование",
+    "testimonials": "Отзывы",
+    "contact": "Контакты",
+    "pricing": "Цены",
+    "services": "Услуги",
+    "portfolio": "Портфолио",
+    "resume": "Резюме",
+    "blog": "Блог"
+  },
+  "home": {
+    "meta": {
+      "title": "Мудассир Джавед - Full Stack разработчик и эксперт по цифровым решениям",
+      "description": "Профессиональный full stack разработчик, специализирующийся на веб-разработке, анализе данных, SEO-оптимизации и цифровых решениях. Превратите свои идеи в мощный цифровой опыт.",
+      "keywords": "full stack разработчик, веб-разработка, анализ данных, SEO-оптимизация, React, Node.js, цифровые решения",
+      "ogTitle": "Мудассир Джавед - Full Stack разработчик",
+      "ogDescription": "Профессиональный full stack разработчик, специализирующийся на веб-разработке, анализе данных, SEO-оптимизации и цифровых решениях."
+    },
+    "hero": {
+      "badge": "Full Stack разработчик и эксперт по цифровым решениям",
+      "title1": "Превратите",
+      "title2": "свои идеи в",
+      "title3": "цифровую реальность",
+      "description": "Профессиональный full stack разработчик, специализирующийся на современной веб-разработке, анализе данных и цифровых решениях, которые стимулируют бизнес-рост.",
+      "cta": "Начать проект",
+      "secondaryCta": "Посмотреть работы",
+      "trust": {
+        "experience": "5+ лет опыта",
+        "clients": "50+ довольных клиентов",
+        "successRate": "95% успешность"
+      }
+    },
+    "stats": {
+      "clients": "Довольных клиентов",
+      "projects": "Завершенных проектов",
+      "successRate": "Успешность",
+      "experience": "Лет опыта"
+    },
+    "services": {
+      "title": "Комплексные цифровые решения",
+      "subtitle": "От концепции до развертывания, я предоставляю комплексные цифровые решения, которые помогают бизнесу процветать в цифровую эпоху.",
+      "webDevelopment": {
+        "title": "Веб-разработка",
+        "description": "Современные адаптивные веб-сайты и веб-приложения, построенные с использованием передовых технологий."
+      },
+      "dataAnalytics": {
+        "title": "Анализ данных",
+        "description": "Превратите свои данные в действенные идеи с помощью передовых аналитических решений."
+      },
+      "uiDesign": {
+        "title": "UI/UX дизайн",
+        "description": "Пользовательский дизайн, создающий увлекательный цифровой опыт"
+      },
+      "mobileDevelopment": {
+        "title": "Мобильная разработка",
+        "description": "Кроссплатформенные мобильные приложения для iOS и Android"
+      },
+      "seoOptimization": {
+        "title": "SEO-оптимизация",
+        "description": "Улучшите свои позиции в поиске и привлеките органический трафик на ваш сайт."
+      },
+      "websiteMaintenance": {
+        "title": "Обслуживание сайта",
+        "description": "Поддерживайте свой сайт безопасным, обновленным и работающим с максимальной производительностью."
+      },
+      "trainingSessions": {
+        "title": "Обучающие сессии",
+        "description": "Наделите свою команду знаниями для управления цифровым присутствием."
+      },
+      "performanceAudit": {
+        "title": "Аудит производительности",
+        "description": "Выявляйте и исправляйте узкие места производительности для улучшения пользовательского опыта."
+      }
+    },
+    "testimonials": {
+      "title": "Что говорят мои клиенты",
+      "subtitle": "Не верьте мне на слово. Вот что мои клиенты говорят о своем опыте работы со мной."
+    },
+    "cta": {
+      "title": "Готовы преобразить свое цифровое присутствие?",
+      "description": "Давайте обсудим ваш проект и создадим что-то удивительное вместе. Я здесь, чтобы помочь вам достичь ваших цифровых целей.",
+      "button": "Начать сегодня",
+      "secondaryButton": "Посмотреть цены"
+    }
+  },
+  "about": {
+    "title": "Обо мне",
+    "subtitle": "Страстный разработчик, любящий создавать цифровой опыт",
+    "description": "Я full stack разработчик с более чем 5-летним опытом создания веб-приложений и цифрового опыта. Я специализируюсь на React, Node.js и современных веб-технологиях.",
+    "experience": "Опыт",
+    "skills": "Навыки",
+    "education": "Образование",
+    "interests": "Интересы",
+    "downloadCv": "Скачать резюме",
+    "hireMe": "Нанять меня"
+  },
+  "projects": {
+    "title": "Мои проекты",
+    "subtitle": "Демонстрирую мою последнюю работу и достижения",
+    "viewProject": "Посмотреть проект",
+    "viewCode": "Посмотреть код",
+    "liveDemo": "Живое демо",
+    "technologies": "Технологии",
+    "description": "Описание",
+    "features": "Функции",
+    "challenges": "Вызовы",
+    "solutions": "Решения"
+  },
+  "skills": {
+    "title": "Навыки и экспертиза",
+    "subtitle": "Технологии и инструменты, с которыми я работаю",
+    "frontend": "Фронтенд",
+    "backend": "Бэкенд",
+    "database": "База данных",
+    "tools": "Инструменты",
+    "languages": "Языки программирования",
+    "frameworks": "Фреймворки и библиотеки",
+    "databases": "Базы данных",
+    "cloud": "Облако и DevOps",
+    "design": "Инструменты дизайна"
+  },
+  "education": {
+    "title": "Образование и сертификации",
+    "subtitle": "Мое академическое образование и профессиональные сертификации",
+    "degree": "Степень",
+    "institution": "Учреждение",
+    "year": "Год",
+    "certification": "Сертификация",
+    "issuer": "Выдающий орган",
+    "date": "Дата",
+    "validUntil": "Действительна до"
+  },
+  "testimonials": {
+    "title": "Отзывы клиентов",
+    "subtitle": "Что мои клиенты говорят о моей работе",
+    "rating": "Рейтинг",
+    "review": "Отзыв",
+    "client": "Клиент",
+    "position": "Должность",
+    "company": "Компания"
+  },
+  "contact": {
+    "title": "Свяжитесь со мной",
+    "subtitle": "Давайте обсудим ваш проект и воплотим ваши идеи в жизнь",
+    "name": "Имя",
+    "email": "Email",
+    "phone": "Телефон",
+    "message": "Сообщение",
+    "subject": "Тема",
+    "sendMessage": "Отправить сообщение",
+    "contactInfo": "Контактная информация",
+    "address": "Адрес",
+    "socialMedia": "Социальные сети",
+    "form": {
+      "namePlaceholder": "Ваше полное имя",
+      "emailPlaceholder": "your.email@example.com",
+      "phonePlaceholder": "+1 (555) 123-4567",
+      "subjectPlaceholder": "Запрос по проекту",
+      "messagePlaceholder": "Расскажите о вашем проекте...",
+      "required": "Это поле обязательно",
+      "invalidEmail": "Пожалуйста, введите корректный email",
+      "messageSent": "Сообщение успешно отправлено!",
+      "messageError": "Ошибка отправки сообщения. Пожалуйста, попробуйте снова."
+    }
+  },
+  "pricing": {
+    "title": "Тарифные планы",
+    "subtitle": "Выберите идеальный план для вашего проекта",
+    "basic": "Базовый",
+    "standard": "Стандартный",
+    "premium": "Премиум",
+    "enterprise": "Корпоративный",
+    "monthly": "Ежемесячно",
+    "yearly": "Ежегодно",
+    "perMonth": "в месяц",
+    "perYear": "в год",
+    "getStarted": "Начать",
+    "contactUs": "Связаться с нами",
+    "features": "Функции",
+    "included": "Включено",
+    "notIncluded": "Не включено"
+  },
+  "footer": {
+    "description": "Создаю цифровой опыт, который имеет значение",
+    "quickLinks": "Быстрые ссылки",
+    "services": "Услуги",
+    "contact": "Контакты",
+    "followMe": "Подписаться",
+    "copyright": "© 2024 Мудассир. Все права защищены.",
+    "privacyPolicy": "Политика конфиденциальности",
+    "termsOfService": "Условия использования"
+  },
+  "languages": {
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "de": "Deutsch",
+    "ar": "العربية",
+    "ur": "اردو",
+    "zh": "中文",
+    "ja": "日本語",
+    "ko": "한국어",
+    "ru": "Русский",
+    "pt": "Português",
+    "it": "Italiano"
+  },
+  "theme": {
+    "light": "Светлая",
+    "dark": "Темная",
+    "system": "Системная"
+  },
+  "accessibility": {
+    "skipToContent": "Перейти к содержимому",
+    "skipToNavigation": "Перейти к навигации",
+    "skipToFooter": "Перейти к подвалу",
+    "increaseContrast": "Увеличить контраст",
+    "decreaseContrast": "Уменьшить контраст",
+    "increaseFontSize": "Увеличить размер шрифта",
+    "decreaseFontSize": "Уменьшить размер шрифта",
+    "screenReaderOnly": "Только для экранного диктора"
+  },
+  "aiChatBots": {
+    "title": "AI Chat Bots",
+    "description": "Создание и интеграция AI-ассистентов для повышения эффективности вашего бизнеса.",
+    "features": [
+      "24/7 доступность для клиентов",
+      "Автоматическое обслуживание запросов",
+      "Улучшение конверсии и удовлетворенности клиентов",
+      "Экономия времени и ресурсов"
+    ],
+    "faq": {
+      "title": "Frequently Asked Questions about AI Chat Bots",
+      "description": "Find answers to common questions about implementing and using AI-powered chatbots for your business.",
+      "cta": "Have more questions? Contact us for a free AI chat bot consultation.",
+      "timeline": {
+        "question": "How long does it take to launch a chat bot?",
+        "answer": "Most chat bots are live within 2-4 weeks, depending on requirements and integrations."
+      },
+      "integration": {
+        "question": "Can chat bots integrate with my website or CRM?",
+        "answer": "Yes, our chat bots can be integrated with websites, CRMs, helpdesks, and other business tools."
+      },
+      "security": {
+        "question": "Are AI chat bots secure?",
+        "answer": "We use secure APIs and follow best practices for data privacy and user protection."
+      },
+      "support": {
+        "question": "What support is included?",
+        "answer": "All chat bot plans include technical support and updates. Premium plans offer priority support."
+      },
+      "customization": {
+        "question": "Can I customize the chat bot's personality?",
+        "answer": "Yes! We design chat bots to match your brand voice and customer experience goals."
+      },
+      "cost": {
+        "question": "How much does a chat bot cost?",
+        "answer": "Pricing varies by features and complexity. See our pricing section or request a custom quote."
+      }
+    },
+    "cta": {
+      "title": "Ready to Deploy an AI Chat Bot?",
+      "description": "Enhance your customer engagement and automate support with a custom AI chatbot. Get in touch to discuss your requirements.",
+      "button": "Get Your AI Chat Bot",
+      "secondaryButton": "View Projects"
+    }
+  },
+  "aiAgents": {
+    "title": "AI Agents",
+    "description": "Автоматизация рутинных задач с помощью AI-ассистентов для повышения продуктивности и точности.",
+    "features": {
+      "title": "AI Agent Features",
+      "subtitle": "Powerful capabilities for business automation and intelligence."
+    },
+    "process": {
+      "title": "Our AI Agent Process",
+      "subtitle": "A proven approach to building and deploying intelligent agents."
+    },
+    "benefits": {
+      "title": "Why Choose AI Agents?",
+      "subtitle": "Unlock efficiency, scalability, and automation for your business."
+    },
+    "faq": {
+      "title": "Frequently Asked Questions about AI Agents",
+      "description": "Learn more about how autonomous AI agents can streamline your business operations and automate complex workflows.",
+      "timeline": {
+        "question": "How long does it take to deploy an AI agent?",
+        "answer": "Most AI agent solutions are deployed within 3-5 weeks, depending on complexity and integration requirements."
+      },
+      "integration": {
+        "question": "Can AI agents integrate with my business tools?",
+        "answer": "Yes, our AI agents can integrate with CRMs, ERPs, APIs, and a wide range of business platforms."
+      },
+      "security": {
+        "question": "How secure are your AI agents?",
+        "answer": "We follow industry best practices for data privacy, encryption, and secure access controls."
+      },
+      "support": {
+        "question": "What support is included?",
+        "answer": "All plans include technical support and maintenance. Enterprise plans offer priority and dedicated support."
+      },
+      "customization": {
+        "question": "Can I customize agent workflows?",
+        "answer": "Absolutely! We tailor agent workflows and logic to your unique business needs."
+      },
+      "cost": {
+        "question": "What is the cost of an AI agent?",
+        "answer": "Pricing depends on features, integrations, and scale. See our pricing section or request a custom quote."
+      }
+    },
+    "cta": {
+      "title": "Empower Your Business with AI Agents",
+      "description": "Automate repetitive tasks and unlock new efficiencies with intelligent AI agents. Contact us to get started.",
+      "button": "Get AI Agent Solution",
+      "secondaryButton": "View Projects"
+    }
+  },
+  "aiAutomation": {
+    "title": "AI Automation",
+    "description": "Автоматизация процессов для повышения эффективности и масштабируемости вашего бизнеса.",
+    "features": [
+      "Автоматизация рабочих процессов",
+      "Улучшение точности и надежности",
+      "Экономия времени и ресурсов",
+      "Масштабируемость и гибкость"
+    ],
+    "faq": {
+      "title": "Frequently Asked Questions about AI Automation",
+      "description": "Explore how AI-driven automation can transform your business processes and drive growth.",
+      "timeline": {
+        "question": "How long does it take to implement AI automation?",
+        "answer": "Most automation solutions are implemented within 2-4 weeks, depending on process complexity."
+      },
+      "integration": {
+        "question": "Can AI automation integrate with my existing systems?",
+        "answer": "Yes, we integrate with ERPs, CRMs, APIs, and a wide range of business software."
+      },
+      "security": {
+        "question": "Is AI automation secure?",
+        "answer": "We use secure protocols and follow best practices for data protection and compliance."
+      },
+      "support": {
+        "question": "What support is included?",
+        "answer": "All automation plans include technical support and maintenance. Enterprise plans offer priority support."
+      },
+      "customization": {
+        "question": "Can I customize automation workflows?",
+        "answer": "Yes, we design automation workflows tailored to your business processes."
+      },
+      "cost": {
+        "question": "How much does AI automation cost?",
+        "answer": "Pricing depends on the scope and integrations. See our pricing section or request a custom quote."
+      }
+    },
+    "cta": {
+      "title": "Transform with AI Automation",
+      "description": "Streamline your operations and boost productivity with tailored AI automation solutions. Let's discuss your automation needs.",
+      "button": "Start AI Automation",
+      "secondaryButton": "Start Your AI Automation Project"
+    }
+  }
+} 

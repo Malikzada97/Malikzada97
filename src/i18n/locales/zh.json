@@ -1,0 +1,286 @@
+{
+  "common": {
+    "loading": "加载中...",
+    "error": "错误",
+    "success": "成功",
+    "cancel": "取消",
+    "save": "保存",
+    "edit": "编辑",
+    "delete": "删除",
+    "close": "关闭",
+    "back": "返回",
+    "next": "下一步",
+    "previous": "上一步",
+    "search": "搜索",
+    "menu": "菜单",
+    "theme": "主题",
+    "language": "语言",
+    "contact": "联系",
+    "about": "关于",
+    "projects": "项目",
+    "skills": "技能",
+    "education": "教育",
+    "testimonials": "推荐",
+    "pricing": "定价",
+    "home": "首页",
+    "services": "服务",
+    "portfolio": "作品集",
+    "resume": "简历",
+    "blog": "博客",
+    "settings": "设置",
+    "help": "帮助",
+    "privacy": "隐私",
+    "terms": "条款",
+    "cookies": "Cookie"
+  },
+  "navigation": {
+    "home": "首页",
+    "about": "关于",
+    "projects": "项目",
+    "skills": "技能",
+    "education": "教育",
+    "testimonials": "推荐",
+    "contact": "联系",
+    "pricing": "定价",
+    "services": "服务",
+    "portfolio": "作品集",
+    "resume": "简历",
+    "blog": "博客"
+  },
+  "home": {
+    "hero": {
+      "title": "你好，我是 Mudassir",
+      "subtitle": "全栈开发者和 UI/UX 设计师",
+      "description": "我创建美丽、功能性和以用户为中心的数字体验。怀着对干净代码和像素完美设计的热情，我通过创新的网络解决方案将想法变为现实。",
+      "cta": "查看我的作品",
+      "secondaryCta": "联系我"
+    },
+    "services": {
+      "title": "我提供的服务",
+      "subtitle": "全面的网络开发和设计解决方案",
+      "webDevelopment": {
+        "title": "网络开发",
+        "description": "使用现代技术构建的自定义网站和网络应用程序"
+      },
+      "uiDesign": {
+        "title": "UI/UX 设计",
+        "description": "以用户为中心的设计，创造引人入胜的数字体验"
+      },
+      "mobileDevelopment": {
+        "title": "移动开发",
+        "description": "适用于 iOS 和 Android 的跨平台移动应用程序"
+      },
+      "seoOptimization": {
+        "title": "SEO 优化",
+        "description": "提高您网站的可见性和搜索引擎排名"
+      }
+    },
+    "stats": {
+      "projects": "已完成项目",
+      "clients": "满意客户",
+      "experience": "年经验",
+      "awards": "获得奖项"
+    },
+    "cta": {
+      "title": "准备开始您的项目？",
+      "description": "让我们一起将您的想法变为现实",
+      "button": "开始"
+    }
+  },
+  "about": {
+    "title": "关于我",
+    "subtitle": "充满激情的开发者，热爱创造数字体验",
+    "description": "我是一名全栈开发者，在创建网络应用程序和数字体验方面拥有超过5年的经验。我专精于 React、Node.js 和现代网络技术。",
+    "experience": "经验",
+    "skills": "技能",
+    "education": "教育",
+    "interests": "兴趣",
+    "downloadCv": "下载简历",
+    "hireMe": "雇佣我"
+  },
+  "projects": {
+    "title": "我的项目",
+    "subtitle": "展示我最新作品和成就",
+    "viewProject": "查看项目",
+    "viewCode": "查看代码",
+    "liveDemo": "现场演示",
+    "technologies": "技术",
+    "description": "描述",
+    "features": "功能",
+    "challenges": "挑战",
+    "solutions": "解决方案"
+  },
+  "skills": {
+    "title": "技能与专长",
+    "subtitle": "我使用的技术和工具",
+    "frontend": "前端",
+    "backend": "后端",
+    "database": "数据库",
+    "tools": "工具",
+    "languages": "编程语言",
+    "frameworks": "框架和库",
+    "databases": "数据库",
+    "cloud": "云和 DevOps",
+    "design": "设计工具"
+  },
+  "education": {
+    "title": "教育和认证",
+    "subtitle": "我的学术背景和专业认证",
+    "degree": "学位",
+    "institution": "机构",
+    "year": "年份",
+    "certification": "认证",
+    "issuer": "颁发者",
+    "date": "日期",
+    "validUntil": "有效期至"
+  },
+  "testimonials": {
+    "title": "客户推荐",
+    "subtitle": "我的客户对我的工作的评价",
+    "rating": "评分",
+    "review": "评价",
+    "client": "客户",
+    "position": "职位",
+    "company": "公司"
+  },
+  "contact": {
+    "title": "联系我",
+    "subtitle": "让我们讨论您的项目并将您的想法变为现实",
+    "name": "姓名",
+    "email": "电子邮件",
+    "phone": "电话",
+    "message": "消息",
+    "subject": "主题",
+    "sendMessage": "发送消息",
+    "contactInfo": "联系信息",
+    "address": "地址",
+    "socialMedia": "社交媒体",
+    "form": {
+      "namePlaceholder": "您的全名",
+      "emailPlaceholder": "您的电子邮件",
+      "phonePlaceholder": "您的电话号码",
+      "subjectPlaceholder": "项目咨询",
+      "messagePlaceholder": "告诉我您的项目...",
+      "required": "此字段为必填项",
+      "invalidEmail": "请输入有效的电子邮件地址",
+      "messageSent": "消息发送成功！",
+      "messageError": "发送消息时出错。请重试。"
+    }
+  },
+  "pricing": {
+    "title": "定价计划",
+    "subtitle": "为您的项目选择完美计划",
+    "basic": "基础",
+    "standard": "标准",
+    "premium": "高级",
+    "enterprise": "企业",
+    "monthly": "每月",
+    "yearly": "每年",
+    "perMonth": "每月",
+    "perYear": "每年",
+    "getStarted": "开始",
+    "contactUs": "联系我们",
+    "features": "功能",
+    "included": "包含",
+    "notIncluded": "不包含"
+  },
+  "footer": {
+    "description": "创造重要的数字体验",
+    "quickLinks": "快速链接",
+    "services": "服务",
+    "contact": "联系",
+    "followMe": "关注我",
+    "copyright": "© 2024 Mudassir。保留所有权利。",
+    "privacyPolicy": "隐私政策",
+    "termsOfService": "服务条款"
+  },
+  "languages": {
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "de": "Deutsch",
+    "ar": "العربية",
+    "ur": "اردو",
+    "zh": "中文",
+    "ja": "日本語",
+    "ko": "한국어",
+    "ru": "Русский",
+    "pt": "Português",
+    "it": "Italiano"
+  },
+  "theme": {
+    "light": "浅色",
+    "dark": "深色",
+    "system": "系统"
+  },
+  "accessibility": {
+    "skipToContent": "跳转到内容",
+    "skipToNavigation": "跳转到导航",
+    "skipToFooter": "跳转到页脚",
+    "increaseContrast": "增加对比度",
+    "decreaseContrast": "减少对比度",
+    "increaseFontSize": "增加字体大小",
+    "decreaseFontSize": "减少字体大小",
+    "screenReaderOnly": "仅限屏幕阅读器"
+  },
+  "aiChatBots": {
+    "title": "AI Chat Bots",
+    "description": "构建智能、可扩展的聊天机器人，提供无缝的用户体验。",
+    "features": [
+      "自然语言处理 (NLP)",
+      "上下文管理",
+      "多语言支持",
+      "自定义意图和实体",
+      "API 集成"
+    ],
+    "faq": {
+      "title": "Frequently Asked Questions about AI Chat Bots",
+      "description": "Find answers to common questions about implementing and using AI-powered chatbots for your business."
+    },
+    "cta": {
+      "title": "Ready to Deploy an AI Chat Bot?",
+      "description": "Enhance your customer engagement and automate support with a custom AI chatbot. Get in touch to discuss your requirements.",
+      "button": "Get Your AI Chat Bot"
+    }
+  },
+  "aiAgents": {
+    "title": "AI Agents",
+    "description": "利用 AI 代理简化复杂任务，提高效率和准确性。",
+    "features": [
+      "多模态交互",
+      "上下文理解",
+      "任务自动化",
+      "可扩展性和灵活性",
+      "API 集成"
+    ],
+    "faq": {
+      "title": "Frequently Asked Questions about AI Agents",
+      "description": "Learn more about how autonomous AI agents can streamline your business operations and automate complex workflows."
+    },
+    "cta": {
+      "title": "Empower Your Business with AI Agents",
+      "description": "Automate repetitive tasks and unlock new efficiencies with intelligent AI agents. Contact us to get started.",
+      "button": "Get AI Agent Solution"
+    }
+  },
+  "aiAutomation": {
+    "title": "AI Automation",
+    "description": "通过 AI 自动化提高工作效率，减少人工错误。",
+    "features": [
+      "流程自动化",
+      "数据分析",
+      "预测性维护",
+      "智能决策支持",
+      "API 集成"
+    ],
+    "faq": {
+      "title": "Frequently Asked Questions about AI Automation",
+      "description": "Explore how AI-driven automation can transform your business processes and drive growth."
+    },
+    "cta": {
+      "title": "Transform with AI Automation",
+      "description": "Streamline your operations and boost productivity with tailored AI automation solutions. Let's discuss your automation needs.",
+      "button": "Start AI Automation"
+    }
+  }
+} 

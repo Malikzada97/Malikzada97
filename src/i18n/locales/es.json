@@ -1,0 +1,369 @@
+{
+  "common": {
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "close": "Cerrar",
+    "back": "Atrás",
+    "goBack": "Volver a la página anterior",
+    "next": "Siguiente",
+    "previous": "Anterior",
+    "search": "Buscar",
+    "menu": "Menú",
+    "theme": "Tema",
+    "language": "Idioma",
+    "contact": "Contacto",
+    "about": "Acerca de",
+    "projects": "Proyectos",
+    "skills": "Habilidades",
+    "education": "Educación",
+    "testimonials": "Testimonios",
+    "pricing": "Precios",
+    "home": "Inicio",
+    "services": "Servicios",
+    "portfolio": "Portafolio",
+    "resume": "CV",
+    "blog": "Blog",
+    "settings": "Configuración",
+    "help": "Ayuda",
+    "privacy": "Privacidad",
+    "terms": "Términos",
+    "cookies": "Cookies",
+    "getStarted": "Get Started"
+  },
+  "navigation": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "projects": "Proyectos",
+    "skills": "Habilidades",
+    "education": "Educación",
+    "testimonials": "Testimonios",
+    "contact": "Contacto",
+    "pricing": "Precios",
+    "services": "Servicios",
+    "portfolio": "Portafolio",
+    "resume": "CV",
+    "blog": "Blog"
+  },
+  "home": {
+    "hero": {
+      "title": "Hola, soy Mudassir",
+      "subtitle": "Desarrollador Full Stack y Diseñador UI/UX",
+      "description": "Creo experiencias digitales hermosas, funcionales y centradas en el usuario. Con pasión por el código limpio y el diseño pixel-perfect, doy vida a las ideas a través de soluciones web innovadoras.",
+      "cta": "Ver Mi Trabajo",
+      "secondaryCta": "Ponerse en Contacto"
+    },
+    "services": {
+      "title": "Servicios que Ofrezco",
+      "subtitle": "Soluciones integrales de desarrollo y diseño web",
+      "webDevelopment": {
+        "title": "Desarrollo Web",
+        "description": "Sitios web y aplicaciones web personalizadas construidas con tecnologías modernas"
+      },
+      "uiDesign": {
+        "title": "Diseño UI/UX",
+        "description": "Diseño centrado en el usuario que crea experiencias digitales atractivas"
+      },
+      "mobileDevelopment": {
+        "title": "Desarrollo Móvil",
+        "description": "Aplicaciones móviles multiplataforma para iOS y Android"
+      },
+      "seoOptimization": {
+        "title": "Optimización SEO",
+        "description": "Mejora la visibilidad de tu sitio web y el ranking en motores de búsqueda"
+      }
+    },
+    "stats": {
+      "projects": "Proyectos Completados",
+      "clients": "Clientes Felices",
+      "experience": "Años de Experiencia",
+      "awards": "Premios Ganados"
+    },
+    "cta": {
+      "title": "¿Listo para Comenzar tu Proyecto?",
+      "description": "Trabajemos juntos para dar vida a tus ideas",
+      "button": "Comenzar"
+    }
+  },
+  "about": {
+    "title": "Acerca de Mí",
+    "subtitle": "Desarrollador apasionado con amor por crear experiencias digitales",
+    "description": "Soy un desarrollador full-stack con más de 5 años de experiencia en la creación de aplicaciones web y experiencias digitales. Me especializo en React, Node.js y tecnologías web modernas.",
+    "experience": "Experiencia",
+    "skills": "Habilidades",
+    "education": "Educación",
+    "interests": "Intereses",
+    "downloadCv": "Descargar CV",
+    "hireMe": "Contrátame"
+  },
+  "projects": {
+    "title": "Mis Proyectos",
+    "subtitle": "Mostrando mi trabajo más reciente y logros",
+    "viewProject": "Ver Proyecto",
+    "viewCode": "Ver Código",
+    "liveDemo": "Demo en Vivo",
+    "technologies": "Tecnologías",
+    "description": "Descripción",
+    "features": "Características",
+    "challenges": "Desafíos",
+    "solutions": "Soluciones"
+  },
+  "skills": {
+    "title": "Habilidades y Experiencia",
+    "subtitle": "Tecnologías y herramientas con las que trabajo",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "database": "Base de Datos",
+    "tools": "Herramientas",
+    "languages": "Lenguajes de Programación",
+    "frameworks": "Frameworks y Librerías",
+    "databases": "Bases de Datos",
+    "cloud": "Nube y DevOps",
+    "design": "Herramientas de Diseño"
+  },
+  "education": {
+    "title": "Educación y Certificaciones",
+    "subtitle": "Mi formación académica y certificaciones profesionales",
+    "degree": "Título",
+    "institution": "Institución",
+    "year": "Año",
+    "certification": "Certificación",
+    "issuer": "Emisor",
+    "date": "Fecha",
+    "validUntil": "Válido Hasta"
+  },
+  "testimonials": {
+    "title": "Testimonios de Clientes",
+    "subtitle": "Lo que mis clientes dicen sobre mi trabajo",
+    "rating": "Calificación",
+    "review": "Reseña",
+    "client": "Cliente",
+    "position": "Cargo",
+    "company": "Empresa"
+  },
+  "contact": {
+    "title": "Ponte en Contacto",
+    "subtitle": "Hablemos de tu proyecto y demos vida a tus ideas",
+    "name": "Nombre",
+    "email": "Correo Electrónico",
+    "phone": "Teléfono",
+    "message": "Mensaje",
+    "subject": "Asunto",
+    "sendMessage": "Enviar Mensaje",
+    "contactInfo": "Información de Contacto",
+    "address": "Dirección",
+    "socialMedia": "Redes Sociales",
+    "form": {
+      "namePlaceholder": "Tu nombre completo",
+      "emailPlaceholder": "tu.email@ejemplo.com",
+      "phonePlaceholder": "+1 (555) 123-4567",
+      "subjectPlaceholder": "Consulta de proyecto",
+      "messagePlaceholder": "Cuéntame sobre tu proyecto...",
+      "required": "Este campo es requerido",
+      "invalidEmail": "Por favor ingresa un correo electrónico válido",
+      "messageSent": "¡Mensaje enviado exitosamente!",
+      "messageError": "Error al enviar mensaje. Por favor intenta de nuevo."
+    }
+  },
+  "pricing": {
+    "title": "Planes de Precios",
+    "subtitle": "Elige el plan perfecto para tu proyecto",
+    "basic": "Básico",
+    "standard": "Estándar",
+    "premium": "Premium",
+    "enterprise": "Empresarial",
+    "monthly": "Mensual",
+    "yearly": "Anual",
+    "perMonth": "por mes",
+    "perYear": "por año",
+    "getStarted": "Comenzar",
+    "contactUs": "Contáctanos",
+    "features": "Características",
+    "included": "Incluido",
+    "notIncluded": "No Incluido"
+  },
+  "footer": {
+    "description": "Creando experiencias digitales que importan",
+    "quickLinks": "Enlaces Rápidos",
+    "services": "Servicios",
+    "contact": "Contacto",
+    "followMe": "Sígueme",
+    "copyright": "© 2024 Mudassir. Todos los derechos reservados.",
+    "privacyPolicy": "Política de Privacidad",
+    "termsOfService": "Términos de Servicio"
+  },
+  "languages": {
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "de": "Deutsch",
+    "ar": "العربية",
+    "ur": "اردو",
+    "zh": "中文",
+    "ja": "日本語",
+    "ko": "한국어",
+    "ru": "Русский",
+    "pt": "Português",
+    "it": "Italiano"
+  },
+  "theme": {
+    "light": "Claro",
+    "dark": "Oscuro",
+    "system": "Sistema"
+  },
+  "accessibility": {
+    "skipToContent": "Saltar al contenido",
+    "skipToNavigation": "Saltar a la navegación",
+    "skipToFooter": "Saltar al pie de página",
+    "increaseContrast": "Aumentar contraste",
+    "decreaseContrast": "Disminuir contraste",
+    "increaseFontSize": "Aumentar tamaño de fuente",
+    "decreaseFontSize": "Disminuir tamaño de fuente",
+    "screenReaderOnly": "Solo para lectores de pantalla"
+  },
+  "aiChatBots": {
+    "title": "AI Chat Bots",
+    "description": "Desarrollo de chatbots inteligentes para mejorar la interacción con los usuarios.",
+    "features": [
+      "Conversación natural y fluida",
+      "Integración con sistemas existentes",
+      "Personalización de respuestas",
+      "Manejo de contexto",
+      "Soporte 24/7"
+    ],
+    "faq": {
+      "title": "Frequently Asked Questions about AI Chat Bots",
+      "description": "Find answers to common questions about implementing and using AI-powered chatbots for your business.",
+      "cta": "Have more questions? Contact us for a free AI chat bot consultation.",
+      "timeline": {
+        "question": "How long does it take to launch a chat bot?",
+        "answer": "Most chat bots are live within 2-4 weeks, depending on requirements and integrations."
+      },
+      "integration": {
+        "question": "Can chat bots integrate with my website or CRM?",
+        "answer": "Yes, our chat bots can be integrated with websites, CRMs, helpdesks, and other business tools."
+      },
+      "security": {
+        "question": "Are AI chat bots secure?",
+        "answer": "We use secure APIs and follow best practices for data privacy and user protection."
+      },
+      "support": {
+        "question": "What support is included?",
+        "answer": "All chat bot plans include technical support and updates. Premium plans offer priority support."
+      },
+      "customization": {
+        "question": "Can I customize the chat bot's personality?",
+        "answer": "Yes! We design chat bots to match your brand voice and customer experience goals."
+      },
+      "cost": {
+        "question": "How much does a chat bot cost?",
+        "answer": "Pricing varies by features and complexity. See our pricing section or request a custom quote."
+      }
+    },
+    "cta": {
+      "title": "Ready to Deploy an AI Chat Bot?",
+      "description": "Enhance your customer engagement and automate support with a custom AI chatbot. Get in touch to discuss your requirements.",
+      "button": "Get Your AI Chat Bot",
+      "cta": "Start Your AI Chat Bot Project"
+    }
+  },
+  "aiAgents": {
+    "title": "AI Agents",
+    "description": "Agente de IA que puede realizar tareas repetitivas y automatizar procesos.",
+    "features": {
+      "title": "AI Agent Features",
+      "subtitle": "Powerful capabilities for business automation and intelligence."
+    },
+    "process": {
+      "title": "Our AI Agent Process",
+      "subtitle": "A proven approach to building and deploying intelligent agents."
+    },
+    "benefits": {
+      "title": "Why Choose AI Agents?",
+      "subtitle": "Unlock efficiency, scalability, and automation for your business."
+    },
+    "faq": {
+      "title": "Frequently Asked Questions about AI Agents",
+      "description": "Learn more about how autonomous AI agents can streamline your business operations and automate complex workflows.",
+      "timeline": {
+        "question": "How long does it take to deploy an AI agent?",
+        "answer": "Most AI agent solutions are deployed within 3-5 weeks, depending on complexity and integration requirements."
+      },
+      "integration": {
+        "question": "Can AI agents integrate with my business tools?",
+        "answer": "Yes, our AI agents can integrate with CRMs, ERPs, APIs, and a wide range of business platforms."
+      },
+      "security": {
+        "question": "How secure are your AI agents?",
+        "answer": "We follow industry best practices for data privacy, encryption, and secure access controls."
+      },
+      "support": {
+        "question": "What support is included?",
+        "answer": "All plans include technical support and maintenance. Enterprise plans offer priority and dedicated support."
+      },
+      "customization": {
+        "question": "Can I customize agent workflows?",
+        "answer": "Absolutely! We tailor agent workflows and logic to your unique business needs."
+      },
+      "cost": {
+        "question": "What is the cost of an AI agent?",
+        "answer": "Pricing depends on features, integrations, and scale. See our pricing section or request a custom quote."
+      }
+    },
+    "cta": {
+      "title": "Empower Your Business with AI Agents",
+      "description": "Automate repetitive tasks and unlock new efficiencies with intelligent AI agents. Contact us to get started.",
+      "button": "Get AI Agent Solution",
+      "secondaryButton": "View Projects"
+    }
+  },
+  "aiAutomation": {
+    "title": "AI Automation",
+    "description": "Automatización de procesos y tareas para aumentar la eficiencia y reducir errores.",
+    "features": [
+      "Automatización de tareas repetitivas",
+      "Integración con sistemas",
+      "Personalización de respuestas",
+      "Manejo de contexto",
+      "Soporte 24/7"
+    ],
+    "faq": {
+      "title": "Frequently Asked Questions about AI Automation",
+      "description": "Explore how AI-driven automation can transform your business processes and drive growth.",
+      "timeline": {
+        "question": "How long does it take to implement AI automation?",
+        "answer": "Most automation solutions are implemented within 2-4 weeks, depending on process complexity."
+      },
+      "integration": {
+        "question": "Can AI automation integrate with my existing systems?",
+        "answer": "Yes, we integrate with ERPs, CRMs, APIs, and a wide range of business software."
+      },
+      "security": {
+        "question": "Is AI automation secure?",
+        "answer": "We use secure protocols and follow best practices for data protection and compliance."
+      },
+      "support": {
+        "question": "What support is included?",
+        "answer": "All automation plans include technical support and maintenance. Enterprise plans offer priority support."
+      },
+      "customization": {
+        "question": "Can I customize automation workflows?",
+        "answer": "Yes, we design automation workflows tailored to your business processes."
+      },
+      "cost": {
+        "question": "How much does AI automation cost?",
+        "answer": "Pricing depends on the scope and integrations. See our pricing section or request a custom quote."
+      }
+    },
+    "cta": {
+      "title": "Transform with AI Automation",
+      "description": "Streamline your operations and boost productivity with tailored AI automation solutions. Let's discuss your automation needs.",
+      "button": "Start AI Automation",
+      "cta": "Start Your AI Automation Project"
+    }
+  }
+} 

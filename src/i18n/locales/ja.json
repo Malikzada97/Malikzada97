@@ -1,0 +1,283 @@
+{
+  "common": {
+    "loading": "読み込み中...",
+    "error": "エラー",
+    "success": "成功",
+    "cancel": "キャンセル",
+    "save": "保存",
+    "edit": "編集",
+    "delete": "削除",
+    "close": "閉じる",
+    "back": "戻る",
+    "next": "次へ",
+    "previous": "前へ",
+    "search": "検索",
+    "menu": "メニュー",
+    "theme": "テーマ",
+    "language": "言語",
+    "contact": "お問い合わせ",
+    "about": "私について",
+    "projects": "プロジェクト",
+    "skills": "スキル",
+    "education": "教育",
+    "testimonials": "お客様の声",
+    "pricing": "料金",
+    "home": "ホーム",
+    "services": "サービス",
+    "portfolio": "ポートフォリオ",
+    "resume": "履歴書",
+    "blog": "ブログ",
+    "settings": "設定",
+    "help": "ヘルプ",
+    "privacy": "プライバシー",
+    "terms": "利用規約",
+    "cookies": "Cookie"
+  },
+  "navigation": {
+    "home": "ホーム",
+    "about": "私について",
+    "projects": "プロジェクト",
+    "skills": "スキル",
+    "education": "教育",
+    "testimonials": "お客様の声",
+    "contact": "お問い合わせ",
+    "pricing": "料金",
+    "services": "サービス",
+    "portfolio": "ポートフォリオ",
+    "resume": "履歴書",
+    "blog": "ブログ"
+  },
+  "home": {
+    "hero": {
+      "title": "こんにちは、私はMudassirです",
+      "subtitle": "フルスタック開発者＆UI/UXデザイナー",
+      "description": "美しく、機能的でユーザー中心のデジタル体験を作成します。クリーンなコードとピクセルパーフェクトなデザインへの情熱を持って、革新的なWebソリューションを通じてアイデアを実現します。",
+      "cta": "作品を見る",
+      "secondaryCta": "お問い合わせ"
+    },
+    "services": {
+      "title": "提供サービス",
+      "subtitle": "包括的なWeb開発とデザインソリューション",
+      "webDevelopment": {
+        "title": "Web開発",
+        "description": "最新技術で構築されたカスタムWebサイトとWebアプリケーション"
+      },
+      "uiDesign": {
+        "title": "UI/UXデザイン",
+        "description": "魅力的なデジタル体験を作り出すユーザー中心のデザイン"
+      },
+      "mobileDevelopment": {
+        "title": "モバイル開発",
+        "description": "iOSとAndroid用のクロスプラットフォームモバイルアプリ"
+      },
+      "seoOptimization": {
+        "title": "SEO最適化",
+        "description": "Webサイトの可視性と検索エンジンランキングを向上"
+      }
+    },
+    "stats": {
+      "projects": "完了プロジェクト",
+      "clients": "満足したクライアント",
+      "experience": "年の経験",
+      "awards": "受賞歴"
+    },
+    "cta": {
+      "title": "プロジェクトを始める準備はできていますか？",
+      "description": "一緒にあなたのアイデアを実現しましょう",
+      "button": "始める"
+    }
+  },
+  "about": {
+    "title": "私について",
+    "subtitle": "デジタル体験を作成することへの愛を持つ情熱的な開発者",
+    "description": "私はWebアプリケーションとデジタル体験の作成において5年以上の経験を持つフルスタック開発者です。React、Node.js、現代のWeb技術を専門としています。",
+    "experience": "経験",
+    "skills": "スキル",
+    "education": "教育",
+    "interests": "興味",
+    "downloadCv": "履歴書をダウンロード",
+    "hireMe": "私を雇う"
+  },
+  "projects": {
+    "title": "私のプロジェクト",
+    "subtitle": "最新の作品と成果を紹介",
+    "viewProject": "プロジェクトを見る",
+    "viewCode": "コードを見る",
+    "liveDemo": "ライブデモ",
+    "technologies": "技術",
+    "description": "説明",
+    "features": "機能",
+    "challenges": "課題",
+    "solutions": "ソリューション"
+  },
+  "skills": {
+    "title": "スキルと専門性",
+    "subtitle": "私が使用する技術とツール",
+    "frontend": "フロントエンド",
+    "backend": "バックエンド",
+    "database": "データベース",
+    "tools": "ツール",
+    "languages": "プログラミング言語",
+    "frameworks": "フレームワークとライブラリ",
+    "databases": "データベース",
+    "cloud": "クラウドとDevOps",
+    "design": "デザインツール"
+  },
+  "education": {
+    "title": "教育と認定",
+    "subtitle": "私の学歴と専門認定",
+    "degree": "学位",
+    "institution": "機関",
+    "year": "年",
+    "certification": "認定",
+    "issuer": "発行者",
+    "date": "日付",
+    "validUntil": "有効期限"
+  },
+  "testimonials": {
+    "title": "クライアントの声",
+    "subtitle": "クライアントが私の仕事について言うこと",
+    "rating": "評価",
+    "review": "レビュー",
+    "client": "クライアント",
+    "position": "役職",
+    "company": "会社"
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "subtitle": "あなたのプロジェクトについて話し合い、アイデアを実現しましょう",
+    "name": "名前",
+    "email": "メール",
+    "phone": "電話",
+    "message": "メッセージ",
+    "subject": "件名",
+    "sendMessage": "メッセージを送信",
+    "contactInfo": "連絡先情報",
+    "address": "住所",
+    "socialMedia": "ソーシャルメディア",
+    "form": {
+      "namePlaceholder": "あなたのフルネーム",
+      "emailPlaceholder": "あなたのメールアドレス",
+      "phonePlaceholder": "あなたの電話番号",
+      "subjectPlaceholder": "プロジェクトの問い合わせ",
+      "messagePlaceholder": "あなたのプロジェクトについて教えてください...",
+      "required": "このフィールドは必須です",
+      "invalidEmail": "有効なメールアドレスを入力してください",
+      "messageSent": "メッセージが正常に送信されました！",
+      "messageError": "メッセージの送信中にエラーが発生しました。もう一度お試しください。"
+    }
+  },
+  "pricing": {
+    "title": "料金プラン",
+    "subtitle": "あなたのプロジェクトに最適なプランを選択",
+    "basic": "ベーシック",
+    "standard": "スタンダード",
+    "premium": "プレミアム",
+    "enterprise": "エンタープライズ",
+    "monthly": "月額",
+    "yearly": "年額",
+    "perMonth": "月額",
+    "perYear": "年額",
+    "getStarted": "始める",
+    "contactUs": "お問い合わせ",
+    "features": "機能",
+    "included": "含まれる",
+    "notIncluded": "含まれない"
+  },
+  "footer": {
+    "description": "重要なデジタル体験を作成",
+    "quickLinks": "クイックリンク",
+    "services": "サービス",
+    "contact": "お問い合わせ",
+    "followMe": "フォローする",
+    "copyright": "© 2024 Mudassir。全著作権所有。",
+    "privacyPolicy": "プライバシーポリシー",
+    "termsOfService": "利用規約"
+  },
+  "languages": {
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "de": "Deutsch",
+    "ar": "العربية",
+    "ur": "اردو",
+    "zh": "中文",
+    "ja": "日本語",
+    "ko": "한국어",
+    "ru": "Русский",
+    "pt": "Português",
+    "it": "Italiano"
+  },
+  "theme": {
+    "light": "ライト",
+    "dark": "ダーク",
+    "system": "システム"
+  },
+  "accessibility": {
+    "skipToContent": "コンテンツにスキップ",
+    "skipToNavigation": "ナビゲーションにスキップ",
+    "skipToFooter": "フッターにスキップ",
+    "increaseContrast": "コントラストを上げる",
+    "decreaseContrast": "コントラストを下げる",
+    "increaseFontSize": "フォントサイズを大きくする",
+    "decreaseFontSize": "フォントサイズを小さくする",
+    "screenReaderOnly": "スクリーンリーダーのみ"
+  },
+  "aiChatBots": {
+    "title": "AIチャットボット",
+    "description": "ユーザーと自然な会話を可能にするAIチャットボットを開発します。",
+    "features": [
+      "24/7対応可能なチャットエンジン",
+      "複数の言語サポート",
+      "カスタムコンテンツの統合",
+      "ユーザーのニーズに合わせた応答"
+    ],
+    "faq": {
+      "title": "Frequently Asked Questions about AI Chat Bots",
+      "description": "Find answers to common questions about implementing and using AI-powered chatbots for your business."
+    },
+    "cta": {
+      "title": "Ready to Deploy an AI Chat Bot?",
+      "description": "Enhance your customer engagement and automate support with a custom AI chatbot. Get in touch to discuss your requirements.",
+      "button": "Get Your AI Chat Bot"
+    }
+  },
+  "aiAgents": {
+    "title": "AIエージェント",
+    "description": "カスタムAIエージェントを開発して、ビジネスプロセスの自動化を実現します。",
+    "features": [
+      "ビジネスロジックの実行",
+      "データベースとの統合",
+      "カスタムコマンドの実行",
+      "エラー処理とログ"
+    ],
+    "faq": {
+      "title": "Frequently Asked Questions about AI Agents",
+      "description": "Learn more about how autonomous AI agents can streamline your business operations and automate complex workflows."
+    },
+    "cta": {
+      "title": "Empower Your Business with AI Agents",
+      "description": "Automate repetitive tasks and unlock new efficiencies with intelligent AI agents. Contact us to get started.",
+      "button": "Get AI Agent Solution"
+    }
+  },
+  "aiAutomation": {
+    "title": "AIオートメーション",
+    "description": "データ入力、メール送信、ファイル処理などの日常的なタスクを自動化します。",
+    "features": [
+      "データベースへのデータ入力",
+      "メールの自動送信",
+      "ファイルの処理と整理",
+      "エラー処理とログ"
+    ],
+    "faq": {
+      "title": "Frequently Asked Questions about AI Automation",
+      "description": "Explore how AI-driven automation can transform your business processes and drive growth."
+    },
+    "cta": {
+      "title": "Transform with AI Automation",
+      "description": "Streamline your operations and boost productivity with tailored AI automation solutions. Let's discuss your automation needs.",
+      "button": "Start AI Automation"
+    }
+  }
+} 

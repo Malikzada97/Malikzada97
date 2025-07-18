@@ -1,0 +1,100 @@
+# Robots.txt for Mudassir Portfolio
+# Full Stack Developer & Data Analyst Portfolio
+
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Specific crawler directives
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1
+
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 2
+
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 1
+
+# Social media crawlers
+User-agent: Twitterbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: facebookexternalhit
+Allow: /
+Crawl-delay: 1
+
+User-agent: LinkedInBot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Pinterest
+Allow: /
+Crawl-delay: 1
+
+# Block access to private areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /api/
+Disallow: /_next/
+Disallow: /node_modules/
+Disallow: /.git/
+Disallow: /.env
+Disallow: /package.json
+Disallow: /package-lock.json
+Disallow: /yarn.lock
+Disallow: /README.md
+Disallow: /CHANGELOG.md
+Disallow: /LICENSE
+Disallow: /.github/
+Disallow: /.vscode/
+Disallow: /coverage/
+Disallow: /dist/
+Disallow: /build/
+Disallow: /out/
+Disallow: /.cache/
+Disallow: /tmp/
+Disallow: /temp/
+
+# Block access to development files
+Disallow: /*.map$
+Disallow: /*.ts$
+Disallow: /*.tsx$
+Disallow: /*.jsx$
+Disallow: /*.scss$
+Disallow: /*.sass$
+Disallow: /*.less$
+
+# Allow access to important files
+Allow: /manifest.json
+Allow: /favicon.ico
+Allow: /favicon.svg
+Allow: /robots.txt
+Allow: /sitemap.xml
+Allow: /og-image.png
+Allow: /logo.png
+Allow: /avatar.jpg
+
+# Sitemap location
+Sitemap: https://yourdomain.com/sitemap.xml
+
+# Host directive (optional, helps with canonical URLs)
+Host: https://yourdomain.com
+
+# Crawl-delay for all bots (be respectful)
+Crawl-delay: 1

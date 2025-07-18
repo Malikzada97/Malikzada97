@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+        xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0"
+        xmlns:pagemap="http://www.google.com/schemas/sitemap-pagemap/1.0"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- Home Page -->
+  <url>
+    <loc>https://yourdomain.com/</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://yourdomain.com/og-image.png</image:loc>
+      <image:title>Mudassir Portfolio - Full Stack Developer & Data Analyst</image:title>
+      <image:caption>Professional portfolio showcasing full-stack development, data analytics, and AI solutions</image:caption>
+    </image:image>
+  </url>
+
+  <!-- About Page -->
+  <url>
+    <loc>https://yourdomain.com/about</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://yourdomain.com/avatar.jpg</image:loc>
+      <image:title>About Mudassir - Full Stack Developer & Data Analyst</image:title>
+      <image:caption>Professional background and experience of Mudassir</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Projects Page -->
+  <url>
+    <loc>https://yourdomain.com/projects</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://yourdomain.com/projects-og.png</image:loc>
+      <image:title>Projects - Mudassir Portfolio</image:title>
+      <image:caption>Showcase of web development, data analytics, and AI projects</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Skills Page -->
+  <url>
+    <loc>https://yourdomain.com/skills</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://yourdomain.com/skills-og.png</image:loc>
+      <image:title>Skills - Mudassir Portfolio</image:title>
+      <image:caption>Technical skills in React, Python, AI, and data analysis</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Education Page -->
+  <url>
+    <loc>https://yourdomain.com/education</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://yourdomain.com/education-og.png</image:loc>
+      <image:title>Education - Mudassir Portfolio</image:title>
+      <image:caption>Academic background and certifications</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Contact Page -->
+  <url>
+    <loc>https://yourdomain.com/contact</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://yourdomain.com/contact-og.png</image:loc>
+      <image:title>Contact - Mudassir Portfolio</image:title>
+      <image:caption>Get in touch for collaborations and projects</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Testimonials Page -->
+  <url>
+    <loc>https://yourdomain.com/testimonials</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://yourdomain.com/testimonials-og.png</image:loc>
+      <image:title>Testimonials - Mudassir Portfolio</image:title>
+      <image:caption>Client feedback and reviews</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Pricing Page -->
+  <url>
+    <loc>https://yourdomain.com/pricing</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://yourdomain.com/pricing-og.png</image:loc>
+      <image:title>Pricing - Mudassir Portfolio</image:title>
+      <image:caption>Service packages and pricing information</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Service Pages -->
+  <url>
+    <loc>https://yourdomain.com/services/web-development</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://yourdomain.com/web-development-og.png</image:loc>
+      <image:title>Web Development Services - Mudassir Portfolio</image:title>
+      <image:caption>Full-stack web development services</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://yourdomain.com/services/data-analytics</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://yourdomain.com/data-analytics-og.png</image:loc>
+      <image:title>Data Analytics Services - Mudassir Portfolio</image:title>
+      <image:caption>Data analysis and visualization services</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://yourdomain.com/services/seo-optimization</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://yourdomain.com/seo-optimization-og.png</image:loc>
+      <image:title>SEO Optimization Services - Mudassir Portfolio</image:title>
+      <image:caption>Search engine optimization services</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://yourdomain.com/services/website-maintenance</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://yourdomain.com/website-maintenance-og.png</image:loc>
+      <image:title>Website Maintenance Services - Mudassir Portfolio</image:title>
+      <image:caption>Website maintenance and support services</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://yourdomain.com/services/training-session</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://yourdomain.com/training-session-og.png</image:loc>
+      <image:title>Training Sessions - Mudassir Portfolio</image:title>
+      <image:caption>Technical training and workshops</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://yourdomain.com/services/performance-audit</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://yourdomain.com/performance-audit-og.png</image:loc>
+      <image:title>Performance Audit Services - Mudassir Portfolio</image:title>
+      <image:caption>Website performance analysis and optimization</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://yourdomain.com/services/ai-chat-bots</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://yourdomain.com/ai-chat-bots-og.png</image:loc>
+      <image:title>AI Chatbots Services - Mudassir Portfolio</image:title>
+      <image:caption>AI-powered chatbot development</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://yourdomain.com/services/ai-agents</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://yourdomain.com/ai-agents-og.png</image:loc>
+      <image:title>AI Agents Services - Mudassir Portfolio</image:title>
+      <image:caption>Intelligent AI agent development</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://yourdomain.com/services/ai-automation</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://yourdomain.com/ai-automation-og.png</image:loc>
+      <image:title>AI Automation Services - Mudassir Portfolio</image:title>
+      <image:caption>AI-powered automation solutions</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Important Files -->
+  <url>
+    <loc>https://yourdomain.com/manifest.json</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://yourdomain.com/robots.txt</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.1</priority>
+  </url>
+
+</urlset> 

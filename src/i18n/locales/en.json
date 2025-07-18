@@ -1,0 +1,2876 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "close": "Close",
+    "back": "Back",
+    "goBack": "Go back to previous page",
+    "next": "Next",
+    "previous": "Previous",
+    "search": "Search",
+    "menu": "Menu",
+    "theme": "Theme",
+    "language": "Language",
+    "contact": "Contact",
+    "about": "About",
+    "projects": "Projects",
+    "skills": "Skills",
+    "education": "Education",
+    "testimonials": "Testimonials",
+    "pricing": "Pricing",
+    "home": "Home",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "resume": "Resume",
+    "blog": "Blog",
+    "settings": "Settings",
+    "help": "Help",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "cookies": "Cookies",
+    "learnMore": "Learn More",
+    "getStarted": "Get Started"
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "skills": "Skills",
+    "education": "Education",
+    "testimonials": "Testimonials",
+    "contact": "Contact",
+    "pricing": "Pricing",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "resume": "Resume",
+    "blog": "Blog"
+  },
+  "home": {
+    "meta": {
+      "title": "Mudassir Javed - Full Stack Developer & Digital Solutions Expert",
+      "description": "Professional full stack developer specializing in web development, data analytics, SEO optimization, and digital solutions. Transform your ideas into powerful digital experiences.",
+      "keywords": "full stack developer, web development, data analytics, SEO optimization, React, Node.js, digital solutions",
+      "ogTitle": "Mudassir Javed - Full Stack Developer",
+      "ogDescription": "Professional full stack developer specializing in web development, data analytics, SEO optimization, and digital solutions."
+    },
+    "hero": {
+      "badge": "Full Stack Developer & Digital Solutions Expert",
+      "title1": "Transform",
+      "title2": "Your Ideas Into",
+      "title3": "Digital Reality",
+      "description": "Professional full stack developer specializing in modern web development, data analytics, and digital solutions that drive business growth.",
+      "cta": "Start Your Project",
+      "secondaryCta": "View My Work",
+      "trust": {
+        "experience": "5+ Years Experience",
+        "clients": "100+ Happy Clients",
+        "successRate": "98% Success Rate"
+      }
+    },
+    "stats": {
+      "clients": "Happy Clients",
+      "projects": "Projects Completed",
+      "successRate": "Success Rate",
+      "experience": "Years Experience"
+    },
+    "services": {
+      "title": "Comprehensive Digital Solutions",
+      "subtitle": "From concept to deployment, I provide end-to-end digital solutions that help businesses thrive in the digital age.",
+      "webDevelopment": {
+        "title": "Web Development",
+        "description": "Modern, responsive websites and web applications built with cutting-edge technologies."
+      },
+      "dataAnalytics": {
+        "title": "Data Analytics",
+        "description": "Transform your data into actionable insights with advanced analytics solutions."
+      },
+      "uiDesign": {
+        "title": "UI/UX Design",
+        "description": "User-centered design that creates engaging digital experiences"
+      },
+      "mobileDevelopment": {
+        "title": "Mobile Development",
+        "description": "Cross-platform mobile applications for iOS and Android"
+      },
+      "seoOptimization": {
+        "title": "SEO Optimization",
+        "description": "Improve your search rankings and drive organic traffic to your website."
+      },
+      "websiteMaintenance": {
+        "title": "Website Maintenance",
+        "description": "Keep your website secure, updated, and performing at its best."
+      },
+      "trainingSessions": {
+        "title": "Training Sessions",
+        "description": "Empower you with the knowledge to manage your digital presence."
+      },
+      "performanceAudit": {
+        "title": "Performance Audit",
+        "description": "Identify and fix performance bottlenecks to improve user experience."
+      },
+      "aiChatBots": {
+        "title": "AI Chat Bots",
+        "description": "Conversational AI bots for customer support, lead generation, and automation."
+      },
+      "aiAgents": {
+        "title": "AI Agents",
+        "description": "Autonomous AI agents for complex tasks, workflow automation, and business intelligence."
+      },
+      "aiAutomation": {
+        "title": "AI Automation",
+        "description": "Automate business processes with AI-driven workflows, RPA, and integrations."
+      }
+    },
+    "testimonials": {
+      "title": "What My Clients Say",
+      "subtitle": "Don't just take my word for it. Here's what my clients have to say about their experience working with me."
+    },
+    "cta": {
+      "title": "Ready to Transform Your Digital Presence?",
+      "description": "Let's discuss your project and create something amazing together. I'm here to help you achieve your digital goals.",
+      "button": "Get Started Today",
+      "secondaryButton": "View Pricing"
+    }
+  },
+  "about": {
+    "meta": {
+      "title": "About - Mudassir Javed",
+      "description": "Learn more about Mudassir Javed - Full Stack Web Developer and Data Analyst with expertise in React, Python, and data visualization."
+    },
+    "hero": {
+      "title": "About Me",
+      "subtitle": "Passionate developer with a love for creating meaningful digital experiences",
+      "description1": "I'm a dedicated full-stack developer and data analyst with over 3 years of experience creating impactful digital solutions. My journey began with a curiosity about how data can tell stories and how code can bring ideas to life. Based in Pakistan, I specialize in modern web technologies and data-driven applications.",
+      "description2": "With a Master's degree in Computer Science and hands-on experience in both web development and data analysis, I bridge the gap between technical implementation and business insights. I specialize in building responsive web applications using React and Node.js, while also extracting meaningful patterns from complex datasets using Python and SQL.",
+      "description3": "When I'm not coding or analyzing data, you'll find me exploring new technologies, contributing to open-source projects, or sharing knowledge with the developer community. I believe in continuous learning and staying at the forefront of technological innovation."
+    },
+    "profile": {
+      "name": "Mudassir Javed",
+      "title": "Full Stack Developer & Data Analyst"
+    },
+    "highlights": {
+      "title": "What I Bring",
+      "subtitle": "Key areas where I excel and create value",
+      "webDevelopment": {
+        "title": "Web Development",
+        "description": "Building responsive, user-friendly web applications with modern frameworks and best practices."
+      },
+      "dataAnalysis": {
+        "title": "Data Analysis",
+        "description": "Extracting insights from complex datasets using Python, SQL, and visualization tools."
+      },
+      "collaboration": {
+        "title": "Collaboration",
+        "description": "Working effectively in cross-functional teams to deliver impactful solutions."
+      },
+      "growthMindset": {
+        "title": "Growth Mindset",
+        "description": "Continuously learning new technologies and methodologies to stay current."
+      }
+    },
+    "tools": {
+      "title": "Tools & Technologies",
+      "subtitle": "Technologies and tools I use to bring ideas to life",
+      "webDevelopment": {
+        "title": "Web Development"
+      },
+      "dataAnalysis": {
+        "title": "Data Analysis"
+      },
+      "softSkills": {
+        "title": "Soft Skills"
+      }
+    }
+  },
+  "projects": {
+    "meta": {
+      "title": "Projects | Mudassir Javed - Full Stack Developer & Data Analyst",
+      "description": "Explore my portfolio of web development and data analytics projects. From full-stack applications to data visualization platforms."
+    },
+    "hero": {
+      "title": "My Projects",
+      "subtitle": "Showcasing innovative solutions and technical expertise",
+      "description": "Explore a collection of projects that demonstrate my skills in web development, data analytics, and creating user-centric digital solutions."
+    },
+    "search": {
+      "placeholder": "Search projects, technologies..."
+    },
+    "categories": {
+      "all": "All Projects",
+      "fullstack": "Full Stack",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "data": "Data Analytics",
+      "mobile": "Mobile"
+    },
+    "noResults": {
+      "title": "No projects found",
+      "description": "Try adjusting your search terms or filter criteria"
+    },
+    "cta": {
+      "title": "Ready to start your next project?",
+      "description": "Let's collaborate to bring your ideas to life with cutting-edge technology",
+      "startProject": "Start Your Project",
+      "viewGitHub": "View on GitHub"
+    },
+    "items": {
+      "ecommerceDashboard": {
+        "title": "E-Commerce Dashboard",
+        "description": "A comprehensive admin dashboard for e-commerce management with real-time analytics, inventory tracking, and sales visualization.",
+        "longDescription": "This project involved building a full-featured e-commerce management system that provides business owners with complete control over their online store operations. The dashboard includes advanced analytics, inventory management, order processing, and customer relationship management features.",
+        "stats": {
+          "performance": "Performance Boost",
+          "satisfaction": "User Satisfaction",
+          "uptime": "Uptime",
+          "users": "Daily Users"
+        },
+        "challenges": {
+          "inventory": "Implementing real-time inventory synchronization across multiple warehouses",
+          "responsive": "Creating responsive dashboards that work seamlessly on all devices",
+          "optimization": "Optimizing database queries for large-scale data processing",
+          "security": "Ensuring secure payment processing and data protection"
+        },
+        "solutions": {
+          "websocket": "Used WebSocket connections for real-time updates and notifications",
+          "design": "Implemented responsive design with CSS Grid and Flexbox",
+          "database": "Optimized MongoDB queries with proper indexing and aggregation",
+          "payment": "Integrated Stripe API with PCI DSS compliance measures"
+        },
+        "features": {
+          "analytics": {
+            "title": "Real-time Analytics",
+            "description": "Live sales data, inventory levels, and customer insights"
+          },
+          "inventory": {
+            "title": "Inventory Management",
+            "description": "Automated stock tracking and reorder notifications"
+          },
+          "orders": {
+            "title": "Order Processing",
+            "description": "Streamlined order fulfillment and shipping management"
+          },
+          "customer": {
+            "title": "Customer Portal",
+            "description": "Self-service customer account management"
+          }
+        },
+        "process": {
+          "discovery": {
+            "title": "Discovery & Planning",
+            "description": "Requirements gathering and system architecture design"
+          },
+          "design": {
+            "title": "UI/UX Design",
+            "description": "Creating intuitive user interfaces and user experience flows"
+          },
+          "development": {
+            "title": "Development",
+            "description": "Agile development with regular client feedback and iterations"
+          },
+          "testing": {
+            "title": "Testing & Deployment",
+            "description": "Comprehensive testing and production deployment"
+          }
+        },
+        "results": {
+          "efficiency": {
+            "title": "Increased Efficiency",
+            "description": "Reduced order processing time by 60%"
+          },
+          "insights": {
+            "title": "Better Insights",
+            "description": "Real-time analytics improved decision making by 40%"
+          },
+          "savings": {
+            "title": "Cost Savings",
+            "description": "Automated processes saved $50K annually"
+          }
+        }
+      },
+      "salesAnalytics": {
+        "title": "Sales Data Analytics Platform",
+        "description": "Python-based analytics platform that processes sales data and generates automated reports with predictive insights.",
+        "longDescription": "A comprehensive data analytics solution that transforms raw sales data into actionable business intelligence. The platform uses advanced machine learning algorithms to provide predictive analytics and automated reporting capabilities.",
+        "stats": {
+          "accuracy": "Accuracy Rate",
+          "speed": "Faster Analysis",
+          "reports": "Report Generation",
+          "records": "Records Processed"
+        }
+      },
+      "portfolioWebsite": {
+        "title": "React Portfolio Website",
+        "description": "Modern, responsive portfolio website built with React and TailwindCSS, featuring smooth animations and optimal performance.",
+        "longDescription": "A cutting-edge portfolio website that showcases professional work with modern design principles and optimal user experience. Features include smooth animations, responsive design, and performance optimization.",
+        "stats": {
+          "lighthouse": "Lighthouse Score",
+          "loadTime": "Load Time",
+          "responsive": "Mobile Responsive",
+          "accessibility": "Accessibility"
+        }
+      },
+      "restApi": {
+        "title": "RESTful API Backend",
+        "description": "Scalable backend API built with Node.js and Express, featuring authentication, rate limiting, and comprehensive documentation.",
+        "longDescription": "A robust and scalable RESTful API that serves as the backbone for multiple frontend applications. Includes advanced features like JWT authentication, rate limiting, and comprehensive API documentation.",
+        "stats": {
+          "uptime": "Uptime",
+          "responseTime": "Response Time",
+          "requests": "Requests/min",
+          "coverage": "Test Coverage"
+        }
+      },
+      "mobileApp": {
+        "title": "Mobile App Dashboard",
+        "description": "Cross-platform mobile application dashboard with real-time data synchronization and offline capabilities.",
+        "longDescription": "A React Native mobile application that provides users with real-time access to their data with offline capabilities and seamless synchronization.",
+        "stats": {
+          "rating": "App Store Rating",
+          "downloads": "Downloads",
+          "crashFree": "Crash Free",
+          "launchTime": "Launch Time"
+        }
+      },
+      "performanceTool": {
+        "title": "Performance Optimization Tool",
+        "description": "Web performance monitoring and optimization tool that analyzes and improves website loading speeds.",
+        "longDescription": "A comprehensive web performance analysis tool that helps developers identify and fix performance bottlenecks in their applications.",
+        "stats": {
+          "improvement": "Speed Improvement",
+          "score": "Performance Score",
+          "sites": "Sites Analyzed",
+          "monitoring": "Monitoring"
+        }
+      }
+    }
+  },
+  "skills": {
+    "meta": {
+      "title": "Skills - Mudassir Javed",
+      "description": "Technical skills and expertise of Mudassir Javed including web development, data analysis, and programming proficiencies."
+    },
+    "hero": {
+      "title": "Skills & Expertise",
+      "subtitle": "Technical proficiencies and tools I use to create exceptional solutions"
+    },
+    "technology": {
+      "title": "Technology Stack",
+      "subtitle": "Core technologies I work with on a daily basis"
+    },
+    "categories": {
+      "frontend": {
+        "title": "Frontend Development",
+        "skills": {
+          "html": "HTML5 & CSS3",
+          "javascript": "JavaScript",
+          "react": "React",
+          "tailwind": "TailwindCSS",
+          "responsive": "Responsive Design",
+          "threejs": "Three.js"
+        }
+      },
+      "backend": {
+        "title": "Backend Development",
+        "skills": {
+          "nodejs": "Node.js",
+          "express": "Express.js",
+          "rest": "REST APIs",
+          "database": "Database Design",
+          "auth": "Authentication"
+        }
+      },
+      "data": {
+        "title": "Data Analysis",
+        "skills": {
+          "python": "Python",
+          "pandas": "Pandas & NumPy",
+          "sql": "SQL",
+          "powerbi": "Power BI",
+          "statistics": "Statistical Analysis"
+        }
+      },
+      "ai": {
+        "title": "AI & Automation",
+        "skills": {
+          "automation": "AI Automation",
+          "chatbots": "AI Chatbots",
+          "seo": "SEO Optimization",
+          "ml": "Machine Learning",
+          "process": "Process Automation"
+        }
+      },
+      "tools": {
+        "title": "Development Tools",
+        "skills": {
+          "git": "Git",
+          "vscode": "VS Code",
+          "terminal": "Terminal/CLI",
+          "package": "Package Managers",
+          "debugging": "Debugging"
+        }
+      }
+    },
+    "technologies": {
+      "react": "React",
+      "javascript": "JavaScript",
+      "python": "Python",
+      "nodejs": "Node.js",
+      "sql": "SQL",
+      "git": "Git",
+      "tailwind": "TailwindCSS",
+      "powerbi": "Power BI",
+      "vscode": "VS Code",
+      "pandas": "Pandas",
+      "excel": "Excel",
+      "rest": "REST APIs"
+    },
+    "certifications": {
+      "title": "Certifications",
+      "subtitle": "Professional certifications and continuous learning achievements",
+      "google": {
+        "name": "Google Data Analytics Certificate",
+        "organization": "Google",
+        "type": "Data Analysis"
+      },
+      "react": {
+        "name": "React Developer Certificate",
+        "organization": "Meta",
+        "type": "Web Development"
+      },
+      "python": {
+        "name": "Python for Data Science",
+        "organization": "IBM",
+        "type": "Programming"
+      },
+      "sql": {
+        "name": "SQL for Data Analysis",
+        "organization": "Coursera",
+        "type": "Database"
+      }
+    }
+  },
+  "education": {
+    "meta": {
+      "title": "Education & Certifications - Mudassir Javed",
+      "description": "Explore my educational background, certifications, and continuous learning journey in web development and technology.",
+      "keywords": "education, certifications, degree, web development, technology, learning"
+    },
+    "hero": {
+      "title": "Education & Learning",
+      "subtitle": "My journey in technology and data science, and a path of continuous learning."
+    },
+    "sections": {
+      "degrees": {
+        "title": "Academic Degrees",
+        "cgpa": "CGPA",
+        "courses": "Key Courses"
+      },
+      "certifications": {
+        "title": "Professional Certifications",
+        "subtitle": "Continuous learning through industry-recognized certifications and specialized training programs."
+      },
+      "achievements": {
+        "title": "Achievements & Recognition",
+        "subtitle": "Academic and professional achievements that highlight a commitment to excellence."
+      }
+    },
+    "degrees": {
+      "masters": {
+        "degree": "Master of Science in Computer Science",
+        "institution": "University of Technology",
+        "description": "Specialized in data science and web development with a focus on machine learning algorithms and modern web technologies.",
+        "courses": {
+          "algorithms": "Advanced Algorithms",
+          "ml": "Machine Learning",
+          "database": "Database Systems",
+          "webdev": "Web Application Development",
+          "datamining": "Data Mining"
+        }
+      },
+      "bachelors": {
+        "degree": "Bachelor of Science in Information Technology",
+        "institution": "State University",
+        "description": "Comprehensive foundation in computer science principles, programming languages, and software development methodologies.",
+        "courses": {
+          "datastructures": "Data Structures",
+          "oop": "Object Oriented Programming",
+          "software": "Software Engineering",
+          "database": "Database Design",
+          "systems": "Systems Analysis"
+        }
+      }
+    },
+    "certifications": {
+      "google": {
+        "title": "Google Data Analytics Professional Certificate",
+        "organization": "Google",
+        "date": "March 2023",
+        "description": "Comprehensive program covering data analysis processes, tools, and techniques including SQL, R, and Tableau.",
+        "skills": {
+          "analysis": "Data Analysis",
+          "sql": "SQL",
+          "r": "R Programming",
+          "tableau": "Tableau",
+          "visualization": "Data Visualization"
+        }
+      },
+      "meta": {
+        "title": "Meta Front-End Developer Certificate",
+        "organization": "Meta",
+        "date": "January 2023",
+        "description": "Professional certificate covering advanced front-end development including React, JavaScript, and responsive design.",
+        "skills": {
+          "react": "React",
+          "javascript": "JavaScript",
+          "html": "HTML/CSS",
+          "responsive": "Responsive Design",
+          "version": "Version Control"
+        }
+      },
+      "ibm": {
+        "title": "IBM Data Science Professional Certificate",
+        "organization": "IBM",
+        "date": "November 2022",
+        "description": "Hands-on program covering Python, machine learning, data visualization, and statistical analysis.",
+        "skills": {
+          "python": "Python",
+          "ml": "Machine Learning",
+          "visualization": "Data Visualization",
+          "statistics": "Statistical Analysis",
+          "jupyter": "Jupyter Notebooks"
+        }
+      },
+      "aws": {
+        "title": "AWS Certified Cloud Practitioner",
+        "organization": "Amazon Web Services",
+        "date": "September 2022",
+        "description": "Foundational certification demonstrating understanding of AWS cloud services and architecture.",
+        "skills": {
+          "cloud": "Cloud Computing",
+          "services": "AWS Services",
+          "architecture": "Cloud Architecture",
+          "security": "Security",
+          "cost": "Cost Optimization"
+        }
+      },
+      "powerbi": {
+        "title": "Microsoft Power BI Data Analyst",
+        "organization": "Microsoft",
+        "date": "July 2022",
+        "description": "Professional certification in data modeling, visualization, and business intelligence using Power BI.",
+        "skills": {
+          "powerbi": "Power BI",
+          "dax": "DAX",
+          "modeling": "Data Modeling",
+          "bi": "Business Intelligence",
+          "reports": "Report Development"
+        }
+      },
+      "python": {
+        "title": "Complete Python Bootcamp",
+        "organization": "Udemy",
+        "date": "May 2022",
+        "description": "Comprehensive course covering Python programming from basics to advanced topics.",
+        "skills": {
+          "python": "Python",
+          "oop": "Object Oriented Programming",
+          "scraping": "Web Scraping",
+          "apis": "APIs",
+          "analysis": "Data Analysis"
+        }
+      }
+    },
+    "achievements": {
+      "deans": {
+        "title": "Dean's List",
+        "description": "Recognized on the Dean's List for 6 consecutive semesters."
+      },
+      "research": {
+        "title": "Research Publication",
+        "description": "Co-authored paper on 'Machine Learning Applications in Web Development'."
+      },
+      "hackathon": {
+        "title": "Hackathon Winner",
+        "description": "First place in university tech hackathon for a data visualization project."
+      },
+      "scholarship": {
+        "title": "Academic Scholarship",
+        "description": "Recipient of merit-based scholarship for outstanding academic performance."
+      }
+    },
+    "philosophy": {
+      "title": "Continuous Learning Philosophy",
+      "description": "Technology evolves rapidly, and I believe in staying current through continuous learning. My approach combines formal education with hands-on practice, online courses, and staying connected with the developer community.",
+      "formal": {
+        "title": "Formal Education",
+        "description": "Strong academic foundation in computer science and mathematics."
+      },
+      "skills": {
+        "title": "Skill Development",
+        "description": "Continuous skill growth through certifications and practical projects."
+      },
+      "recognition": {
+        "title": "Industry Recognition",
+        "description": "Professional certifications from leading technology companies."
+      }
+    },
+    "cta": {
+      "title": "Ready to Work Together?",
+      "description": "My educational background and continuous learning approach ensure I deliver cutting-edge solutions for your projects.",
+      "startProject": "Start Your Project",
+      "viewWork": "View My Work"
+    }
+  },
+  "testimonials": {
+    "meta": {
+      "title": "Client Testimonials - Mudassir Javed",
+      "description": "Read what our clients say about their experience working with Mudassir Javed. Real testimonials, success stories, and project results from satisfied clients.",
+      "keywords": "client testimonials, reviews, success stories, project results, client feedback"
+    },
+    "hero": {
+      "badge": "Client Success Stories",
+      "title": "Client Testimonials",
+      "description": "Don't just take our word for it. Here's what our clients have to say about their experience working with us. Real projects, real results, real success stories."
+    },
+    "stats": {
+      "reviews": "Total Reviews",
+      "rating": "Average Rating",
+      "satisfaction": "Satisfaction Rate",
+      "repeat": "Repeat Clients",
+      "projects": "Total Projects",
+      "countries": "Countries Served"
+    },
+    "filters": {
+      "all": "All Reviews",
+      "web": "Web Development",
+      "data": "Data Analysis",
+      "seo": "SEO Services",
+      "maintenance": "Maintenance",
+      "training": "Training",
+      "performance": "Performance"
+    },
+    "search": {
+      "placeholder": "Search testimonials..."
+    },
+    "noResults": {
+      "title": "No testimonials found",
+      "description": "Try adjusting your search terms or filters to find what you're looking for.",
+      "clear": "Clear Search"
+    },
+    "featured": {
+      "badge": "Featured Review"
+    },
+    "details": {
+      "title": "Project Details",
+      "duration": "Duration",
+      "budget": "Budget",
+      "technologies": "Technologies"
+    },
+    "results": {
+      "title": "Key Results"
+    },
+    "client": {
+      "at": "at"
+    },
+    "items": {
+      "sarah": {
+        "name": "Sarah Johnson",
+        "position": "CEO & Founder",
+        "company": "TechStart Solutions",
+        "project": "E-commerce Platform",
+        "testimonial": "Mudassir delivered an exceptional e-commerce platform that exceeded our expectations. The attention to detail, performance optimization, and user experience were outstanding. Our sales increased by 40% within the first month!",
+        "results": {
+          "sales": "40% increase in sales",
+          "loading": "60% faster loading times",
+          "satisfaction": "95% user satisfaction"
+        },
+        "date": "March 2024",
+        "location": "New York, NY",
+        "details": {
+          "duration": "6 weeks",
+          "budget": "$15,000",
+          "challenges": {
+            "inventory": "Complex inventory management",
+            "orders": "Real-time order processing",
+            "mobile": "Mobile optimization"
+          },
+          "solutions": {
+            "dashboard": "Custom admin dashboard",
+            "websocket": "WebSocket integration",
+            "pwa": "Progressive Web App"
+          }
+        }
+      },
+      "michael": {
+        "name": "Michael Chen",
+        "position": "Senior Data Analyst",
+        "company": "Global Analytics Corp",
+        "project": "Business Intelligence Dashboard",
+        "testimonial": "The data analytics solution Mudassir built transformed how we make business decisions. The insights are clear, actionable, and delivered exactly when we need them. Highly recommend for any data-driven organization.",
+        "results": {
+          "insights": "Real-time insights",
+          "reporting": "Automated reporting",
+          "decisions": "50% faster decision making"
+        },
+        "date": "February 2024",
+        "location": "San Francisco, CA",
+        "details": {
+          "duration": "4 weeks",
+          "budget": "$12,000",
+          "challenges": {
+            "integration": "Data integration from multiple sources",
+            "updates": "Real-time dashboard updates",
+            "access": "User access management"
+          },
+          "solutions": {
+            "etl": "ETL pipeline automation",
+            "live": "Live data connections",
+            "access": "Role-based access control"
+          }
+        }
+      },
+      "emily": {
+        "name": "Emily Rodriguez",
+        "position": "Marketing Director",
+        "company": "Creative Agency Pro",
+        "project": "SEO Optimization",
+        "testimonial": "Working with Mudassir on our SEO strategy was a game-changer. Our organic traffic increased by 120% and we're now ranking on the first page for our target keywords. The results speak for themselves!",
+        "results": {
+          "traffic": "120% traffic increase",
+          "rankings": "First page rankings",
+          "conversion": "35% conversion boost"
+        },
+        "date": "January 2024",
+        "location": "Los Angeles, CA",
+        "details": {
+          "duration": "3 months",
+          "budget": "$8,000",
+          "challenges": {
+            "rankings": "Low search rankings",
+            "structure": "Poor site structure",
+            "speed": "Slow loading times"
+          },
+          "solutions": {
+            "audit": "Technical SEO audit",
+            "content": "Content optimization",
+            "performance": "Performance improvements"
+          }
+        }
+      },
+      "david": {
+        "name": "David Thompson",
+        "position": "Chief Technology Officer",
+        "company": "InnovateTech",
+        "project": "Website Maintenance",
+        "testimonial": "Mudassir's maintenance service keeps our website running smoothly 24/7. The security updates, performance monitoring, and quick response times give us peace of mind. Worth every penny!",
+        "results": {
+          "uptime": "99.9% uptime",
+          "monitoring": "24/7 monitoring",
+          "response": "4-hour response time"
+        },
+        "date": "Ongoing",
+        "location": "Austin, TX",
+        "details": {
+          "duration": "Ongoing",
+          "budget": "$599/month",
+          "challenges": {
+            "downtime": "Frequent downtime",
+            "security": "Security vulnerabilities",
+            "response": "Slow response times"
+          },
+          "solutions": {
+            "monitoring": "Proactive monitoring",
+            "backups": "Automated backups",
+            "support": "Priority support"
+          }
+        }
+      },
+      "lisa": {
+        "name": "Lisa Wang",
+        "position": "Product Manager",
+        "company": "StartupXYZ",
+        "project": "Team Training Session",
+        "testimonial": "The training session was incredibly valuable for our team. Mudassir explained complex concepts in simple terms and provided hands-on practice. Our team is now confident in managing our website independently.",
+        "results": {
+          "confidence": "Team confidence boost",
+          "dependencies": "Reduced dependencies",
+          "efficiency": "Improved efficiency"
+        },
+        "date": "December 2023",
+        "location": "Seattle, WA",
+        "details": {
+          "duration": "1 day",
+          "budget": "$2,500",
+          "challenges": {
+            "skills": "Team lacked technical skills",
+            "dependency": "Dependency on external developers",
+            "costs": "High maintenance costs"
+          },
+          "solutions": {
+            "training": "Comprehensive training program",
+            "practice": "Hands-on practice",
+            "support": "Ongoing support"
+          }
+        }
+      },
+      "robert": {
+        "name": "Robert Kim",
+        "position": "Operations Manager",
+        "company": "E-commerce Plus",
+        "project": "Performance Audit",
+        "testimonial": "The performance audit revealed critical issues we didn't know existed. Mudassir's recommendations improved our page speed by 70% and significantly enhanced user experience. Excellent work!",
+        "results": {
+          "speed": "70% speed improvement",
+          "experience": "Better user experience",
+          "conversions": "Higher conversions"
+        },
+        "date": "November 2023",
+        "location": "Chicago, IL",
+        "details": {
+          "duration": "2 weeks",
+          "budget": "$1,200",
+          "challenges": {
+            "speed": "Slow loading times",
+            "vitals": "Poor Core Web Vitals",
+            "mobile": "Mobile performance issues"
+          },
+          "solutions": {
+            "images": "Image optimization",
+            "code": "Code minification",
+            "cdn": "CDN implementation"
+          }
+        }
+      }
+    },
+    "cta": {
+      "title": "What Our Clients Say",
+      "description": "See how we've helped clients achieve their goals. Ready to start your own project?",
+      "startProject": "Start Your Project",
+      "consultation": "Schedule Consultation"
+    }
+  },
+  "contact": {
+    "meta": {
+      "title": "Contact - Mudassir Javed",
+      "description": "Get in touch with Mudassir Javed for web development and data analysis projects. Available for freelance work and collaboration opportunities.",
+      "keywords": "contact, web development, data analysis, freelance, collaboration, get in touch"
+    },
+    "hero": {
+      "title": "Contact Me",
+      "subtitle": "Let's connect and discuss your project or collaboration opportunities."
+    },
+    "info": {
+      "title": "Get In Touch",
+      "description": "Ready to start your next project? Let's discuss how I can help bring your vision to life.",
+      "email": {
+        "label": "Email",
+        "value": "Malikmudassir1997@gmail.com",
+        "description": "I'll respond within 24 hours."
+      },
+      "whatsapp": {
+        "label": "WhatsApp",
+        "value": "+92 311 277061",
+        "description": "Available Mon-Fri, 9AM-6PM PKT."
+      },
+      "location": {
+        "label": "Location",
+        "value": "Quetta, Balochistan Pakistan",
+        "description": "Remote work available worldwide."
+      }
+    },
+    "response": {
+      "title": "Response Time",
+      "description": "I typically respond to all inquiries within 24 hours. For urgent projects, please mention it in your message and I'll prioritize your request."
+    },
+    "social": {
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "freelancer": "Freelancer",
+      "fiverr": "Fiverr",
+      "facebook": "Facebook"
+    },
+    "form": {
+      "title": "Send a Message",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "projectType": "Project Type",
+      "message": "Message",
+      "sendMessage": "Send Message",
+      "sending": "Sending...",
+      "success": "Message sent successfully! I'll get back to you soon.",
+      "placeholders": {
+        "firstName": "Your first name",
+        "lastName": "Your last name",
+        "email": "your.email@example.com",
+        "message": "Tell me about your project, timeline, and any specific requirements..."
+      },
+      "projectTypes": {
+        "select": "Select a project type",
+        "web": "Web Development",
+        "data": "Data Analysis",
+        "seo": "SEO Optimization",
+        "maintenance": "Website Maintenance",
+        "audit": "Performance Audit",
+        "training": "Training Session",
+        "other": "Other"
+      },
+      "validation": {
+        "nameRequired": "Name is required",
+        "emailRequired": "Email is required",
+        "emailInvalid": "Email is invalid",
+        "subjectRequired": "Subject is required",
+        "messageRequired": "Message is required",
+        "messageLength": "Message must be at least 10 characters"
+      }
+    }
+  },
+  "pricing": {
+    "meta": {
+      "title": "Pricing - Mudassir Javed",
+      "description": "Transparent pricing for web development, data analysis, and digital solutions. Choose the perfect package for your business needs.",
+      "keywords": "pricing, web development, data analysis, digital solutions, packages, rates"
+    },
+    "hero": {
+      "title": "Transparent Pricing",
+      "subtitle": "Choose the perfect solution for your business needs"
+    },
+    "popular": {
+      "badge": "Most Popular"
+    },
+    "plans": {
+      "basic": {
+        "name": "Basic Website",
+        "price": "$1,200",
+        "duration": "Starting at",
+        "description": "Perfect for small businesses and personal websites",
+        "timeline": "2-3 weeks delivery",
+        "ideal": "Small businesses, portfolios, landing pages",
+        "features": {
+          "responsive": "Responsive Design",
+          "pages": "Up to 5 Pages",
+          "contact": "Contact Form",
+          "seo": "SEO Optimization",
+          "mobile": "Mobile Friendly",
+          "support": "1 Month Support",
+          "analytics": "Basic Analytics Setup"
+        }
+      },
+      "professional": {
+        "name": "Professional Web App",
+        "price": "$3,500",
+        "duration": "Starting at",
+        "description": "Full-featured web applications with custom functionality",
+        "timeline": "4-6 weeks delivery",
+        "ideal": "Medium businesses, e-commerce, SaaS platforms",
+        "features": {
+          "custom": "Custom Web Application",
+          "auth": "User Authentication",
+          "database": "Database Integration",
+          "dashboard": "Admin Dashboard",
+          "api": "API Development",
+          "seo": "Advanced SEO",
+          "support": "3 Months Support",
+          "performance": "Performance Optimization",
+          "security": "Security Implementation"
+        }
+      },
+      "analytics": {
+        "name": "Data Analytics Solution",
+        "price": "$2,500",
+        "duration": "Starting at",
+        "description": "Complete data analysis and visualization solutions",
+        "timeline": "3-4 weeks delivery",
+        "ideal": "Businesses needing data insights and reporting",
+        "features": {
+          "collection": "Data Collection & Cleaning",
+          "analysis": "Statistical Analysis",
+          "dashboards": "Interactive Dashboards",
+          "powerbi": "Power BI Integration",
+          "reports": "Custom Reports",
+          "visualization": "Data Visualization",
+          "support": "2 Months Support",
+          "training": "Training Session"
+        }
+      }
+    },
+    "services": {
+      "title": "Additional Services",
+      "subtitle": "Extra services to enhance your digital presence",
+      "maintenance": {
+        "name": "Website Maintenance",
+        "price": "$299",
+        "duration": "/month",
+        "description": "Keep your website updated and secure"
+      },
+      "seo": {
+        "name": "SEO Optimization",
+        "price": "$750",
+        "duration": "one-time",
+        "description": "Improve your search engine rankings"
+      },
+      "audit": {
+        "name": "Performance Audit",
+        "price": "$399",
+        "duration": "one-time",
+        "description": "Comprehensive website performance analysis"
+      },
+      "training": {
+        "name": "Training Session",
+        "price": "$99",
+        "duration": "/hour",
+        "description": "Learn to manage your website or analyze data"
+      }
+    },
+    "process": {
+      "title": "How It Works",
+      "subtitle": "Simple process to bring your project to life",
+      "steps": {
+        "consultation": {
+          "title": "Consultation",
+          "description": "I discuss your requirements and goals"
+        },
+        "proposal": {
+          "title": "Proposal",
+          "description": "Detailed project scope and timeline"
+        },
+        "development": {
+          "title": "Development",
+          "description": "Building your solution with regular updates"
+        },
+        "launch": {
+          "title": "Launch",
+          "description": "Testing, deployment, and ongoing support"
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to Get Started?",
+      "description": "Choose the perfect plan for your project and let's bring your vision to life. Don't just take my word for it - see what my clients have to say!",
+      "getStarted": "Get Started",
+      "getStartedToday": "Get Started Today",
+      "learnMore": "Learn More",
+      "viewTestimonials": "View Client Testimonials",
+      "customSolution": "Need a custom solution?",
+      "contactUs": "Contact me",
+      "forQuote": "for a personalized quote"
+    }
+  },
+  "footer": {
+    "description": "Creating digital experiences that matter",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "contact": "Contact",
+    "followMe": "Follow Me",
+    "copyright": "© 2024 Mudassir Javed. Built with",
+    "builtWith": "using React & TailwindCSS",
+    "developerTitle": "Full Stack Developer & Data Analyst from Pakistan",
+    "backToTop": "Back to Top",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
+  },
+  "languages": {
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "de": "Deutsch",
+    "ar": "العربية",
+    "ur": "اردو",
+    "zh": "中文",
+    "ja": "日本語",
+    "ko": "한국어",
+    "ru": "Русский",
+    "pt": "Português",
+    "it": "Italiano"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "accessibility": {
+    "skipToContent": "Skip to content",
+    "skipToNavigation": "Skip to navigation",
+    "skipToFooter": "Skip to footer",
+    "increaseContrast": "Increase contrast",
+    "decreaseContrast": "Decrease contrast",
+    "increaseFontSize": "Increase font size",
+    "decreaseFontSize": "Decrease font size",
+    "screenReaderOnly": "Screen reader only"
+  },
+  "seo": {
+    "meta": {
+      "title": "SEO Optimization Services - Mudassir Javed",
+      "description": "Professional SEO optimization services by Mudassir Javed including audits, on-page and technical SEO, content strategy, and reporting. Improve your search engine rankings and drive more traffic.",
+      "keywords": "SEO, search engine optimization, website ranking, technical SEO, on-page SEO, content strategy, keyword research, backlink analysis"
+    },
+    "hero": {
+      "badge": "SEO Optimization",
+      "title": "SEO Optimization",
+      "description": "Improve your website's visibility, attract more visitors, and grow your business with our expert SEO optimization services. We use proven strategies and the latest tools to deliver real results.",
+      "cta": {
+        "audit": "Get Free SEO Audit",
+        "plans": "View SEO Plans"
+      }
+    },
+    "stats": {
+      "rankings": {
+        "label": "Avg. Ranking Increase",
+        "value": "+35%"
+      },
+      "traffic": {
+        "label": "Organic Traffic Growth",
+        "value": "+120%"
+      },
+      "retention": {
+        "label": "Client Retention",
+        "value": "98%"
+      },
+      "keywords": {
+        "label": "Keywords Tracked",
+        "value": "10,000+"
+      }
+    },
+    "included": {
+      "title": "What's Included in SEO Optimization",
+      "subtitle": "Comprehensive strategies for higher rankings and more traffic",
+      "analysisTitle": "Complete SEO Analysis",
+      "analysisDescription": "My SEO optimization service covers every aspect of your website's search performance. I use industry-leading tools to identify opportunities and provide actionable recommendations for significant improvements.",
+      "features": {
+        "audit": "Comprehensive SEO audit",
+        "optimization": "On-page & technical optimization",
+        "keywords": "Keyword research & targeting",
+        "content": "Content strategy & optimization",
+        "backlinks": "Backlink analysis & building",
+        "mobile": "Mobile & speed optimization",
+        "schema": "Schema markup & rich results",
+        "reporting": "Monthly progress reporting"
+      },
+      "dashboardTitle": "SEO Dashboard",
+      "dashboard": {
+        "health": "SEO Health",
+        "rankings": "Keyword Rankings",
+        "traffic": "Organic Traffic",
+        "speed": "Site Speed"
+      }
+    },
+    "dashboard": {
+      "title": "SEO Dashboard",
+      "health": {
+        "label": "SEO Health",
+        "value": "Excellent"
+      },
+      "rankings": {
+        "label": "Keyword Rankings",
+        "value": "Top 10"
+      },
+      "traffic": {
+        "label": "Organic Traffic",
+        "value": "+120%"
+      },
+      "speed": {
+        "label": "Site Speed",
+        "value": "A+"
+      }
+    },
+    "technologies": {
+      "title": "Technologies & Tools We Use",
+      "subtitle": "Industry-leading tools for professional SEO optimization",
+      "seoTools": {
+        "category": "SEO Tools",
+        "googleAnalytics": {
+          "name": "Google Analytics",
+          "description": "Track website traffic and user behavior"
+        },
+        "searchConsole": {
+          "name": "Google Search Console",
+          "description": "Monitor search performance and indexing"
+        },
+        "ahrefs": {
+          "name": "Ahrefs",
+          "description": "Comprehensive SEO analysis and backlink tracking"
+        },
+        "semrush": {
+          "name": "SEMrush",
+          "description": "Competitor research and keyword analysis"
+        }
+      },
+      "optimization": {
+        "category": "Optimization",
+        "pageSpeed": {
+          "name": "PageSpeed Insights",
+          "description": "Performance and speed optimization"
+        },
+        "screamingFrog": {
+          "name": "Screaming Frog",
+          "description": "Technical SEO site audits"
+        },
+        "yoast": {
+          "name": "Yoast SEO",
+          "description": "On-page SEO for WordPress"
+        },
+        "schema": {
+          "name": "Schema.org",
+          "description": "Structured data for rich results"
+        }
+      },
+      "content": {
+        "category": "Content & Keywords",
+        "surfer": {
+          "name": "Surfer SEO",
+          "description": "Content optimization and keyword density"
+        },
+        "keywordPlanner": {
+          "name": "Google Keyword Planner",
+          "description": "Keyword research and trends"
+        },
+        "grammarly": {
+          "name": "Grammarly",
+          "description": "Content quality and grammar checks"
+        },
+        "buzzSumo": {
+          "name": "BuzzSumo",
+          "description": "Content research and influencer discovery"
+        }
+      },
+      "reporting": {
+        "category": "Reporting",
+        "dataStudio": {
+          "name": "Google Data Studio",
+          "description": "Custom SEO dashboards and reports"
+        },
+        "lookerStudio": {
+          "name": "Looker Studio",
+          "description": "Advanced data visualization"
+        },
+        "customReporting": {
+          "name": "Custom Reporting",
+          "description": "Tailored progress and ranking reports"
+        },
+        "rankMath": {
+          "name": "Rank Math",
+          "description": "SEO performance tracking"
+        }
+      }
+    },
+    "process": {
+      "title": "Our SEO Process",
+      "subtitle": "A proven approach to achieving top rankings",
+      "audit": {
+        "title": "SEO Audit",
+        "description": "Comprehensive analysis of your website's SEO health",
+        "details": {
+          "technical": "Technical site audit",
+          "onpage": "On-page SEO review",
+          "backlinks": "Backlink profile analysis",
+          "competitor": "Competitor benchmarking",
+          "keywords": "Keyword gap analysis"
+        }
+      },
+      "optimization": {
+        "title": "Optimization",
+        "description": "Implementing technical and on-page improvements",
+        "details": {
+          "meta": "Meta tags & descriptions",
+          "schema": "Schema markup",
+          "speed": "Speed & mobile optimization",
+          "content": "Content improvements",
+          "linking": "Internal linking structure"
+        }
+      },
+      "content": {
+        "title": "Content & Keywords",
+        "description": "Strategic content creation and keyword targeting",
+        "details": {
+          "keywords": "Keyword research",
+          "optimization": "Content optimization",
+          "strategy": "Blog/article strategy",
+          "analysis": "Competitor content analysis",
+          "calendar": "Content calendar planning"
+        }
+      },
+      "reporting": {
+        "title": "Reporting & Growth",
+        "description": "Tracking progress and ongoing improvements",
+        "details": {
+          "reports": "Monthly SEO reports",
+          "tracking": "Ranking & traffic tracking",
+          "conversion": "Conversion analysis",
+          "optimization": "Continuous optimization",
+          "refinement": "Strategy refinement"
+        }
+      }
+    },
+    "benefits": {
+      "title": "Why Invest in SEO?",
+      "subtitle": "The benefits of professional search engine optimization",
+      "rankings": {
+        "title": "Higher Rankings",
+        "description": "Boost your website's visibility and climb to the top of search engine results."
+      },
+      "traffic": {
+        "title": "Increased Traffic",
+        "description": "Drive more qualified visitors to your site with targeted SEO strategies."
+      },
+      "authority": {
+        "title": "Brand Authority",
+        "description": "Establish your brand as a leader in your industry with strong online presence."
+      },
+      "results": {
+        "title": "Faster Results",
+        "description": "See measurable improvements in rankings and traffic with proven optimization techniques."
+      },
+      "reach": {
+        "title": "Global Reach",
+        "description": "Expand your audience and reach customers worldwide with international SEO."
+      },
+      "success": {
+        "title": "Long-Term Success",
+        "description": "Sustainable SEO strategies for ongoing growth and lasting results."
+      }
+    },
+    "plans": {
+      "title": "SEO Plans",
+      "subtitle": "Choose the right SEO package for your business",
+      "popular": "Most Popular",
+      "delivery": "Delivery",
+      "support": "Support",
+      "cta": "Get Started",
+      "starter": {
+        "name": "Starter SEO",
+        "price": "$750",
+        "duration": "one-time",
+        "description": "Essential SEO setup for new or small websites",
+        "features": {
+          "audit": "Website SEO Audit",
+          "optimization": "On-Page Optimization",
+          "meta": "Meta Tags & Descriptions",
+          "sitemap": "XML Sitemap Creation",
+          "analytics": "Google Analytics Setup",
+          "console": "Google Search Console Integration",
+          "keywords": "Basic Keyword Research",
+          "mobile": "Mobile SEO Check",
+          "support": "1 Month Support"
+        },
+        "delivery": "1-2 weeks",
+        "support": "1 month"
+      },
+      "growth": {
+        "name": "Growth SEO",
+        "price": "$1,299",
+        "duration": "one-time",
+        "description": "Comprehensive SEO for growing businesses",
+        "features": {
+          "audit": "Advanced SEO Audit",
+          "technical": "Technical SEO Fixes",
+          "content": "Content Optimization",
+          "keywords": "Keyword Strategy",
+          "competitor": "Competitor Analysis",
+          "backlinks": "Backlink Analysis",
+          "schema": "Schema Markup",
+          "speed": "Speed Optimization",
+          "mobile": "Mobile Optimization",
+          "support": "3 Months Support",
+          "reports": "Monthly Progress Reports"
+        },
+        "delivery": "2-4 weeks",
+        "support": "3 months"
+      },
+      "enterprise": {
+        "name": "Enterprise SEO",
+        "price": "$2,499",
+        "duration": "one-time",
+        "description": "Full-scale SEO for large or high-traffic sites",
+        "features": {
+          "audit": "Full Technical SEO Audit",
+          "strategy": "Custom SEO Strategy",
+          "content": "Content Marketing Plan",
+          "linkbuilding": "Link Building Campaigns",
+          "international": "International SEO",
+          "ecommerce": "E-commerce SEO",
+          "conversion": "Conversion Rate Optimization",
+          "monitoring": "Ongoing Monitoring",
+          "manager": "Dedicated SEO Manager",
+          "support": "6 Months Support",
+          "reports": "Bi-Weekly Reporting",
+          "tracking": "Competitor Tracking"
+        },
+        "delivery": "4-8 weeks",
+        "support": "6 months"
+      }
+    },
+    "faq": {
+      "title": "SEO FAQ",
+      "subtitle": "Everything you need to know about our SEO services",
+      "items": {
+        "what": {
+          "question": "What is SEO and why is it important?",
+          "answer": "SEO (Search Engine Optimization) is the process of improving your website's visibility in search engines. It helps attract more organic traffic, increase brand awareness, and grow your business."
+        },
+        "timing": {
+          "question": "How long does it take to see SEO results?",
+          "answer": "SEO is a long-term strategy. Most clients see noticeable improvements within 1-3 months, with significant results over 6-12 months."
+        },
+        "guarantee": {
+          "question": "Do you guarantee #1 rankings?",
+          "answer": "No ethical SEO provider can guarantee #1 rankings due to the complexity of search algorithms. We focus on sustainable growth and best practices for long-term success."
+        },
+        "existing": {
+          "question": "Will you work with my existing website?",
+          "answer": "Yes! We optimize websites built with WordPress, custom code, e-commerce platforms, and more. We'll assess your site and recommend the best strategy."
+        },
+        "service": {
+          "question": "Is SEO a one-time or ongoing service?",
+          "answer": "We offer both one-time optimization packages and ongoing SEO management for continuous growth and improvement."
+        },
+        "different": {
+          "question": "What makes your SEO services different?",
+          "answer": "We use a data-driven, transparent approach with custom strategies, regular reporting, and a focus on real business results."
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to Dominate Search Results?",
+      "description": "Stop being invisible online. Let's get your website ranking higher and driving more organic traffic.",
+      "campaign": "Start SEO Campaign",
+      "audit": "Free SEO Audit",
+      "included": "Comprehensive SEO analysis included with every consultation"
+    }
+  },
+  "maintenance": {
+    "meta": {
+      "title": "Website Maintenance Services - Mudassir Javed",
+      "description": "Professional website maintenance services by Mudassir Javed including security updates, performance optimization, SEO maintenance, and 24/7 monitoring. Keep your website secure, fast, and up-to-date.",
+      "keywords": "website maintenance, web security, performance optimization, SEO maintenance, website updates, hosting management"
+    },
+    "hero": {
+      "badge": "Professional Website Care",
+      "title": "Website Maintenance",
+      "description": "Keep your website secure, fast, and up-to-date with our comprehensive maintenance services. From security updates to performance optimization, we ensure your digital presence stays professional and reliable.",
+      "cta": {
+        "start": "Get Started Today",
+        "plans": "View Maintenance Plans"
+      }
+    },
+    "stats": {
+      "security": {
+        "label": "Security Updates",
+        "value": "24/7"
+      },
+      "performance": {
+        "label": "Performance Boost",
+        "value": "60%"
+      },
+      "uptime": {
+        "label": "Uptime Guarantee",
+        "value": "99.9%"
+      },
+      "clients": {
+        "label": "Happy Clients",
+        "value": "100+"
+      }
+    },
+    "included": {
+      "title": "What's Included in Website Maintenance",
+      "subtitle": "Comprehensive care for your digital presence",
+      "package": {
+        "title": "Complete Website Care Package",
+        "description": "Our website maintenance service covers every aspect of keeping your website secure, fast, and up-to-date. We handle the technical details so you can focus on your business.",
+        "features": {
+          "security": "Security monitoring and updates",
+          "performance": "Performance optimization",
+          "backups": "Regular backups and recovery",
+          "seo": "SEO maintenance and improvements",
+          "content": "Content updates and management",
+          "mobile": "Mobile responsiveness checks",
+          "analytics": "Analytics and reporting",
+          "uptime": "24/7 uptime monitoring"
+        }
+      }
+    },
+    "dashboard": {
+      "title": "Maintenance Dashboard",
+      "health": {
+        "label": "Website Health",
+        "value": "Excellent"
+      },
+      "security": {
+        "label": "Security Score",
+        "value": "98/100"
+      },
+      "performance": {
+        "label": "Performance",
+        "value": "92/100"
+      },
+      "seo": {
+        "label": "SEO Score",
+        "value": "89/100"
+      }
+    },
+    "technologies": {
+      "title": "Technologies & Tools We Use",
+      "subtitle": "Industry-leading tools for professional website maintenance",
+      "security": {
+        "category": "Security",
+        "wordfence": {
+          "name": "Wordfence Security",
+          "description": "Advanced firewall and malware scanning"
+        },
+        "sucuri": {
+          "name": "Sucuri",
+          "description": "Website security monitoring and protection"
+        },
+        "ssl": {
+          "name": "SSL Certificates",
+          "description": "Secure socket layer encryption"
+        },
+        "twoFactor": {
+          "name": "Two-Factor Authentication",
+          "description": "Enhanced login security"
+        }
+      },
+      "performance": {
+        "category": "Performance",
+        "cloudflare": {
+          "name": "Cloudflare CDN",
+          "description": "Global content delivery network"
+        },
+        "pageSpeed": {
+          "name": "Google PageSpeed Insights",
+          "description": "Performance optimization analysis"
+        },
+        "gtmetrix": {
+          "name": "GTmetrix",
+          "description": "Website speed and performance testing"
+        },
+        "webp": {
+          "name": "WebP Image Optimization",
+          "description": "Modern image format conversion"
+        }
+      },
+      "monitoring": {
+        "category": "Monitoring",
+        "uptimeRobot": {
+          "name": "Uptime Robot",
+          "description": "24/7 website availability monitoring"
+        },
+        "analytics": {
+          "name": "Google Analytics",
+          "description": "Traffic and user behavior analysis"
+        },
+        "searchConsole": {
+          "name": "Google Search Console",
+          "description": "SEO performance monitoring"
+        },
+        "errorTracking": {
+          "name": "Custom Error Tracking",
+          "description": "Real-time error detection and reporting"
+        }
+      },
+      "backup": {
+        "category": "Backup & Recovery",
+        "automated": {
+          "name": "Automated Backups",
+          "description": "Daily/weekly automated backup systems"
+        },
+        "cloudStorage": {
+          "name": "Cloud Storage",
+          "description": "Secure off-site backup storage"
+        },
+        "oneClick": {
+          "name": "One-Click Restore",
+          "description": "Quick disaster recovery solutions"
+        },
+        "versionControl": {
+          "name": "Version Control",
+          "description": "Git-based change tracking and rollback"
+        }
+      }
+    },
+    "process": {
+      "title": "Our Maintenance Process",
+      "subtitle": "A systematic approach to keeping your website in top condition",
+      "assessment": {
+        "title": "Initial Assessment",
+        "description": "Comprehensive website audit and health check",
+        "details": {
+          "performance": "Performance analysis",
+          "security": "Security vulnerability scan",
+          "seo": "SEO health check",
+          "mobile": "Mobile responsiveness test",
+          "backup": "Backup system review"
+        }
+      },
+      "implementation": {
+        "title": "Implementation",
+        "description": "Setting up monitoring and maintenance systems",
+        "details": {
+          "security": "Security tools installation",
+          "performance": "Performance optimization",
+          "backup": "Backup automation setup",
+          "dashboard": "Monitoring dashboard creation",
+          "ssl": "SSL certificate installation"
+        }
+      },
+      "ongoing": {
+        "title": "Ongoing Maintenance",
+        "description": "Regular updates and proactive monitoring",
+        "details": {
+          "security": "Weekly security updates",
+          "performance": "Performance monitoring",
+          "content": "Content updates",
+          "seo": "SEO maintenance",
+          "backups": "Regular backups"
+        }
+      },
+      "reporting": {
+        "title": "Reporting & Optimization",
+        "description": "Monthly reports and continuous improvement",
+        "details": {
+          "performance": "Performance reports",
+          "security": "Security status updates",
+          "seo": "SEO progress tracking",
+          "recommendations": "Recommendations for improvement",
+          "reviews": "Quarterly optimization reviews"
+        }
+      }
+    },
+    "benefits": {
+      "title": "Why Choose My Maintenance Service",
+      "subtitle": "Professional care that delivers real results",
+      "security": {
+        "title": "Enhanced Security",
+        "description": "Protect your website from malware, hackers, and security vulnerabilities with advanced security measures and regular updates."
+      },
+      "performance": {
+        "title": "Improved Performance",
+        "description": "Faster loading times, better user experience, and higher search engine rankings through continuous optimization."
+      },
+      "seo": {
+        "title": "Better SEO Rankings",
+        "description": "Maintain and improve your search engine visibility with regular SEO maintenance and content updates."
+      },
+      "engagement": {
+        "title": "Increased User Engagement",
+        "description": "Better user experience leads to higher engagement, lower bounce rates, and increased conversions."
+      },
+      "accessibility": {
+        "title": "Global Accessibility",
+        "description": "Ensure your website is accessible worldwide with CDN optimization and mobile responsiveness."
+      },
+      "reliability": {
+        "title": "Professional Reliability",
+        "description": "Build trust with your audience through a consistently well-maintained and professional website."
+      }
+    },
+    "plans": {
+      "title": "Maintenance Plans",
+      "subtitle": "Choose the perfect maintenance package for your website",
+      "popular": "Most Popular",
+      "response": "Response",
+      "updates": "Updates",
+      "backups": "Backups",
+      "cta": "Get Started",
+      "basic": {
+        "name": "Basic Maintenance",
+        "price": "$299",
+        "duration": "/month",
+        "description": "Essential website upkeep and security",
+        "features": {
+          "security": "Weekly Security Updates",
+          "backups": "Monthly Backups",
+          "monitoring": "Performance Monitoring",
+          "seo": "Basic SEO Maintenance",
+          "content": "Content Updates (5 hours/month)",
+          "support": "Email Support",
+          "uptime": "Uptime Monitoring",
+          "ssl": "SSL Certificate Management"
+        },
+        "responseTime": "24-48 hours",
+        "updates": "Weekly",
+        "backups": "Monthly"
+      },
+      "professional": {
+        "name": "Professional Maintenance",
+        "price": "$599",
+        "duration": "/month",
+        "description": "Comprehensive maintenance with priority support",
+        "features": {
+          "security": "Daily Security Monitoring",
+          "backups": "Weekly Backups",
+          "performance": "Real-time Performance Optimization",
+          "seo": "Advanced SEO Maintenance",
+          "content": "Content Updates (15 hours/month)",
+          "support": "Priority Support (4-hour response)",
+          "analytics": "Advanced Analytics & Reporting",
+          "updates": "Plugin/Theme Updates",
+          "database": "Database Optimization",
+          "speed": "Speed Optimization",
+          "mobile": "Mobile Responsiveness Checks",
+          "firewall": "Security Scanning & Firewall"
+        },
+        "responseTime": "4-8 hours",
+        "updates": "Daily",
+        "backups": "Weekly"
+      },
+      "enterprise": {
+        "name": "Enterprise Maintenance",
+        "price": "$999",
+        "duration": "/month",
+        "description": "Full-service maintenance for high-traffic websites",
+        "features": {
+          "security": "24/7 Security Monitoring",
+          "backups": "Daily Backups with Cloud Storage",
+          "performance": "Real-time Performance Optimization",
+          "seo": "Advanced SEO & Content Strategy",
+          "content": "Unlimited Content Updates",
+          "manager": "Dedicated Support Manager",
+          "analytics": "Custom Analytics Dashboard",
+          "securityMeasures": "Advanced Security Measures",
+          "cdn": "CDN Management",
+          "loadBalancing": "Load Balancing",
+          "clustering": "Database Clustering",
+          "recovery": "Disaster Recovery Plan",
+          "reports": "Monthly Performance Reports",
+          "audits": "Quarterly Security Audits"
+        },
+        "responseTime": "1-2 hours",
+        "updates": "Real-time",
+        "backups": "Daily"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Everything you need to know about our maintenance services",
+      "items": {
+        "included": {
+          "question": "What's included in website maintenance?",
+          "answer": "Our maintenance includes security updates, performance optimization, regular backups, SEO maintenance, content updates, mobile responsiveness checks, analytics reporting, and 24/7 uptime monitoring."
+        },
+        "response": {
+          "question": "How quickly do you respond to issues?",
+          "answer": "Response times vary by plan: Basic (24-48 hours), Professional (4-8 hours), and Enterprise (1-2 hours). Critical security issues are addressed immediately regardless of plan."
+        },
+        "emergency": {
+          "question": "Do you provide emergency support?",
+          "answer": "Yes, all plans include emergency support for critical issues. Enterprise plans include 24/7 dedicated support with immediate response times."
+        },
+        "cancel": {
+          "question": "Can I cancel my maintenance plan anytime?",
+          "answer": "Yes, you can cancel your maintenance plan at any time. We provide a 30-day notice period to ensure a smooth transition."
+        },
+        "websites": {
+          "question": "Do you work with all types of websites?",
+          "answer": "We maintain websites built with WordPress, custom PHP, React, Vue.js, and other modern frameworks. We'll assess your specific setup during onboarding."
+        },
+        "downtime": {
+          "question": "What happens if my website goes down?",
+          "answer": "We monitor your website 24/7 and will immediately investigate any downtime. Our team will work to restore service as quickly as possible and provide detailed reports."
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to Secure Your Website?",
+      "description": "Don't wait for problems to arise. Proactive maintenance keeps your website secure, fast, and reliable.",
+      "plan": "Start Maintenance Plan",
+      "consultation": "Schedule Consultation",
+      "included": "Free security audit included with every consultation"
+    }
+  },
+  "performanceAudit": {
+    "meta": {
+      "title": "Performance Audit Services - Mudassir Javed",
+      "description": "Professional website performance audit services by Mudassir Javed including speed analysis, Core Web Vitals optimization, and performance monitoring. Improve your website's speed and user experience.",
+      "keywords": "performance audit, website speed, Core Web Vitals, page speed optimization, performance testing, website optimization"
+    },
+    "hero": {
+      "badge": "Performance Optimization",
+      "title": "Performance Audit",
+      "description": "Unlock your website's full potential with our comprehensive performance audit. We identify bottlenecks, optimize speed, and ensure your site delivers the best possible user experience across all devices.",
+      "ctaPrimary": "Get Free Speed Test",
+      "ctaSecondary": "View Audit Plans"
+    },
+    "stats": {
+      "speedImprovement": {
+        "label": "Avg. Speed Improvement",
+        "value": "+70%"
+      },
+      "userExperience": {
+        "label": "User Experience Boost",
+        "value": "+85%"
+      },
+      "searchRankings": {
+        "label": "Search Rankings",
+        "value": "+40%"
+      },
+      "globalPerformance": {
+        "label": "Global Performance",
+        "value": "99.9%"
+      }
+    },
+    "whatsIncluded": {
+      "title": "What's Included in Performance Audit",
+      "subtitle": "Comprehensive analysis and optimization recommendations",
+      "analysisTitle": "Complete Performance Analysis",
+      "analysisDescription": "Our performance audit covers every aspect of website speed and optimization. We use industry-leading tools to identify bottlenecks and provide actionable recommendations for significant performance improvements.",
+      "features": {
+        "pageSpeed": "Page speed analysis and optimization",
+        "coreWebVitals": "Core Web Vitals assessment",
+        "mobileDesktop": "Mobile and desktop performance testing",
+        "imageOptimization": "Image and asset optimization review",
+        "databaseServer": "Database and server performance analysis",
+        "cdnHosting": "CDN and hosting optimization",
+        "securityEvaluation": "Security performance evaluation",
+        "implementationRoadmap": "Detailed implementation roadmap"
+      },
+      "dashboardTitle": "Performance Dashboard",
+      "dashboard": {
+        "pageSpeed": "Page Speed",
+        "pageSpeedGrade": "A+",
+        "coreWebVitals": "Core Web Vitals",
+        "coreWebVitalsGrade": "Good",
+        "mobilePerformance": "Mobile Performance",
+        "mobilePerformanceGrade": "Excellent",
+        "userExperience": "User Experience",
+        "userExperienceGrade": "A+"
+      }
+    },
+    "technologies": {
+      "title": "Technologies & Tools We Use",
+      "subtitle": "Industry-leading tools for comprehensive performance analysis",
+      "performanceTools": {
+        "category": "Performance Tools",
+        "googlePageSpeed": {
+          "name": "Google PageSpeed Insights",
+          "description": "Comprehensive speed and performance analysis"
+        },
+        "gtmetrix": {
+          "name": "GTmetrix",
+          "description": "Detailed performance testing and optimization"
+        },
+        "webPageTest": {
+          "name": "WebPageTest",
+          "description": "Advanced performance testing from multiple locations"
+        },
+        "lighthouse": {
+          "name": "Lighthouse",
+          "description": "Automated performance, accessibility, and SEO auditing"
+        }
+      },
+      "monitoring": {
+        "category": "Monitoring",
+        "googleAnalytics": {
+          "name": "Google Analytics",
+          "description": "Real-time performance and user behavior tracking"
+        },
+        "newRelic": {
+          "name": "New Relic",
+          "description": "Application performance monitoring and optimization"
+        },
+        "pingdom": {
+          "name": "Pingdom",
+          "description": "Uptime monitoring and performance testing"
+        },
+        "uptimeRobot": {
+          "name": "Uptime Robot",
+          "description": "24/7 website availability and performance monitoring"
+        }
+      },
+      "optimization": {
+        "category": "Optimization",
+        "webPConverter": {
+          "name": "WebP Converter",
+          "description": "Modern image format optimization"
+        },
+        "gzipCompression": {
+          "name": "Gzip Compression",
+          "description": "File compression for faster loading"
+        },
+        "cdnAnalysis": {
+          "name": "CDN Analysis",
+          "description": "Content delivery network optimization"
+        },
+        "databaseProfiler": {
+          "name": "Database Profiler",
+          "description": "Database performance and query optimization"
+        }
+      },
+      "securityTesting": {
+        "category": "Security & Testing",
+        "securityHeaders": {
+          "name": "Security Headers Check",
+          "description": "Security performance and header analysis"
+        },
+        "sslLabs": {
+          "name": "SSL Labs",
+          "description": "SSL/TLS configuration and performance testing"
+        },
+        "loadTesting": {
+          "name": "Load Testing",
+          "description": "Stress testing for high-traffic scenarios"
+        },
+        "crossBrowser": {
+          "name": "Cross-browser Testing",
+          "description": "Performance across different browsers"
+        }
+      }
+    },
+    "process": {
+      "title": "Our Audit Process",
+      "subtitle": "A systematic approach to performance optimization",
+      "initialAssessment": {
+        "title": "Initial Assessment",
+        "description": "Comprehensive website performance baseline analysis",
+        "details": {
+          "metrics": "Current performance metrics",
+          "coreWebVitals": "Core Web Vitals analysis",
+          "mobileDesktop": "Mobile vs desktop comparison",
+          "loadTime": "Page load time assessment",
+          "resourceLoading": "Resource loading analysis"
+        }
+      },
+      "deepAnalysis": {
+        "title": "Deep Analysis",
+        "description": "Technical performance investigation and bottleneck identification",
+        "details": {
+          "codeReview": "Code performance review",
+          "databaseOptimization": "Database query optimization",
+          "imageOptimization": "Image and asset optimization",
+          "cachingStrategy": "Caching strategy analysis",
+          "serverResponse": "Server response time check"
+        }
+      },
+      "optimizationPlanning": {
+        "title": "Optimization Planning",
+        "description": "Creating detailed improvement strategies and implementation roadmap",
+        "details": {
+          "improvementPlan": "Performance improvement plan",
+          "recommendations": "Priority-based recommendations",
+          "timeline": "Implementation timeline",
+          "resources": "Resource requirements",
+          "roi": "ROI projections"
+        }
+      },
+      "reportImplementation": {
+        "title": "Report & Implementation",
+        "description": "Comprehensive report delivery and implementation support",
+        "details": {
+          "auditReport": "Detailed audit report",
+          "recommendations": "Actionable recommendations",
+          "guidance": "Implementation guidance",
+          "monitoring": "Performance monitoring setup",
+          "support": "Ongoing support"
+        }
+      }
+    },
+    "benefits": {
+      "title": "Why Performance Matters",
+      "subtitle": "The impact of website speed on your business success",
+      "fasterLoading": {
+        "title": "Faster Loading Times",
+        "description": "Reduce page load times by up to 70% with targeted optimizations."
+      },
+      "betterUserExperience": {
+        "title": "Better User Experience",
+        "description": "Improve user engagement and reduce bounce rates with faster, smoother websites."
+      },
+      "higherSearchRankings": {
+        "title": "Higher Search Rankings",
+        "description": "Boost your SEO performance as speed is a key ranking factor."
+      },
+      "globalPerformance": {
+        "title": "Global Performance",
+        "description": "Ensure consistent performance across different locations and devices."
+      },
+      "competitiveAdvantage": {
+        "title": "Competitive Advantage",
+        "description": "Stay ahead of competitors with superior website performance."
+      },
+      "futureProof": {
+        "title": "Future-Proof Solution",
+        "description": "Build a scalable foundation that grows with your business needs."
+      }
+    },
+    "plans": {
+      "basic": {
+        "name": "Basic Audit",
+        "price": "$399",
+        "duration": "one-time",
+        "description": "Essential performance analysis for small websites",
+        "features": {
+          "pageSpeed": "Page Speed Analysis",
+          "coreWebVitals": "Core Web Vitals Check",
+          "mobilePerformance": "Mobile Performance Test",
+          "basicReport": "Basic Optimization Report",
+          "performanceScore": "Performance Score",
+          "loadingTime": "Loading Time Analysis",
+          "imageOptimization": "Image Optimization Check",
+          "support": "1 Week Support"
+        },
+        "delivery": "3-5 days",
+        "support": "1 week"
+      },
+      "comprehensive": {
+        "name": "Comprehensive Audit",
+        "price": "$799",
+        "duration": "one-time",
+        "description": "In-depth performance analysis with optimization plan",
+        "features": {
+          "fullAudit": "Full Performance Audit",
+          "coreWebVitals": "Core Web Vitals Analysis",
+          "mobileDesktop": "Mobile & Desktop Testing",
+          "detailedReport": "Detailed Optimization Report",
+          "recommendations": "Performance Recommendations",
+          "codeOptimization": "Code Optimization Review",
+          "databaseCheck": "Database Performance Check",
+          "cdnAnalysis": "CDN & Hosting Analysis",
+          "securityReview": "Security Performance Review",
+          "support": "3 Months Support",
+          "implementationGuide": "Implementation Guide"
+        },
+        "delivery": "1-2 weeks",
+        "support": "3 months"
+      },
+      "enterprise": {
+        "name": "Enterprise Audit",
+        "price": "$1,499",
+        "duration": "one-time",
+        "description": "Complete performance audit for high-traffic websites",
+        "features": {
+          "comprehensiveAudit": "Comprehensive Performance Audit",
+          "advancedCoreWebVitals": "Advanced Core Web Vitals",
+          "multiDevice": "Multi-device Testing",
+          "loadTesting": "Load Testing & Stress Analysis",
+          "technicalReport": "Detailed Technical Report",
+          "customStrategy": "Custom Optimization Strategy",
+          "databaseServer": "Database & Server Analysis",
+          "securityPerformance": "Security & Performance Review",
+          "cdnInfrastructure": "CDN & Infrastructure Audit",
+          "monitoringSetup": "Performance Monitoring Setup",
+          "support": "6 Months Support",
+          "consultation": "Ongoing Consultation"
+        },
+        "delivery": "2-3 weeks",
+        "support": "6 months"
+      }
+    },
+    "pricing": {
+      "title": "Audit Plans",
+      "subtitle": "Choose the right performance audit package for your website",
+      "mostPopular": "Most Popular",
+      "delivery": "Delivery",
+      "support": "Support",
+      "getStarted": "Get Started"
+    },
+    "faq": {
+      "title": "Performance Audit FAQ",
+      "subtitle": "Everything you need to know about our performance services",
+      "questions": {
+        "whatIs": {
+          "question": "What is a performance audit?",
+          "answer": "A performance audit is a comprehensive analysis of your website's speed, loading times, and overall performance. It identifies bottlenecks and provides optimization recommendations."
+        },
+        "howLong": {
+          "question": "How long does a performance audit take?",
+          "answer": "Audit duration depends on the plan: Basic (3-5 days), Comprehensive (1-2 weeks), and Enterprise (2-3 weeks). We provide regular updates throughout the process."
+        },
+        "coreWebVitals": {
+          "question": "What are Core Web Vitals?",
+          "answer": "Core Web Vitals are Google's metrics for measuring user experience: Largest Contentful Paint (LCP), First Input Delay (FID), and Cumulative Layout Shift (CLS)."
+        },
+        "willAffect": {
+          "question": "Will the audit affect my website?",
+          "answer": "No, our audit is non-intrusive and won't affect your website's functionality. We only analyze performance without making any changes."
+        },
+        "implementationSupport": {
+          "question": "Do you provide implementation support?",
+          "answer": "Yes, all plans include implementation guidance. Comprehensive and Enterprise plans include ongoing support and consultation."
+        },
+        "howMuchImprove": {
+          "question": "How much can I expect to improve?",
+          "answer": "Most clients see 40-70% improvement in page speed and significant boosts in Core Web Vitals scores with our optimizations."
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to Speed Up Your Website?",
+      "description": "Don't let slow loading times cost you customers. Get a comprehensive performance audit and optimization plan.",
+      "primaryButton": "Get Performance Audit",
+      "secondaryButton": "Free Speed Test",
+      "note": "Detailed performance report included with every audit"
+    }
+  },
+  "social": {
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "freelancer": "Freelancer",
+    "fiverr": "Fiverr",
+    "facebook": "Facebook",
+    "twitter": "Twitter"
+  },
+
+  "mobileMenu": {
+    "navigation": "Navigation",
+    "contactInfo": "Contact Info",
+    "socialLinks": "Social Links",
+    "homeDescription": "Welcome to my portfolio",
+    "aboutDescription": "Learn more about me",
+    "projectsDescription": "View my work",
+    "skillsDescription": "My expertise",
+    "educationDescription": "Academic background",
+    "testimonialsDescription": "Client feedback",
+    "pricingDescription": "Service rates",
+    "contactDescription": "Get in touch"
+  },
+  "bottomNav": {
+    "quickActions": "Quick Actions"
+  },
+  "search": {
+    "placeholder": "Search projects, skills, services...",
+    "searching": "Searching...",
+    "noResults": "No results found",
+    "tryDifferentKeywords": "Try different keywords or browse categories",
+    "popularSearches": "Popular Searches",
+    "quickAccess": "Quick Access",
+    "featured": "Featured",
+    "moreTags": "more",
+    "pressEscToClose": "Press Esc to close",
+    "toNavigate": "to navigate",
+    "enterToSelect": "Enter to select",
+    "typeLabels": {
+      "project": "Project",
+      "skill": "Skill",
+      "service": "Service",
+      "blog": "Blog"
+    }
+  },
+  "webDevelopment": {
+    "meta": {
+      "title": "Web Development Services - Mudassir Javed",
+      "description": "Professional web development services including custom websites, web applications, and e-commerce solutions using modern technologies.",
+      "keywords": "web development, custom websites, web applications, React, Node.js, e-commerce, responsive design",
+      "ogTitle": "Web Development Services - Mudassir Javed",
+      "ogDescription": "Professional web development services including custom websites, web applications, and e-commerce solutions using modern technologies."
+    },
+    "hero": {
+      "badge": "Web Development",
+      "title1": "Custom Web",
+      "title2": "Development",
+      "description": "Professional web development services including custom websites, web applications, and e-commerce solutions using modern technologies.",
+      "cta": "Start Your Project",
+      "secondaryCta": "View Pricing"
+    },
+    "stats": {
+      "projects": "120+",
+      "clients": "100+",
+      "successRate": "98%",
+      "experience": "5+"
+    },
+    "features": {
+      "title": "Web Development Features",
+      "subtitle": "Comprehensive web development solutions tailored to your business needs",
+      "responsive": {
+        "title": "Responsive Design",
+        "description": "Mobile-first responsive design that works perfectly on all devices and screen sizes."
+      },
+      "performance": {
+        "title": "High Performance",
+        "description": "Optimized code and architecture for fast loading times and excellent user experience."
+      },
+      "security": {
+        "title": "Security First",
+        "description": "Built-in security features and best practices to protect your website and user data."
+      },
+      "mobile": {
+        "title": "Mobile Optimized",
+        "description": "Progressive Web Apps and mobile-optimized solutions for better user engagement."
+      },
+      "scalable": {
+        "title": "Scalable Architecture",
+        "description": "Future-proof architecture that grows with your business needs and traffic."
+      },
+      "seo": {
+        "title": "SEO Optimized",
+        "description": "Search engine optimized code and structure for better visibility and rankings."
+      }
+    },
+    "technologies": {
+      "title": "Technologies We Use",
+      "subtitle": "Modern and reliable technologies for building robust web applications"
+    },
+    "process": {
+      "title": "Development Process",
+      "subtitle": "My proven 6-step process for delivering exceptional web solutions",
+      "planning": {
+        "title": "Planning & Analysis",
+        "description": "Understanding your requirements, goals, and target audience to create a comprehensive project plan."
+      },
+      "design": {
+        "title": "UI/UX Design",
+        "description": "Creating beautiful, intuitive designs that provide excellent user experience and align with your brand."
+      },
+      "development": {
+        "title": "Development",
+        "description": "Building your website using modern technologies, best practices, and clean, maintainable code."
+      },
+      "testing": {
+        "title": "Testing & QA",
+        "description": "Comprehensive testing across all devices and browsers to ensure flawless functionality."
+      },
+      "deployment": {
+        "title": "Deployment",
+        "description": "Secure deployment to production with proper configuration and optimization."
+      },
+      "support": {
+        "title": "Support & Maintenance",
+        "description": "Ongoing support, updates, and maintenance to keep your website running smoothly."
+      }
+    },
+    "benefits": {
+      "title": "Why Choose My Web Development",
+      "subtitle": "Professional web development services that deliver results",
+      "custom": "Custom solutions tailored to your specific needs",
+      "responsive": "Mobile-first responsive design for all devices",
+      "performance": "Optimized for speed and performance",
+      "security": "Built-in security and data protection",
+      "scalable": "Scalable architecture for future growth",
+      "maintenance": "Ongoing support and maintenance"
+    },
+    "pricing": {
+      "title": "Web Development Pricing",
+      "subtitle": "Transparent pricing for professional web development services",
+      "basic": {
+        "name": "Landing Page",
+        "price": "$1,200",
+        "description": "Perfect for small businesses and startups",
+        "features": {
+          "landing": "Custom landing page design",
+          "responsive": "Mobile responsive design",
+          "seo": "Basic SEO optimization",
+          "support": "30 days support"
+        }
+      },
+      "professional": {
+        "name": "Business Website",
+        "price": "$3,500",
+        "description": "Complete business website with CMS",
+        "features": {
+          "website": "5-10 page business website",
+          "cms": "Content management system",
+          "analytics": "Google Analytics integration",
+          "optimization": "Performance optimization",
+          "support": "3 months support"
+        }
+      },
+      "enterprise": {
+        "name": "Custom Application",
+        "price": "$8,000+",
+        "description": "Custom web applications and complex solutions",
+        "features": {
+          "application": "Custom web application",
+          "api": "API development",
+          "integration": "Third-party integrations",
+          "security": "Advanced security features",
+          "scalability": "Scalable architecture",
+          "support": "6 months support"
+        }
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Common questions about my web development services",
+      "timeline": {
+        "question": "How long does web development take?",
+        "answer": "Project timeline varies based on complexity. A simple landing page takes 1-2 weeks, while complex applications can take 2-3 months. I provide detailed timelines during planning."
+      },
+      "cost": {
+        "question": "What factors affect the cost?",
+        "answer": "Cost depends on features, complexity, integrations, and custom requirements. I provide transparent pricing and detailed quotes for all projects."
+      },
+      "maintenance": {
+        "question": "Do you provide maintenance?",
+        "answer": "Yes, I offer ongoing maintenance packages including updates, security patches, backups, and technical support to keep your website running smoothly."
+      },
+      "updates": {
+        "question": "Can I update content myself?",
+        "answer": "Absolutely! I build websites with user-friendly content management systems that allow you to easily update content, add pages, and manage your website."
+      },
+      "hosting": {
+        "question": "Do you provide hosting?",
+        "answer": "I can recommend reliable hosting providers and help with setup. I also offer managed hosting services for complete peace of mind."
+      },
+      "support": {
+        "question": "What support do you provide?",
+        "answer": "I provide comprehensive support including technical assistance, training, documentation, and ongoing maintenance to ensure your success."
+      }
+    },
+    "cta": {
+      "title": "Ready to Build Your Website?",
+      "description": "Let's create a stunning, high-performance website that drives results for your business.",
+      "cta": "Start Your Project",
+      "secondaryCta": "View Portfolio"
+    }
+  },
+  "dataAnalytics": {
+    "meta": {
+      "title": "Data Analytics Services - Mudassir Javed",
+      "description": "Professional data analytics and business intelligence services to transform your data into actionable insights and drive informed decisions.",
+      "keywords": "data analytics, business intelligence, data visualization, predictive analytics, dashboard, insights",
+      "ogTitle": "Data Analytics Services - Mudassir Javed",
+      "ogDescription": "Professional data analytics and business intelligence services to transform your data into actionable insights and drive informed decisions."
+    },
+    "hero": {
+      "badge": "Data Analytics",
+      "title1": "Data Analytics",
+      "title2": "& Insights",
+      "description": "Transform your data into actionable insights with professional analytics services and business intelligence solutions.",
+      "cta": "Get Analytics Report",
+      "secondaryCta": "View Pricing"
+    },
+    "stats": {
+      "datasets": "120+",
+      "accuracy": "98%",
+      "clients": "30+",
+      "experience": "5+"
+    },
+    "features": {
+      "title": "Analytics Features",
+      "subtitle": "Comprehensive data analytics solutions for business intelligence",
+      "visualization": {
+        "title": "Data Visualization",
+        "description": "Beautiful, interactive charts and dashboards to visualize your data and identify trends."
+      },
+      "predictive": {
+        "title": "Predictive Analytics",
+        "description": "Advanced machine learning models to predict future trends and make data-driven decisions."
+      },
+      "realTime": {
+        "title": "Real-time Analytics",
+        "description": "Live dashboards and real-time data processing for instant insights and monitoring."
+      },
+      "security": {
+        "title": "Data Security",
+        "description": "Enterprise-grade security measures to protect your sensitive data and ensure compliance."
+      },
+      "automation": {
+        "title": "Automated Reports",
+        "description": "Automated report generation and scheduled insights delivery to keep you informed."
+      },
+      "bi": {
+        "title": "Business Intelligence",
+        "description": "Comprehensive BI solutions to transform raw data into strategic business insights."
+      }
+    },
+    "technologies": {
+      "title": "Analytics Technologies",
+      "subtitle": "Advanced tools and platforms for powerful data analysis"
+    },
+    "process": {
+      "title": "Analytics Process",
+      "subtitle": "Our systematic approach to delivering actionable insights",
+      "assessment": {
+        "title": "Data Assessment",
+        "description": "Evaluating your data sources, quality, and business objectives to create an analytics strategy."
+      },
+      "collection": {
+        "title": "Data Collection",
+        "description": "Setting up data pipelines and collecting data from various sources for comprehensive analysis."
+      },
+      "analysis": {
+        "title": "Data Analysis",
+        "description": "Applying statistical methods and machine learning to extract meaningful patterns and insights."
+      },
+      "visualization": {
+        "title": "Data Visualization",
+        "description": "Creating interactive dashboards and charts to present insights in an understandable format."
+      },
+      "insights": {
+        "title": "Insights Delivery",
+        "description": "Delivering actionable insights and recommendations to drive business decisions."
+      },
+      "implementation": {
+        "title": "Implementation Support",
+        "description": "Supporting the implementation of insights and monitoring their impact on business outcomes."
+      }
+    },
+    "benefits": {
+      "title": "Analytics Benefits",
+      "subtitle": "Transform your business with data-driven insights",
+      "insights": "Actionable business insights from your data",
+      "efficiency": "Improved operational efficiency and productivity",
+      "predictions": "Predictive analytics for future planning",
+      "visualization": "Clear data visualization and reporting",
+      "automation": "Automated analytics and reporting processes",
+      "scalability": "Scalable analytics solutions for growth"
+    },
+    "pricing": {
+      "title": "Analytics Pricing",
+      "subtitle": "Flexible pricing for data analytics services",
+      "basic": {
+        "name": "Basic Analytics",
+        "price": "$2,500",
+        "description": "Essential analytics for small businesses",
+        "features": {
+          "reports": "Monthly analytics reports",
+          "dashboard": "Basic dashboard setup",
+          "export": "Data export capabilities",
+          "support": "Email support"
+        }
+      },
+      "professional": {
+        "name": "Advanced Analytics",
+        "price": "$5,000",
+        "description": "Comprehensive analytics for growing businesses",
+        "features": {
+          "advanced": "Advanced analytics and insights",
+          "predictive": "Predictive analytics models",
+          "realTime": "Real-time dashboard updates",
+          "integration": "Data source integrations",
+          "support": "Priority support"
+        }
+      },
+      "enterprise": {
+        "name": "Enterprise Analytics",
+        "price": "$12,000+",
+        "description": "Custom analytics solutions for large organizations",
+        "features": {
+          "custom": "Custom analytics solutions",
+          "ml": "Machine learning models",
+          "automation": "Automated analytics workflows",
+          "security": "Enterprise security features",
+          "scalability": "Scalable analytics platform",
+          "support": "Dedicated support team"
+        }
+      }
+    },
+    "faq": {
+      "title": "Analytics FAQ",
+      "subtitle": "Common questions about our analytics services",
+      "timeline": {
+        "question": "How long does analytics setup take?",
+        "answer": "Basic analytics setup takes 1-2 weeks, while comprehensive solutions can take 4-6 weeks. We provide detailed timelines based on your requirements."
+      },
+      "cost": {
+        "question": "What affects analytics pricing?",
+        "answer": "Pricing depends on data complexity, analysis requirements, visualization needs, and ongoing support. We provide transparent quotes for all services."
+      },
+      "data": {
+        "question": "What data sources do you support?",
+        "answer": "We support various data sources including databases, APIs, spreadsheets, cloud platforms, and custom data feeds. We can integrate with your existing systems."
+      },
+      "updates": {
+        "question": "How often are reports updated?",
+        "answer": "Report frequency depends on your needs. We offer daily, weekly, monthly, and real-time updates based on your business requirements."
+      },
+      "security": {
+        "question": "How do you protect our data?",
+        "answer": "We implement enterprise-grade security measures including encryption, access controls, and compliance with data protection regulations."
+      },
+      "support": {
+        "question": "What support is included?",
+        "answer": "We provide comprehensive support including training, documentation, technical assistance, and ongoing optimization of your analytics solutions."
+      }
+    },
+    "cta": {
+      "title": "Ready to Unlock Your Data?",
+      "description": "Transform your business with data-driven insights and make informed decisions that drive growth.",
+      "cta": "Start Analytics Project",
+      "secondaryCta": "View Portfolio"
+    }
+  },
+  "notFound": {
+    "title": "Oops! Page Not Found",
+    "description": "The page you're looking for seems to have wandered off into the digital void. Don't worry, even the best developers encounter 404s!",
+    "goHome": "Go Home",
+    "goBack": "Go Back",
+    "exploreSections": "Or explore these popular sections:",
+    "quickLinks": {
+      "aboutMe": "About Me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "contact": "Contact"
+    }
+  },
+  "aiChatBots": {
+    "meta": {
+      "title": "AI Chat Bots | Mudassir Javed",
+      "description": "Conversational AI chat bots for support, sales, and automation. Enhance customer experience and efficiency.",
+      "keywords": "AI chat bots, conversational AI, customer support, automation, NLP, OpenAI, Dialogflow",
+      "ogTitle": "AI Chat Bots Service",
+      "ogDescription": "Conversational AI chat bots for support, sales, and automation. Enhance customer experience and efficiency."
+    },
+    "hero": {
+      "badge": "Conversational AI Bots",
+      "title1": "Engage Customers",
+      "title2": "with AI Chat Bots",
+      "description": "Deploy intelligent chat bots for 24/7 support, lead generation, and seamless automation across channels.",
+      "cta": "Get Started",
+      "secondaryCta": "View Pricing"
+    },
+    "stats": {
+      "projects": "Bots Deployed",
+      "clients": "Clients Served",
+      "uptime": "Uptime Guarantee",
+      "experience": "Years Experience"
+    },
+    "features": {
+      "conversational": {"title": "Conversational AI", "description": "Natural, human-like conversations powered by advanced NLP."},
+      "nlp": {"title": "NLP & ML", "description": "Leverage state-of-the-art language models for understanding and intent."},
+      "integration": {"title": "Easy Integration", "description": "Connect with websites, CRMs, and messaging platforms."},
+      "automation": {"title": "Workflow Automation", "description": "Automate repetitive tasks and streamline operations."},
+      "support": {"title": "24/7 Support", "description": "Bots never sleep—always available for your customers."},
+      "scalable": {"title": "Scalable", "description": "Handle thousands of conversations simultaneously."}
+    },
+    "technologies": {
+      "title": "Technologies",
+      "subtitle": "Industry-leading platforms and frameworks for AI chat bots."
+    },
+    "process": {
+      "discovery": {"title": "Discovery", "description": "Understand your business needs and goals."},
+      "design": {"title": "Design", "description": "Craft conversation flows and user experience."},
+      "development": {"title": "Development", "description": "Build, train, and integrate the chat bot."},
+      "testing": {"title": "Testing", "description": "Rigorous QA to ensure reliability and accuracy."},
+      "deployment": {"title": "Deployment", "description": "Launch and integrate with your systems."},
+      "support": {"title": "Ongoing Support", "description": "Continuous improvement and monitoring."}
+    },
+    "benefits": {
+      "24_7": "24/7 Customer Engagement",
+      "instant": "Instant Responses",
+      "scalable": "Scalable to Any Volume",
+      "customizable": "Fully Customizable",
+      "integration": "Seamless Integrations",
+      "analytics": "Actionable Analytics"
+    },
+    "pricing": {
+      "title": "Pricing Plans",
+      "subtitle": "Flexible plans for every business size.",
+      "basic": {
+        "name": "Starter Bot",
+        "price": "$299/mo",
+        "description": "For small businesses and startups.",
+        "features": {
+          "single": "Single Channel Bot",
+          "integration": "Basic Integrations",
+          "analytics": "Basic Analytics",
+          "support": "Email Support"
+        }
+      },
+      "professional": {
+        "name": "Pro Bot",
+        "price": "$699/mo",
+        "description": "For growing businesses with multi-channel needs.",
+        "features": {
+          "multichannel": "Multi-Channel Support",
+          "nlp": "Advanced NLP",
+          "automation": "Workflow Automation",
+          "integration": "CRM Integrations",
+          "support": "Priority Support"
+        }
+      },
+      "enterprise": {
+        "name": "Enterprise Bot",
+        "price": "Custom",
+        "description": "Custom solutions for large enterprises.",
+        "features": {
+          "custom": "Custom Features",
+          "enterprise": "Enterprise Integrations",
+          "security": "Enhanced Security",
+          "analytics": "Advanced Analytics",
+          "integration": "API Access",
+          "support": "Dedicated Support"
+        }
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions about AI Chat Bots",
+      "description": "Find answers to common questions about implementing and using AI-powered chatbots for your business.",
+      "timeline": {
+        "question": "How long does it take to launch a chat bot?",
+        "answer": "Most chat bots are live within 2-4 weeks, depending on requirements and integrations."
+      },
+      "integration": {
+        "question": "Can chat bots integrate with my website or CRM?",
+        "answer": "Yes, our chat bots can be integrated with websites, CRMs, helpdesks, and other business tools."
+      },
+      "security": {
+        "question": "Are AI chat bots secure?",
+        "answer": "We use secure APIs and follow best practices for data privacy and user protection."
+      },
+      "support": {
+        "question": "What support is included?",
+        "answer": "All chat bot plans include technical support and updates. Premium plans offer priority support."
+      },
+      "customization": {
+        "question": "Can I customize the chat bot's personality?",
+        "answer": "Yes! We design chat bots to match your brand voice and customer experience goals."
+      },
+      "cost": {
+        "question": "How much does a chat bot cost?",
+        "answer": "Pricing varies by features and complexity. See our pricing section or request a custom quote."
+      }
+    },
+    "cta": {
+      "title": "Ready to Deploy an AI Chat Bot?",
+      "description": "Enhance your customer engagement and automate support with a custom AI chatbot. Get in touch to discuss your requirements.",
+      "button": "Get Your AI Chat Bot",
+      "cta": "Start Your AI Chat Bot Project",
+      "secondaryButton": "View Pricing"
+    }
+  },
+  "aiAgents": {
+    "meta": {
+      "title": "AI Agents | Mudassir Javed",
+      "description": "Autonomous AI agents for workflow automation, business intelligence, and complex tasks.",
+      "keywords": "AI agents, autonomous agents, workflow automation, business intelligence, LangChain, OpenAI",
+      "ogTitle": "AI Agents Service",
+      "ogDescription": "Autonomous AI agents for workflow automation, business intelligence, and complex tasks."
+    },
+    "hero": {
+      "badge": "Autonomous AI Agents",
+      "title1": "Empower Workflows",
+      "title2": "with AI Agents",
+      "description": "Deploy AI agents to automate tasks, orchestrate workflows, and deliver business insights.",
+      "cta": "Get Started",
+      "secondaryCta": "View Pricing"
+    },
+    "stats": {
+      "projects": "Agents Deployed",
+      "clients": "Clients Served",
+      "uptime": "Uptime Guarantee",
+      "experience": "Years Experience"
+    },
+    "features": {
+      "autonomous": {"title": "Autonomous", "description": "Agents act independently to complete tasks."},
+      "multiTask": {"title": "Multi-Tasking", "description": "Handle multiple workflows and objectives."},
+      "integration": {"title": "Seamless Integration", "description": "Connect with APIs, databases, and SaaS tools."},
+      "automation": {"title": "Task Automation", "description": "Automate repetitive and complex processes."},
+      "reliable": {"title": "Reliable", "description": "Consistent, accurate, and robust performance."},
+      "scalable": {"title": "Scalable", "description": "Deploy at any scale, from single agent to enterprise."}
+    },
+    "technologies": {
+      "title": "Technologies",
+      "subtitle": "Modern frameworks and platforms for AI agents."
+    },
+    "process": {
+      "discovery": {"title": "Discovery", "description": "Assess your needs and define agent objectives."},
+      "design": {"title": "Design", "description": "Architect agent workflows and integrations."},
+      "development": {"title": "Development", "description": "Build, train, and test the agent."},
+      "testing": {"title": "Testing", "description": "Comprehensive QA for reliability."},
+      "deployment": {"title": "Deployment", "description": "Launch and monitor agents in production."},
+      "support": {"title": "Ongoing Support", "description": "Continuous improvement and monitoring."}
+    },
+    "benefits": {
+      "autonomous": "Autonomous Task Execution",
+      "efficient": "Increased Efficiency",
+      "scalable": "Scalable Solutions",
+      "customizable": "Customizable Agents",
+      "integration": "API & SaaS Integrations",
+      "analytics": "Business Intelligence"
+    },
+    "pricing": {
+      "title": "Pricing Plans",
+      "subtitle": "Flexible plans for every business size.",
+      "basic": {
+        "name": "Starter Agent",
+        "price": "$399/mo",
+        "description": "For simple automations and single-task agents.",
+        "features": {
+          "single": "Single Task Agent",
+          "integration": "Basic Integrations",
+          "analytics": "Basic Analytics",
+          "support": "Email Support"
+        }
+      },
+      "professional": {
+        "name": "Pro Agent",
+        "price": "$899/mo",
+        "description": "For multi-tasking and advanced automations.",
+        "features": {
+          "multitask": "Multi-Tasking",
+          "llm": "LLM Integration",
+          "automation": "Advanced Automation",
+          "integration": "API Integrations",
+          "support": "Priority Support"
+        }
+      },
+      "enterprise": {
+        "name": "Enterprise Agent",
+        "price": "Custom",
+        "description": "Custom solutions for large enterprises.",
+        "features": {
+          "custom": "Custom Features",
+          "enterprise": "Enterprise Integrations",
+          "security": "Enhanced Security",
+          "analytics": "Advanced Analytics",
+          "integration": "API Access",
+          "support": "Dedicated Support"
+        }
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions about AI Agents",
+      "description": "Learn more about how autonomous AI agents can streamline your business operations and automate complex workflows.",
+      "timeline": {
+        "question": "How long does it take to deploy an AI agent?",
+        "answer": "Most AI agent solutions are deployed within 3-5 weeks, depending on complexity and integration requirements."
+      },
+      "integration": {
+        "question": "Can AI agents integrate with my business tools?",
+        "answer": "Yes, our AI agents can integrate with CRMs, ERPs, APIs, and a wide range of business platforms."
+      },
+      "security": {
+        "question": "How secure are your AI agents?",
+        "answer": "We follow industry best practices for data privacy, encryption, and secure access controls."
+      },
+      "support": {
+        "question": "What support is included?",
+        "answer": "All plans include technical support and maintenance. Enterprise plans offer priority and dedicated support."
+      },
+      "customization": {
+        "question": "Can I customize agent workflows?",
+        "answer": "Absolutely! We tailor agent workflows and logic to your unique business needs."
+      },
+      "cost": {
+        "question": "What is the cost of an AI agent?",
+        "answer": "Pricing depends on features, integrations, and scale. See our pricing section or request a custom quote."
+      }
+    },
+    "cta": {
+      "title": "Empower Your Business with AI Agents",
+      "description": "Automate repetitive tasks and unlock new efficiencies with intelligent AI agents. Contact us to get started.",
+      "button": "Get AI Agent Solution",
+      "secondaryButton": "View Projects"
+    }
+  },
+  "aiAutomation": {
+    "meta": {
+      "title": "AI Automation | Mudassir Javed",
+      "description": "AI-driven automation for business processes, RPA, and workflow orchestration.",
+      "keywords": "AI automation, RPA, workflow automation, business process, Zapier, UiPath, Python",
+      "ogTitle": "AI Automation Service",
+      "ogDescription": "AI-driven automation for business processes, RPA, and workflow orchestration."
+    },
+    "hero": {
+      "badge": "AI Automation",
+      "title1": "Automate Processes",
+      "title2": "with AI Automation",
+      "description": "Streamline operations, reduce errors, and boost productivity with AI-powered automation.",
+      "cta": "Get Started",
+      "secondaryCta": "View Pricing"
+    },
+    "stats": {
+      "projects": "Automations Deployed",
+      "clients": "Clients Served",
+      "uptime": "Uptime Guarantee",
+      "experience": "Years Experience"
+    },
+    "features": {
+      "automate": {"title": "Automate Tasks", "description": "Automate repetitive and manual business processes."},
+      "integration": {"title": "Seamless Integration", "description": "Connect with APIs, databases, and SaaS tools."},
+      "aiDriven": {"title": "AI-Driven", "description": "Leverage AI for intelligent decision-making."},
+      "reliable": {"title": "Reliable", "description": "Consistent, accurate, and robust performance."},
+      "scalable": {"title": "Scalable", "description": "Deploy at any scale, from single automation to enterprise."},
+      "repeatable": {"title": "Repeatable", "description": "Automations that run on schedule or trigger."}
+    },
+    "technologies": {
+      "title": "Technologies",
+      "subtitle": "Leading platforms and frameworks for AI automation."
+    },
+    "process": {
+      "discovery": {"title": "Discovery", "description": "Assess your needs and define automation goals."},
+      "design": {"title": "Design", "description": "Architect automation workflows and integrations."},
+      "development": {"title": "Development", "description": "Build, test, and deploy automations."},
+      "testing": {"title": "Testing", "description": "Comprehensive QA for reliability."},
+      "deployment": {"title": "Deployment", "description": "Launch and monitor automations in production."},
+      "support": {"title": "Ongoing Support", "description": "Continuous improvement and monitoring."}
+    },
+    "benefits": {
+      "efficiency": "Increased Efficiency",
+      "errorReduction": "Error Reduction",
+      "scalable": "Scalable Solutions",
+      "customizable": "Customizable Automations",
+      "integration": "API & SaaS Integrations",
+      "analytics": "Process Analytics"
+    },
+    "pricing": {
+      "title": "Pricing Plans",
+      "subtitle": "Flexible plans for every business size.",
+      "basic": {
+        "name": "Starter Automation",
+        "price": "$349/mo",
+        "description": "For simple automations and single workflows.",
+        "features": {
+          "single": "Single Workflow",
+          "integration": "Basic Integrations",
+          "analytics": "Basic Analytics",
+          "support": "Email Support"
+        }
+      },
+      "professional": {
+        "name": "Pro Automation",
+        "price": "$799/mo",
+        "description": "For multi-step and AI-driven automations.",
+        "features": {
+          "multichannel": "Multi-Channel Automation",
+          "aiDriven": "AI-Driven Logic",
+          "automation": "Advanced Automation",
+          "integration": "API Integrations",
+          "support": "Priority Support"
+        }
+      },
+      "enterprise": {
+        "name": "Enterprise Automation",
+        "price": "Custom",
+        "description": "Custom solutions for large enterprises.",
+        "features": {
+          "custom": "Custom Features",
+          "enterprise": "Enterprise Integrations",
+          "security": "Enhanced Security",
+          "analytics": "Advanced Analytics",
+          "integration": "API Access",
+          "support": "Dedicated Support"
+        }
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions about AI Automation",
+      "description": "Explore how AI-driven automation can transform your business processes and drive growth.",
+      "timeline": {
+        "question": "How long does it take to implement AI automation?",
+        "answer": "Most automation solutions are implemented within 2-4 weeks, depending on process complexity."
+      },
+      "integration": {
+        "question": "Can AI automation integrate with my existing systems?",
+        "answer": "Yes, we integrate with ERPs, CRMs, APIs, and a wide range of business software."
+      },
+      "security": {
+        "question": "Is AI automation secure?",
+        "answer": "We use secure protocols and follow best practices for data protection and compliance."
+      },
+      "support": {
+        "question": "What support is included?",
+        "answer": "All automation plans include technical support and maintenance. Enterprise plans offer priority support."
+      },
+      "customization": {
+        "question": "Can I customize automation workflows?",
+        "answer": "Yes, we design automation workflows tailored to your business processes."
+      },
+      "cost": {
+        "question": "How much does AI automation cost?",
+        "answer": "Pricing depends on the scope and integrations. See our pricing section or request a custom quote."
+      }
+    },
+    "cta": {
+      "title": "Transform with AI Automation",
+      "description": "Streamline your operations and boost productivity with tailored AI automation solutions. Let's discuss your automation needs.",
+      "button": "Start AI Automation",
+      "cta": "Start Your AI Automation Project",
+      "secondaryButton": "View Pricing"
+    }
+  }
+} 
