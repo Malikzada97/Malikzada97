@@ -68,11 +68,7 @@ export default defineConfig(({ mode }) => ({
         }
       },
       srcDir: 'public',
-      injectManifest: {
-        swSrc: 'public/sw-v2.js',
-        swDest: 'dist/sw-v2.js',
-      },
-      strategies: 'injectManifest',
+      strategies: 'generateSW',
       injectRegister: 'auto',
       devOptions: {
         enabled: true,
@@ -81,6 +77,42 @@ export default defineConfig(({ mode }) => ({
       },
       workbox: {
         navigateFallback: '/offline.html',
+        globPatterns: ['**/*.{js,css,html,ico,png,svg,webp}'],
+        runtimeCaching: [
+          {
+            urlPattern: /^https:\/\/fonts\.googleapis\.com\/.*/i,
+            handler: 'CacheFirst',
+            options: {
+              cacheName: 'google-fonts-cache',
+              expiration: {
+                maxEntries: 10,
+                maxAgeSeconds: 60 * 60 * 24 * 365 // 1 year
+              }
+            }
+          },
+          {
+            urlPattern: /\.(?:png|jpg|jpeg|svg|gif|webp)$/,
+            handler: 'CacheFirst',
+            options: {
+              cacheName: 'images-cache',
+              expiration: {
+                maxEntries: 50,
+                maxAgeSeconds: 60 * 60 * 24 * 30 // 30 days
+              }
+            }
+          },
+          {
+            urlPattern: /\.(?:js|css)$/,
+            handler: 'StaleWhileRevalidate',
+            options: {
+              cacheName: 'static-resources-cache',
+              expiration: {
+                maxEntries: 100,
+                maxAgeSeconds: 60 * 60 * 24 * 7 // 7 days
+              }
+            }
+          }
+        ]
       },
     }),
     // Bundle analyzer for production builds
