@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import { useState, useRef } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { FiChevronDown } from 'react-icons/fi';
 import ReactCountryFlag from 'react-country-flag';
 
@@ -21,11 +21,42 @@ const LANGUAGES = [
 export default function LanguageSelector({ className = '' }) {
   const { i18n, t } = useTranslation();
   const [open, setOpen] = useState(false);
+  const [currentLanguage, setCurrentLanguage] = useState(i18n.language);
   const buttonRef = useRef(null);
 
-  const handleSelect = (code) => {
-    i18n.changeLanguage(code);
-    setOpen(false);
+  // Update current language when i18n language changes
+  useEffect(() => {
+    const handleLanguageChange = (lng) => {
+      setCurrentLanguage(lng);
+    };
+
+    i18n.on('languageChanged', handleLanguageChange);
+    
+    // Set initial language
+    setCurrentLanguage(i18n.language);
+
+    return () => {
+      i18n.off('languageChanged', handleLanguageChange);
+    };
+  }, [i18n]);
+
+  const handleSelect = async (code) => {
+    try {
+      await i18n.changeLanguage(code);
+      setOpen(false);
+      
+      // Force a re-render by updating the current language
+      setCurrentLanguage(code);
+      
+      // Store in localStorage for persistence
+      localStorage.setItem('i18nextLng', code);
+      
+    } catch (error) {
+      console.error('Failed to change language:', error);
+      // Fallback to English if there's an error
+      await i18n.changeLanguage('en');
+      setCurrentLanguage('en');
+    }
   };
 
   // Close dropdown on outside click
@@ -34,6 +65,9 @@ export default function LanguageSelector({ className = '' }) {
       setOpen(false);
     }
   };
+
+  // Get current language info
+  const currentLangInfo = LANGUAGES.find((l) => l.code === currentLanguage) || LANGUAGES[0];
 
   return (
     <div className={`relative inline-block text-left ${className}`} tabIndex={0} onBlur={handleBlur}>
@@ -52,7 +86,7 @@ export default function LanguageSelector({ className = '' }) {
       >
         <span className="text-xl">
           <ReactCountryFlag
-            countryCode={LANGUAGES.find((l) => l.code === i18n.language)?.countryCode || 'US'}
+            countryCode={currentLangInfo.countryCode}
             svg
             style={{
               width: '1.5em',
@@ -61,11 +95,11 @@ export default function LanguageSelector({ className = '' }) {
               borderRadius: '0.2em',
               marginRight: '0.2em',
             }}
-            title={LANGUAGES.find((l) => l.code === i18n.language)?.label}
+            title={currentLangInfo.label}
           />
         </span>
         <span className="font-semibold text-xs tracking-wide uppercase">
-          {LANGUAGES.find((l) => l.code === i18n.language)?.short || i18n.language.toUpperCase()}
+          {currentLangInfo.short}
         </span>
         <FiChevronDown className="w-4 h-4" />
       </button>
@@ -79,9 +113,9 @@ export default function LanguageSelector({ className = '' }) {
             <li
               key={lang.code}
               role="option"
-              aria-selected={i18n.language === lang.code}
+              aria-selected={currentLanguage === lang.code}
               tabIndex={0}
-              className={`flex items-center gap-2 px-4 py-2 cursor-pointer hover:bg-muted focus:bg-muted transition text-sm ${i18n.language === lang.code ? 'bg-primary/10 font-semibold' : ''}`}
+              className={`flex items-center gap-2 px-4 py-2 cursor-pointer hover:bg-muted focus:bg-muted transition text-sm ${currentLanguage === lang.code ? 'bg-primary/10 font-semibold' : ''}`}
               onClick={() => handleSelect(lang.code)}
               onKeyDown={(e) => {
                 if (e.key === 'Enter' || e.key === ' ') handleSelect(lang.code);
@@ -103,7 +137,7 @@ export default function LanguageSelector({ className = '' }) {
                 />
               </span>
               <span className="font-semibold text-xs tracking-wide uppercase">{lang.short}</span>
-              {i18n.language === lang.code && (
+              {currentLanguage === lang.code && (
                 <span className="ml-auto text-primary">●</span>
               )}
             </li>

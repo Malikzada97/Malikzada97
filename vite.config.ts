@@ -1,10 +1,9 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react"; // ← babel plugin
 import path from "path";
-import { componentTagger } from "lovable-tagger";
+
 import { visualizer } from 'rollup-plugin-visualizer';
 import { VitePWA } from 'vite-plugin-pwa';
-import manifest from './public/manifest.json';
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
@@ -16,12 +15,63 @@ export default defineConfig(({ mode }) => ({
     react(),
     VitePWA({
       registerType: 'autoUpdate',
-      manifest,
+      manifest: {
+        name: "Mudassir Javed - Full Stack Developer & Data Analyst",
+        short_name: "Mudassir Javed",
+        description: "Professional website showcasing full-stack development, data analytics, and AI solutions by Mudassir Javed. View projects, skills, and get in touch for collaborations.",
+        start_url: "/",
+        scope: "/",
+        display: "standalone",
+        orientation: "portrait-primary",
+        background_color: "#0f172a",
+        theme_color: "#3B82F6",
+        categories: ["business", "productivity", "utilities"],
+        lang: "en",
+        dir: "ltr",
+        icons: [
+          { src: "/icons/icon-72x72.png", sizes: "72x72", type: "image/png", purpose: "maskable any" },
+          { src: "/icons/icon-96x96.png", sizes: "96x96", type: "image/png", purpose: "maskable any" },
+          { src: "/icons/icon-128x128.png", sizes: "128x128", type: "image/png", purpose: "maskable any" },
+          { src: "/icons/icon-144x144.png", sizes: "144x144", type: "image/png", purpose: "maskable any" },
+          { src: "/icons/icon-152x152.png", sizes: "152x152", type: "image/png", purpose: "maskable any" },
+          { src: "/icons/icon-192x192.png", sizes: "192x192", type: "image/png", purpose: "maskable any" },
+          { src: "/icons/icon-384x384.png", sizes: "384x384", type: "image/png", purpose: "maskable any" },
+          { src: "/icons/icon-512x512.png", sizes: "512x512", type: "image/png", purpose: "maskable any" }
+        ],
+        shortcuts: [
+          {
+            name: "View Projects",
+            short_name: "Projects",
+            description: "View my latest projects and work",
+            url: "/projects",
+            icons: [{ src: "/icons/icon-96x96.png", sizes: "96x96" }]
+          },
+          {
+            name: "Contact Me",
+            short_name: "Contact",
+            description: "Get in touch for collaborations",
+            url: "/contact",
+            icons: [{ src: "/icons/icon-96x96.png", sizes: "96x96" }]
+          },
+          {
+            name: "About Me",
+            short_name: "About",
+            description: "Learn more about my background",
+            url: "/about",
+            icons: [{ src: "/icons/icon-96x96.png", sizes: "96x96" }]
+          }
+        ],
+        related_applications: [],
+        prefer_related_applications: false,
+        edge_side_panel: {
+          preferred_width: 400
+        }
+      },
       srcDir: 'public',
-      // Service worker source and destination for injectManifest
-      swSrc: 'public/sw.js',
-      swDest: 'dist/sw.js',
-      // NOTE: public/sw.js must contain self.__WB_MANIFEST for injectManifest
+      injectManifest: {
+        swSrc: 'public/sw-v2.js',
+        swDest: 'dist/sw-v2.js',
+      },
       strategies: 'injectManifest',
       injectRegister: 'auto',
       devOptions: {
@@ -33,7 +83,6 @@ export default defineConfig(({ mode }) => ({
         navigateFallback: '/offline.html',
       },
     }),
-    mode === "development" && componentTagger(),
     // Bundle analyzer for production builds
     mode === "production" && visualizer({
       filename: 'dist/stats.html',

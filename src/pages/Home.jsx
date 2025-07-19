@@ -66,14 +66,6 @@ const Home = () => {
       href: '/services/web-development'
     },
     {
-      icon: FiDatabase,
-      title: t('home.services.dataAnalytics.title'),
-      description: t('home.services.dataAnalytics.description'),
-      features: ['Data Visualization', 'Business Intelligence', 'Predictive Analytics', 'Real-time Dashboards'],
-      color: 'from-green-500 to-emerald-500',
-      href: '/services/data-analytics'
-    },
-    {
       icon: FiSearch,
       title: t('home.services.seoOptimization.title'),
       description: t('home.services.seoOptimization.description'),
@@ -82,52 +74,12 @@ const Home = () => {
       href: '/services/seo-optimization'
     },
     {
-      icon: FiShield,
-      title: t('home.services.websiteMaintenance.title'),
-      description: t('home.services.websiteMaintenance.description'),
-      features: ['Security Updates', 'Performance Monitoring', 'Backup Management', '24/7 Support'],
-      color: 'from-orange-500 to-red-500',
-      href: '/services/website-maintenance'
-    },
-    {
-      icon: FiClock,
-      title: t('home.services.trainingSessions.title'),
-      description: t('home.services.trainingSessions.description'),
-      features: ['Custom Training', 'Documentation', 'Ongoing Support', 'Best Practices'],
-      color: 'from-indigo-500 to-blue-500',
-      href: '/services/training-session'
-    },
-    {
-      icon: FiZap,
-      title: t('home.services.performanceAudit.title'),
-      description: t('home.services.performanceAudit.description'),
-      features: ['Speed Analysis', 'Optimization Recommendations', 'Implementation Support', 'Monitoring'],
-      color: 'from-yellow-500 to-orange-500',
-      href: '/services/performance-audit'
-    },
-    {
-      icon: FiMessageSquare,
-      title: t('home.services.aiChatBots.title'),
-      description: t('home.services.aiChatBots.description'),
-      features: ['Conversational AI', '24/7 Support', 'Multi-Channel', 'Custom Integrations'],
-      color: 'from-blue-500 to-cyan-500',
-      href: '/services/ai-chat-bots'
-    },
-    {
       icon: FiCpu,
       title: t('home.services.aiAgents.title'),
       description: t('home.services.aiAgents.description'),
       features: ['Autonomous Agents', 'Task Automation', 'LLM Integration', 'Custom Workflows'],
       color: 'from-green-500 to-emerald-500',
       href: '/services/ai-agents'
-    },
-    {
-      icon: FiZap,
-      title: t('home.services.aiAutomation.title'),
-      description: t('home.services.aiAutomation.description'),
-      features: ['Process Automation', 'RPA', 'API Integration', 'Workflow Orchestration'],
-      color: 'from-purple-500 to-pink-500',
-      href: '/services/ai-automation'
     },
   ];
 

@@ -30,11 +30,11 @@ class PWAService {
   async registerServiceWorker() {
     if ('serviceWorker' in navigator) {
       try {
-        this.swRegistration = await navigator.serviceWorker.register('/sw.js', {
+        this.swRegistration = await navigator.serviceWorker.register('/sw-v2.js', {
           scope: '/'
         });
 
-        console.log('Service Worker registered successfully:', this.swRegistration);
+        console.log('Service Worker v2 registered successfully:', this.swRegistration);
 
         // Handle service worker updates
         this.swRegistration.addEventListener('updatefound', () => {

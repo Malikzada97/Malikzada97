@@ -9,6 +9,14 @@ import MobileMenu from './MobileMenu';
 import LanguageSelector from './LanguageSelector';
 import { cn, glassEffect } from '../lib/utils';
 import Tilt from 'react-parallax-tilt';
+import {
+  DropdownMenu,
+  DropdownMenuTrigger,
+  DropdownMenuContent,
+  DropdownMenuItem
+} from './ui/dropdown-menu';
+import { Button } from './ui/button';
+import { FiLayers } from 'react-icons/fi';
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -172,7 +180,6 @@ const Navbar = () => {
               { path: '/education', label: t('navigation.education'), icon: '📚' },
               { path: '/testimonials', label: t('navigation.testimonials'), icon: '⭐' },
               { path: '/pricing', label: t('navigation.pricing'), icon: '💰' },
-              { path: '/contact', label: t('navigation.contact'), icon: '💬' }
             ].map((item) => (
               <Tilt
                 key={item.path}
@@ -218,6 +225,99 @@ const Navbar = () => {
                 </motion.div>
               </Tilt>
             ))}
+            {/* Services Dropdown - before Contact */}
+            <Tilt
+              glareEnable={true}
+              glareMaxOpacity={0.12}
+              scale={1.04}
+              transitionSpeed={180}
+              tiltMaxAngleX={7}
+              tiltMaxAngleY={7}
+              className="inline-block"
+            >
+              <DropdownMenu>
+                <DropdownMenuTrigger asChild>
+                  <Button
+                    variant="outline"
+                    className="relative px-5 py-3 rounded-xl text-sm font-medium flex items-center gap-2 group focus-visible:ring-2 focus-visible:ring-primary"
+                    aria-label={t('navigation.services')}
+                  >
+                    <FiLayers className="text-base" />
+                    {t('navigation.services')}
+                  </Button>
+                </DropdownMenuTrigger>
+                <DropdownMenuContent align="center">
+                  <DropdownMenuItem asChild>
+                    <Link to="/services/web-development">{t('home.services.webDevelopment.title')}</Link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem asChild>
+                    <Link to="/services/data-analytics">{t('home.services.dataAnalytics.title')}</Link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem asChild>
+                    <Link to="/services/seo-optimization">{t('home.services.seoOptimization.title')}</Link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem asChild>
+                    <Link to="/services/website-maintenance">{t('home.services.websiteMaintenance.title')}</Link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem asChild>
+                    <Link to="/services/training-session">{t('home.services.trainingSessions.title')}</Link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem asChild>
+                    <Link to="/services/performance-audit">{t('home.services.performanceAudit.title')}</Link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem asChild>
+                    <Link to="/services/ai-chat-bots">{t('home.services.aiChatBots.title')}</Link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem asChild>
+                    <Link to="/services/ai-agents">{t('home.services.aiAgents.title')}</Link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem asChild>
+                    <Link to="/services/ai-automation">{t('home.services.aiAutomation.title')}</Link>
+                  </DropdownMenuItem>
+                </DropdownMenuContent>
+              </DropdownMenu>
+            </Tilt>
+            {/* Contact button (last) */}
+            <Tilt
+              key="/contact"
+              glareEnable={true}
+              glareMaxOpacity={0.12}
+              scale={1.04}
+              transitionSpeed={180}
+              tiltMaxAngleX={7}
+              tiltMaxAngleY={7}
+              className="inline-block"
+            >
+              <motion.div
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+              >
+                <Link
+                  to="/contact"
+                  className={cn(
+                    'relative px-5 py-3 rounded-xl text-sm font-medium transition-all duration-300 group',
+                    location.pathname === '/contact'
+                      ? 'text-primary bg-primary-muted shadow-sm'
+                      : 'text-muted-foreground hover:text-foreground hover:bg-muted/50'
+                  )}
+                >
+                  <span className="flex items-center gap-2">
+                    <span className="text-base">💬</span>
+                    {t('navigation.contact')}
+                  </span>
+                  {location.pathname === '/contact' && (
+                    <motion.div
+                      layoutId="activeTab"
+                      className="absolute inset-0 bg-primary/10 rounded-xl border border-primary/20"
+                      initial={false}
+                      transition={{ type: "spring", stiffness: 500, damping: 30 }}
+                    />
+                  )}
+                  <div className="absolute inset-0 bg-gradient-primary/5 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                  <span className="absolute inset-0 rounded-xl pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-md bg-gradient-primary/30" />
+                </Link>
+              </motion.div>
+            </Tilt>
           </div>
 
           {/* Right side - Search, Theme toggle and mobile menu */}

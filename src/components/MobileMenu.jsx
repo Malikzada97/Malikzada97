@@ -5,17 +5,18 @@ import { useTranslation } from 'react-i18next';
 import { 
   FiX, FiHome, FiUser, FiBriefcase, FiBookOpen, FiAward, 
   FiMessageSquare, FiDollarSign, FiStar, FiGithub, FiLinkedin, 
-  FiTwitter, FiMail, FiPhone, FiMapPin 
+  FiTwitter, FiMail, FiPhone, FiMapPin, FiLayers, FiChevronDown, FiChevronUp 
 } from 'react-icons/fi';
 import ThemeToggle from './ThemeToggle';
 import SearchBar from './SearchBar';
 import LanguageSelector from './LanguageSelector';
 import { cn, glassEffect } from '../lib/utils';
+import { useState } from 'react';
 
 const MobileMenu = ({ isOpen, onClose }) => {
   const location = useLocation();
   const { t } = useTranslation();
-
+  const [servicesOpen, setServicesOpen] = useState(false);
 
 
   const navItems = [
@@ -27,6 +28,19 @@ const MobileMenu = ({ isOpen, onClose }) => {
     { path: '/testimonials', label: t('navigation.testimonials'), icon: FiStar, description: t('mobileMenu.testimonialsDescription') },
     { path: '/pricing', label: t('navigation.pricing'), icon: FiDollarSign, description: t('mobileMenu.pricingDescription') },
     { path: '/contact', label: t('navigation.contact'), icon: FiMessageSquare, description: t('mobileMenu.contactDescription') }
+  ];
+
+  // Services for mobile dropdown
+  const services = [
+    { path: '/services/web-development', label: t('home.services.webDevelopment.title') },
+    { path: '/services/data-analytics', label: t('home.services.dataAnalytics.title') },
+    { path: '/services/seo-optimization', label: t('home.services.seoOptimization.title') },
+    { path: '/services/website-maintenance', label: t('home.services.websiteMaintenance.title') },
+    { path: '/services/training-session', label: t('home.services.trainingSessions.title') },
+    { path: '/services/performance-audit', label: t('home.services.performanceAudit.title') },
+    { path: '/services/ai-chat-bots', label: t('home.services.aiChatBots.title') },
+    { path: '/services/ai-agents', label: t('home.services.aiAgents.title') },
+    { path: '/services/ai-automation', label: t('home.services.aiAutomation.title') },
   ];
 
   const socialLinks = [
@@ -190,7 +204,8 @@ const MobileMenu = ({ isOpen, onClose }) => {
                     {t('mobileMenu.navigation')}
                   </h3>
                   <div className="space-y-2">
-                    {navItems.map((item, index) => (
+                    {/* Insert Services expandable section before Contact */}
+                    {navItems.slice(0, 6).map((item, index) => (
                       <motion.div
                         key={item.path}
                         initial={{ opacity: 0, x: -20 }}
@@ -207,7 +222,6 @@ const MobileMenu = ({ isOpen, onClose }) => {
                               : 'text-foreground hover:text-primary hover:bg-muted'
                           )}
                         >
-                          {/* Icon */}
                           <div className={cn(
                             'p-2 rounded-lg transition-all duration-300',
                             isActive(item.path)
@@ -216,8 +230,6 @@ const MobileMenu = ({ isOpen, onClose }) => {
                           )}>
                             <item.icon className="w-4 h-4" />
                           </div>
-                          
-                          {/* Content */}
                           <div className="flex-1 min-w-0">
                             <h4 className="font-medium text-sm group-hover:text-primary transition-colors">
                               {item.label}
@@ -226,8 +238,85 @@ const MobileMenu = ({ isOpen, onClose }) => {
                               {item.description}
                             </p>
                           </div>
-                          
-                          {/* Active indicator */}
+                          {isActive(item.path) && (
+                            <motion.div
+                              layoutId="mobileActiveTab"
+                              className="absolute inset-0 bg-primary/10 rounded-xl border border-primary/20"
+                              initial={false}
+                              transition={{ type: "spring", stiffness: 500, damping: 30 }}
+                            />
+                          )}
+                        </Link>
+                      </motion.div>
+                    ))}
+                    {/* Services Dropdown */}
+                    <motion.div
+                      initial={{ opacity: 0, x: -20 }}
+                      animate={{ opacity: 1, x: 0 }}
+                      transition={{ delay: 0.5 + 6 * 0.05 }}
+                    >
+                      <button
+                        className={cn(
+                          'flex items-center gap-4 p-4 w-full rounded-xl transition-all duration-300 group relative overflow-hidden bg-muted text-foreground hover:text-primary hover:bg-primary/10',
+                          servicesOpen ? 'bg-primary/10 text-primary' : ''
+                        )}
+                        aria-expanded={servicesOpen}
+                        aria-controls="mobile-services-list"
+                        onClick={() => setServicesOpen((v) => !v)}
+                      >
+                        <span className="p-2 rounded-lg bg-primary/10 text-primary"><FiLayers className="w-4 h-4" /></span>
+                        <span className="font-medium text-sm flex-1 text-left">{t('navigation.services')}</span>
+                        {servicesOpen ? <FiChevronUp className="w-4 h-4" /> : <FiChevronDown className="w-4 h-4" />}
+                      </button>
+                      {servicesOpen && (
+                        <div id="mobile-services-list" className="pl-8 py-2 space-y-1">
+                          {services.map((service) => (
+                            <Link
+                              key={service.path}
+                              to={service.path}
+                              onClick={onClose}
+                              className="block py-2 text-sm text-muted-foreground hover:text-primary transition-colors"
+                            >
+                              {service.label}
+                            </Link>
+                          ))}
+                        </div>
+                      )}
+                    </motion.div>
+                    {/* Contact and remaining nav items */}
+                    {navItems.slice(6).map((item, index) => (
+                      <motion.div
+                        key={item.path}
+                        initial={{ opacity: 0, x: -20 }}
+                        animate={{ opacity: 1, x: 0 }}
+                        transition={{ delay: 0.5 + (7 + index) * 0.05 }}
+                      >
+                        <Link
+                          to={item.path}
+                          onClick={onClose}
+                          className={cn(
+                            'flex items-center gap-4 p-4 rounded-xl transition-all duration-300 group relative overflow-hidden',
+                            isActive(item.path)
+                              ? 'text-primary bg-primary-muted border border-primary/20 shadow-sm'
+                              : 'text-foreground hover:text-primary hover:bg-muted'
+                          )}
+                        >
+                          <div className={cn(
+                            'p-2 rounded-lg transition-all duration-300',
+                            isActive(item.path)
+                              ? 'bg-primary/20 text-primary'
+                              : 'bg-muted text-foreground group-hover:bg-primary/10 group-hover:text-primary'
+                          )}>
+                            <item.icon className="w-4 h-4" />
+                          </div>
+                          <div className="flex-1 min-w-0">
+                            <h4 className="font-medium text-sm group-hover:text-primary transition-colors">
+                              {item.label}
+                            </h4>
+                            <p className="text-xs text-muted-foreground/80 mt-1">
+                              {item.description}
+                            </p>
+                          </div>
                           {isActive(item.path) && (
                             <motion.div
                               layoutId="mobileActiveTab"

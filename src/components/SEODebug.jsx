@@ -4,6 +4,7 @@ import seoService from '../services/seo';
 const SEODebug = () => {
   const [currentMeta, setCurrentMeta] = useState({});
   const [isVisible, setIsVisible] = useState(false);
+  const [isMinimized, setIsMinimized] = useState(true); // Minimized by default
 
   useEffect(() => {
     // Only show in development mode
@@ -96,18 +97,44 @@ const SEODebug = () => {
 
   if (!isVisible) return null;
 
+  // Minimized view
+  if (isMinimized) {
+    return (
+      <div className="fixed bottom-4 right-4 z-50">
+        <button
+          onClick={() => setIsMinimized(false)}
+          className="bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded-lg shadow-lg px-4 py-2 text-xs font-semibold text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
+          style={{ minWidth: 100 }}
+        >
+          🔍 SEO Debug
+        </button>
+      </div>
+    );
+  }
+
+  // Expanded view
   return (
     <div className="fixed bottom-4 right-4 z-50 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded-lg shadow-lg p-4 max-w-md">
       <div className="flex items-center justify-between mb-3">
         <h3 className="text-sm font-semibold text-gray-900 dark:text-white">
           🔍 SEO Debug Panel
         </h3>
-        <button
-          onClick={() => setIsVisible(false)}
-          className="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200"
-        >
-          ✕
-        </button>
+        <div className="flex gap-2">
+          <button
+            onClick={() => setIsMinimized(true)}
+            className="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 text-lg px-2"
+            title="Minimize"
+          >
+            –
+          </button>
+          <button
+            onClick={() => setIsVisible(false)}
+            className="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200"
+            title="Close"
+          >
+            ✕
+          </button>
+        </div>
       </div>
 
       <div className="space-y-2 text-xs">

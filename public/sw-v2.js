@@ -1,7 +1,7 @@
-const CACHE_NAME = 'mudassir-javed-v1.0.0';
-const STATIC_CACHE = 'static-v1.0.0';
-const DYNAMIC_CACHE = 'dynamic-v1.0.0';
-const IMAGE_CACHE = 'images-v1.0.0';
+const CACHE_NAME = 'mudassir-javed-v1.0.2';
+const STATIC_CACHE = 'static-v1.0.2';
+const DYNAMIC_CACHE = 'dynamic-v1.0.2';
+const IMAGE_CACHE = 'images-v1.0.2';
 
 // Workbox will replace this with the list of files to precache at build time
 self.__WB_MANIFEST;
@@ -33,13 +33,13 @@ const IMAGE_PATTERNS = [
 
 // Install event - cache static files
 self.addEventListener('install', (event) => {
-  console.log('Service Worker: Installing...');
+  console.log('Service Worker v2: Installing...');
   
   event.waitUntil(
     Promise.all([
       // Cache static files
       caches.open(STATIC_CACHE).then((cache) => {
-        console.log('Service Worker: Caching static files');
+        console.log('Service Worker v2: Caching static files');
         return cache.addAll(STATIC_FILES);
       }),
       
@@ -59,7 +59,7 @@ self.addEventListener('install', (event) => {
         return Promise.all(iconPromises);
       })
     ]).then(() => {
-      console.log('Service Worker: Installation complete');
+      console.log('Service Worker v2: Installation complete');
       return self.skipWaiting();
     })
   );
@@ -67,26 +67,49 @@ self.addEventListener('install', (event) => {
 
 // Activate event - clean up old caches
 self.addEventListener('activate', (event) => {
-  console.log('Service Worker: Activating...');
+  console.log('Service Worker v2: Activating...');
   
   event.waitUntil(
     caches.keys().then((cacheNames) => {
       return Promise.all(
         cacheNames.map((cacheName) => {
+          // Delete ALL old caches to force fresh start
           if (cacheName !== STATIC_CACHE && 
               cacheName !== DYNAMIC_CACHE && 
               cacheName !== IMAGE_CACHE &&
               cacheName !== CACHE_NAME) {
-            console.log('Service Worker: Deleting old cache', cacheName);
+            console.log('Service Worker v2: Deleting old cache', cacheName);
             return caches.delete(cacheName);
           }
         })
       );
     }).then(() => {
-      console.log('Service Worker: Activation complete');
+      console.log('Service Worker v2: Activation complete - All old caches cleared');
       return self.clients.claim();
     })
   );
+});
+
+// Message event - handle skip waiting
+self.addEventListener('message', (event) => {
+  if (event.data && event.data.type === 'SKIP_WAITING') {
+    console.log('Service Worker v2: Skipping waiting...');
+    self.skipWaiting();
+  }
+  
+  if (event.data && event.data.type === 'CLEAR_ALL_CACHES') {
+    console.log('Service Worker v2: Clearing all caches...');
+    event.waitUntil(
+      caches.keys().then((cacheNames) => {
+        return Promise.all(
+          cacheNames.map((cacheName) => {
+            console.log('Service Worker v2: Deleting cache', cacheName);
+            return caches.delete(cacheName);
+          })
+        );
+      })
+    );
+  }
 });
 
 // Fetch event - serve from cache or network
@@ -206,7 +229,7 @@ async function handleAPIRequest(request) {
     
     return networkResponse;
   } catch (error) {
-    console.log('API request failed:', error);
+    console.log('API fetch failed:', error);
     
     // Try cache as fallback
     const cachedResponse = await caches.match(request);
@@ -214,15 +237,11 @@ async function handleAPIRequest(request) {
       return cachedResponse;
     }
     
-    // Return empty response for failed API calls
-    return new Response(JSON.stringify({ error: 'Network unavailable' }), {
-      status: 503,
-      headers: { 'Content-Type': 'application/json' }
-    });
+    throw error;
   }
 }
 
-// Handle dynamic requests (pages, etc.)
+// Handle dynamic requests (HTML pages, etc.)
 async function handleDynamicRequest(request) {
   try {
     // Try network first
@@ -236,7 +255,7 @@ async function handleDynamicRequest(request) {
     
     return networkResponse;
   } catch (error) {
-    console.log('Dynamic request failed:', error);
+    console.log('Dynamic request fetch failed:', error);
     
     // Try cache as fallback
     const cachedResponse = await caches.match(request);
@@ -255,81 +274,34 @@ async function handleDynamicRequest(request) {
 
 // Background sync for offline actions
 self.addEventListener('sync', (event) => {
-  console.log('Service Worker: Background sync triggered', event.tag);
-  
   if (event.tag === 'background-sync') {
+    console.log('Service Worker v2: Background sync triggered');
     event.waitUntil(doBackgroundSync());
   }
 });
 
-// Handle background sync
 async function doBackgroundSync() {
   try {
-    // Sync any pending data
-    console.log('Service Worker: Performing background sync');
+    // Perform background sync operations
+    console.log('Service Worker v2: Performing background sync');
     
-    // You can add specific sync logic here
-    // For example, syncing form submissions, analytics data, etc.
-    
+    // Example: Sync any pending data
+    const pendingData = await getPendingData();
+    if (pendingData.length > 0) {
+      await syncPendingData(pendingData);
+    }
   } catch (error) {
     console.error('Background sync failed:', error);
   }
 }
 
-// Push notification handling
-self.addEventListener('push', (event) => {
-  console.log('Service Worker: Push notification received');
-  
-  const options = {
-    body: event.data ? event.data.text() : 'New update available!',
-    icon: '/icons/icon-192x192.png',
-    badge: '/icons/icon-72x72.png',
-    vibrate: [100, 50, 100],
-    data: {
-      dateOfArrival: Date.now(),
-      primaryKey: 1
-    },
-    actions: [
-      {
-        action: 'explore',
-        title: 'View Portfolio',
-        icon: '/icons/icon-96x96.png'
-      },
-      {
-        action: 'close',
-        title: 'Close',
-        icon: '/icons/icon-96x96.png'
-      }
-    ]
-  };
-  
-  event.waitUntil(
-    self.registration.showNotification('Mudassir Javed', options)
-  );
-});
+// Helper functions for background sync
+async function getPendingData() {
+  // Implementation for getting pending data
+  return [];
+}
 
-// Notification click handling
-self.addEventListener('notificationclick', (event) => {
-  console.log('Service Worker: Notification clicked');
-  
-  event.notification.close();
-  
-  if (event.action === 'explore') {
-    event.waitUntil(
-      clients.openWindow('/')
-    );
-  }
-});
-
-// Message handling for communication with main thread
-self.addEventListener('message', (event) => {
-  console.log('Service Worker: Message received', event.data);
-  
-  if (event.data && event.data.type === 'SKIP_WAITING') {
-    self.skipWaiting();
-  }
-  
-  if (event.data && event.data.type === 'GET_VERSION') {
-    event.ports[0].postMessage({ version: CACHE_NAME });
-  }
-}); 
+async function syncPendingData(data) {
+  // Implementation for syncing pending data
+  console.log('Service Worker v2: Syncing pending data', data);
+} 
